@@ -25,23 +25,23 @@ type ListNode struct {
 //	}
 //}
 
-func reverseList(head *ListNode) *ListNode {
-	// 注意这个判断！！
-	if head==nil{
-		return nil
-	}
-	var  pre *ListNode=nil
-	for ;head.Next!=nil;  {
-
-		tmp:=head.Next
-		head.Next = pre
-		pre = head
-		head = tmp
-	}
-	head.Next = pre
-
-	return head
-}
+//func reverseList(head *ListNode) *ListNode {
+//	// 注意这个判断！！
+//	if head==nil{
+//		return nil
+//	}
+//	var  pre *ListNode=nil
+//	for ;head.Next!=nil;  {
+//
+//		tmp:=head.Next
+//		head.Next = pre
+//		pre = head
+//		head = tmp
+//	}
+//	head.Next = pre
+//
+//	return head
+//}
 
 //func solve(head *ListNode) *ListNode{
 //	if head==nil || head.Next==nil {
@@ -54,15 +54,30 @@ func reverseList(head *ListNode) *ListNode {
 //	}
 //}
 
+// 最优美的解法
+func reverseList(head *ListNode) *ListNode {
+
+	var pre *ListNode = nil
+	var next *ListNode = nil
+	for head != nil {
+		next = head.Next
+		head.Next = pre
+		pre = head
+		head = next
+	}
+	return pre
+}
+
 func main() {
-	l2:=&ListNode{1,nil}
-	l2.Next = &ListNode{2,nil}
+	l2 := &ListNode{1, nil}
+	l2.Next = &ListNode{2, nil}
 	//l2.Next.Next = &ListNode{5,nil}
-	x:=reverseList(l2)
-	for ;x!=nil ;x = x.Next  {
+	x := reverseList(l2)
+	for ; x != nil; x = x.Next {
 		fmt.Println(x.Val)
 	}
 }
+
 /*
 	总结
 	1. 该题我使用递归解决，想了好久 0.0..

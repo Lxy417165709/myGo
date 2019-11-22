@@ -1,63 +1,83 @@
 package main
 
 import "fmt"
-type ListNode struct {
-	Val  int
-	Next *ListNode
-}
+
+//type ListNode struct {
+//	Val  int
+//	Next *ListNode
+//}
+//func getIntersectionNode(headA, headB *ListNode) *ListNode {
+//	if headA==nil || headB==nil {
+//		return nil
+//	}
+//	// 1.1
+//	lA,lB:=1,1
+//	tmpA,tmpB :=headA,headB
+//	for ;tmpA.Next!=nil ;  {
+//		lA++
+//		tmpA = tmpA.Next
+//	}
+//	for ;tmpB.Next!=nil ;  {
+//		lB++
+//		tmpB = tmpB.Next
+//	}
+//	if tmpA!=tmpB {
+//		return nil
+//	}
+//	fmt.Println(lA,lB)
+//	if lA>lB {
+//		lA,lB=lB,lA
+//		headB,headA = headA,headB	//注意不是tmp了
+//	}
+//	// 1.2
+//	for i:=0;i<lB-lA ;i++  {
+//		headB = headB.Next
+//	}
+//	for i:=0;i<lA ;i++  {
+//		if headA==headB {
+//			return headA
+//		}
+//		headA = headA.Next
+//		headB = headB.Next
+//	}
+//	return nil
+//
+//
+//
+//
+//
+//
+//}
+
+// 最优美的解法 (根本在于消除长度差)
 func getIntersectionNode(headA, headB *ListNode) *ListNode {
-	if headA==nil || headB==nil {
-		return nil
-	}
-	// 1.1
-	lA,lB:=1,1
-	tmpA,tmpB :=headA,headB
-	for ;tmpA.Next!=nil ;  {
-		lA++
-		tmpA = tmpA.Next
-	}
-	for ;tmpB.Next!=nil ;  {
-		lB++
-		tmpB = tmpB.Next
-	}
-	if tmpA!=tmpB {
-		return nil
-	}
-	fmt.Println(lA,lB)
-	if lA>lB {
-		lA,lB=lB,lA
-		headB,headA = headA,headB	//注意不是tmp了
-	}
-	// 1.2
-	for i:=0;i<lB-lA ;i++  {
-		headB = headB.Next
-	}
-	for i:=0;i<lA ;i++  {
-		if headA==headB {
-			return headA
+	pA, pB := headA, headB
+	for pA != pB {
+		if pA == nil {
+			pA = headB
+		} else {
+			pA = pA.Next
 		}
-		headA = headA.Next
-		headB = headB.Next
+
+		if pB == nil {
+			pB = headA
+		} else {
+			pB = pB.Next
+		}
 	}
-	return nil
-
-
-
-
-
-
+	return pA
 }
-
 func main() {
-	headA:=&ListNode{4,nil}
-	headA.Next=&ListNode{1,nil}
-	headA.Next.Next=&ListNode{8,nil}
-	headA.Next.Next.Next=&ListNode{4,nil}
-	headA.Next.Next.Next.Next=&ListNode{5,nil}
+	headA := &ListNode{4, nil}
+	headA.Next = &ListNode{1, nil}
+	headA.Next.Next = &ListNode{8, nil}
+	headA.Next.Next.Next = &ListNode{4, nil}
+	headA.Next.Next.Next.Next = &ListNode{5, nil}
 
-	headB:=&ListNode{1,nil}
-	fmt.Println( getIntersectionNode(headB,headA))
+	headB := &ListNode{1, nil}
+	fmt.Println(getIntersectionNode(headB, headA))
 }
+
 /*
 注意：
     如果两个链表没有交点，返回 null.

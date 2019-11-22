@@ -22,6 +22,7 @@ func test(A []int) bool {
 	}
 	return true
 }
+
 func bubbleSort(A []int) ([]int, int) {
 	times := 0
 	for i := 0; i < len(A); i++ {
@@ -39,6 +40,9 @@ func bubbleSort(A []int) ([]int, int) {
 	}
 	return A, times
 }
+
+
+
 func selectSort(A []int) ([]int, int) {
 	times := 0
 	for i := 0; i < len(A); i++ {
@@ -287,6 +291,7 @@ func (H *Heap) heapSort() ([]int, int) {
 const limit = 500000
 
 func main() {
+
 	A, times := make([]int, 0), 0
 	A, times = bubbleSort(generate(10000))
 	fmt.Println("冒泡排序：", test(A), times)
