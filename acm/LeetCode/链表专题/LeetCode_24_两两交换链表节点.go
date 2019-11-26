@@ -10,13 +10,13 @@ type ListNode struct {
 }
 
 // 递归写法 ..
-
 func swapPairs(head *ListNode) *ListNode {
 	L:=&ListNode{-1,head}
 	return solve(L)
 
 
 }
+
 // 这个递归需要一个空头结点，[head]->a->b  会变为 [head]->b->a
 func solve(head *ListNode) *ListNode{
 	if head.Next!=nil && head.Next.Next!=nil{
