@@ -2,93 +2,41 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eac75ce5-bac3-4a4e-a1b4-5c24da70cf83" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/acm/LeetCode/LeetCode_101_对称二叉树.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/acm/LeetCode/LeetCode_1020_飞地的数量_更优美写法.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/acm/LeetCode/LeetCode_102_二叉树的层次遍历.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/acm/LeetCode/LeetCode_103_二叉树的锯齿形层次遍历.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/acm/LeetCode/LeetCode_1047_删除字符串中的所有相邻重复项.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/acm/LeetCode/LeetCode_104_二叉树最大深度.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/acm/LeetCode/LeetCode_105_从前序和中序遍历序列构造二叉树.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/acm/LeetCode/LeetCode_106_从中序和后序遍历序列构造二叉树.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/acm/LeetCode/LeetCode_110_平衡二叉树.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/acm/LeetCode/LeetCode_111_二叉树的最小深度.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/acm/LeetCode/LeetCode_1123_最深叶节点的最近公共祖先.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/acm/LeetCode/LeetCode_1128_等价多米诺骨牌的数量.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/acm/LeetCode/LeetCode_1201_丑数3.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/acm/LeetCode/LeetCode_1201_丑数3_数论二分.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/acm/LeetCode/LeetCode_1208_尽可能使字符串相等.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/acm/LeetCode/LeetCode_1208_尽可能使字符串相等_滑动窗口+二分.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/acm/LeetCode/LeetCode_1223_掷骰子模拟.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/acm/LeetCode/LeetCode_1249_移除无效的括号.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/acm/LeetCode/LeetCode_141_环形链表.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/acm/LeetCode/LeetCode_142_环形链表.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/acm/LeetCode/LeetCode_148_排序链表.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/acm/LeetCode/LeetCode_15_三数之和.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/acm/LeetCode/LeetCode_160_相交链表.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/acm/LeetCode/LeetCode_18_四数之和.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/acm/LeetCode/LeetCode_190_颠倒二进制位.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/acm/LeetCode/LeetCode_191_位1的个数.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/acm/LeetCode/LeetCode_19_删除链表倒数第N个节点.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/acm/LeetCode/LeetCode_1_两数之和.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/acm/LeetCode/LeetCode_201_数字范围按位与.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/acm/LeetCode/LeetCode_221_最大正方形.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/acm/LeetCode/LeetCode_222_完全二叉树的节点个数.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/acm/LeetCode/LeetCode_222_完全二叉树的节点个数_自己解的.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/acm/LeetCode/LeetCode_226_翻转二叉树.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/acm/LeetCode/LeetCode_230_二叉搜索树种第K小的元素.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/acm/LeetCode/LeetCode_235_二叉搜索树的最近公共祖先.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/acm/LeetCode/LeetCode_236_二叉树的最近公共祖先.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/acm/LeetCode/LeetCode_23_合并K个排序链表.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/acm/LeetCode/LeetCode_24_两两交换链表节点.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/acm/LeetCode/LeetCode_257_二叉树的所有路径.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/acm/LeetCode/LeetCode_264_丑数2.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/acm/LeetCode/LeetCode_382_链表随机节点.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/acm/LeetCode/LeetCode_3_无重复字符的子串.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/acm/LeetCode/LeetCode_404_左叶子之和.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/acm/LeetCode/LeetCode_47_全排列2_更优美的写法.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/acm/LeetCode/LeetCode_5115_删除回文数组.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/acm/LeetCode/LeetCode_5248_统计优美子数组.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/acm/LeetCode/LeetCode_5427_交换字符使得字符串相同.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/acm/LeetCode/LeetCode_62_不同路径.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/acm/LeetCode/LeetCode_63_不同路径2.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/acm/LeetCode/LeetCode_64_最小路径和.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/acm/LeetCode/LeetCode_654_最大二叉树.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/acm/LeetCode/LeetCode_70_爬楼梯.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/acm/LeetCode/LeetCode_98_验证二叉搜索树_优美解法.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/acm/LeetCode/二叉树专题/LeetCode_1123_最深叶节点的最近公共祖先.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/acm/LeetCode/二叉树专题/LeetCode_222_完全二叉树的节点个数_自己解的.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/acm/LeetCode/动态规划/LeetCode_5115_删除回文数组.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/acm/LeetCode/动态规划/LeetCode_72_编辑距离.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/acm/LeetCode/双指针/LeetCode_1047_删除字符串中的所有相邻重复项.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/acm/LeetCode/排序/接口排序.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/acm/LeetCode/比赛/第162场周赛/1.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/acm/LeetCode/比赛/第162场周赛/2.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/acm/LeetCode/比赛/第162场周赛/3.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/acm/LeetCode/比赛/第162场周赛/4.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/acm/LeetCode/滑动窗口/LeetCode_1208_尽可能使字符串相等.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/acm/LeetCode/滑动窗口/LeetCode_1208_尽可能使字符串相等_滑动窗口+二分.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/acm/LeetCode/滑动窗口/LeetCode_1234_替换子串得到平衡字符串.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/acm/LeetCode/滑动窗口/LeetCode_3_无重复字符的子串.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/acm/LeetCode/滑动窗口/接口测试_LeetCode_1208.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/acm/LeetCode/滑动窗口/接口测试_LeetCode_1234.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/acm/LeetCode/滑动窗口/接口测试_LeetCode_3.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/acm/LeetCode/面试准备/LeetCode_47_全排列2_更优美的写法.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baseLearn/25-rand/rand.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/base64测试.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/map测试.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/token测试.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/二叉树.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/切片博客/test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/切片博客/数组map.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/字符串测试.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/第二.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acm/LeetCode/LeetCode_1008_先序遍历构造二叉树.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acm/LeetCode/LeetCode_107_二叉树层序遍历2.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acm/LeetCode/LeetCode_10_正则表达式.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acm/LeetCode/LeetCode_10_正则表达式匹配_记忆化搜索.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acm/LeetCode/LeetCode_113_路径总和2_更优美的代码.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acm/LeetCode/LeetCode_1262_可被三整除的最大和.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acm/LeetCode/LeetCode_131_分割回文串.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acm/LeetCode/LeetCode_131_分割回文串_加了dp回文串.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acm/LeetCode/LeetCode_147_对链表进行插入排序.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acm/LeetCode/LeetCode_147_对链表进行插入排序_更优美代码.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acm/LeetCode/LeetCode_152_乘积最大子序列.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acm/LeetCode/LeetCode_179_最大数.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acm/LeetCode/LeetCode_187_重复的DNA序列.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acm/LeetCode/LeetCode_205_同构字符串.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acm/LeetCode/LeetCode_213_打家劫舍2.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acm/LeetCode/LeetCode_22_括号生成_优美解法.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acm/LeetCode/LeetCode_24_两两交换链表的节点_重写.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acm/LeetCode/LeetCode_33_搜索旋转排序数组_更优美代码.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acm/LeetCode/LeetCode_33_搜索旋转排序数组_更更优美代码_迭代.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acm/LeetCode/LeetCode_36_有效的数独.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acm/LeetCode/LeetCode_41_缺失的第一个正整数.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acm/LeetCode/LeetCode_43_字符串相乘_优美代码.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acm/LeetCode/LeetCode_45_跳跃游戏2.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acm/LeetCode/LeetCode_45_跳跃游戏2_优美解法.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acm/LeetCode/LeetCode_481_神奇字符串.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acm/LeetCode/LeetCode_5_最长回文字符串_dp.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acm/LeetCode/LeetCode_5_最长回文字符串_中心拓展.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acm/LeetCode/LeetCode_647_回文子串.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acm/LeetCode/LeetCode_81_搜索旋转排序数组2.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acm/LeetCode/LeetCode_86_分隔链表.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acm/LeetCode/LeetCode_915_分割数组.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acm/LeetCode/LeetCode_91_解码方法.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/acm/LeetCode/LeetCode_114_二叉树展开为链表.go" beforeDir="false" afterPath="$PROJECT_DIR$/acm/LeetCode/LeetCode_114_二叉树展开为链表.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/acm/LeetCode/排序/排序.go" beforeDir="false" afterPath="$PROJECT_DIR$/acm/LeetCode/排序/排序.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/acm/LeetCode/链表专题/LeetCode_160_相交链表.go" beforeDir="false" afterPath="$PROJECT_DIR$/acm/LeetCode/链表专题/LeetCode_160_相交链表.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/acm/LeetCode/链表专题/LeetCode_206_反转链表.go" beforeDir="false" afterPath="$PROJECT_DIR$/acm/LeetCode/链表专题/LeetCode_206_反转链表.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/acm/LeetCode/LeetCode_113_路径总和.go" beforeDir="false" afterPath="$PROJECT_DIR$/acm/LeetCode/LeetCode_113_路径总和.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/acm/LeetCode/LeetCode_94_二叉树的中序遍历.go" beforeDir="false" afterPath="$PROJECT_DIR$/acm/LeetCode/LeetCode_94_二叉树的中序遍历.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -113,60 +61,67 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/第二.go">
+        <entry file="file://$PROJECT_DIR$/acm/LeetCode/LeetCode_647_回文子串.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="33">
-              <caret line="33" column="40" selection-start-line="33" selection-start-column="40" selection-end-line="33" selection-end-column="40" />
+            <state relative-caret-position="726">
+              <caret line="22" column="92" selection-start-line="22" selection-start-column="92" selection-end-line="22" selection-end-column="92" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/acm/LeetCode/LeetCode_1020_飞地的数量.go">
+        <entry file="file://$PROJECT_DIR$/acm/LeetCode/LeetCode_205_同构字符串.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1419">
-              <caret line="11" column="24" lean-forward="true" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+            <state relative-caret-position="792">
+              <caret line="24" column="27" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/acm/LeetCode/LeetCode_187_重复的DNA序列.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="363">
+              <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/acm/LeetCode/LeetCode_1020_飞地的数量_更优美写法.go">
+        <entry file="file://$PROJECT_DIR$/acm/LeetCode/LeetCode_179_最大数.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="645">
-              <caret line="42" column="37" selection-start-line="42" selection-start-column="37" selection-end-line="42" selection-end-column="37" />
+            <state relative-caret-position="466">
+              <caret line="53" column="50" selection-start-line="53" selection-start-column="50" selection-end-line="53" selection-end-column="50" />
+              <folding>
+                <element signature="e#14#61#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/baseLearn/10-map/10.1-mapCRUD.go">
+        <entry file="file://$PROJECT_DIR$/acm/LeetCode/LeetCode_10_正则表达式.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="924">
-              <caret line="28" column="22" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
+            <state relative-caret-position="1584">
+              <caret line="48" column="64" selection-start-line="48" selection-start-column="64" selection-end-line="48" selection-end-column="64" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://C:/Golang/Go/src/sync/pool.go">
+        <entry file="file://$PROJECT_DIR$/acm/LeetCode/LeetCode_43_字符串相乘_优美代码.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3894">
-              <caret line="123" column="34" selection-start-line="123" selection-start-column="34" selection-end-line="123" selection-end-column="34" />
+            <state relative-caret-position="99">
+              <caret line="3" selection-start-line="3" selection-end-line="32" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/baseLearn/1-helloWorld/1-helloWorld.go">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/baseLearn/2-languageType/2-languageType.go">
+        <entry file="file://$PROJECT_DIR$/acm/LeetCode/LeetCode_24_两两交换链表节点.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+            <state relative-caret-position="825">
+              <caret line="27" column="20" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -218,43 +173,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/acm/LeetCode/二叉树专题/LeetCode_105_从前序和中序遍历序列构造二叉树.go" />
-        <option value="$PROJECT_DIR$/acm/LeetCode/二叉树专题/LeetCode_106_从中序和后序遍历序列构造二叉树.go" />
-        <option value="$PROJECT_DIR$/acm/LeetCode/二叉树专题/LeetCode_102_二叉树的锯齿形层次遍历.go" />
-        <option value="$PROJECT_DIR$/acm/LeetCode/二叉树专题/LeetCode_103_二叉树的锯齿形层次遍历.go" />
-        <option value="$PROJECT_DIR$/acm/LeetCode/二叉树专题/LeetCode_5098_树的直径.go" />
-        <option value="$PROJECT_DIR$/acm/LeetCode/树/LeetCode_5098_树的直径.go" />
-        <option value="$PROJECT_DIR$/acm/LeetCode/贪心/LeetCode_5427_交换字符使得字符串相同.go" />
-        <option value="$PROJECT_DIR$/acm/LeetCode/LeetCode_5248_统计优美子数组.go" />
-        <option value="$PROJECT_DIR$/acm/LeetCode/LeetCode_1249_移除无效的括号.go" />
-        <option value="$PROJECT_DIR$/test/切片博客/数组map.go" />
-        <option value="$PROJECT_DIR$/acm/LeetCode/动态规划/LeetCode_5115_删除回文数组.go" />
-        <option value="$PROJECT_DIR$/acm/LeetCode/LeetCode_1201_丑数3.go" />
-        <option value="$PROJECT_DIR$/acm/LeetCode/LeetCode_1201_丑数3_数论.go" />
-        <option value="$PROJECT_DIR$/baseLearn/13-interface/13.1-interface2.go" />
-        <option value="$PROJECT_DIR$/acm/LeetCode/排序/排序.go" />
-        <option value="$PROJECT_DIR$/acm/LeetCode/排序/接口排序.go" />
-        <option value="$PROJECT_DIR$/acm/LeetCode/LeetCode_1223_掷骰子模拟.go" />
-        <option value="$PROJECT_DIR$/acm/LeetCode/面试准备/LeetCode_47_全排列2_更优美的写法.go" />
-        <option value="$PROJECT_DIR$/test/字符串测试.go" />
-        <option value="$PROJECT_DIR$/acm/LeetCode/双指针/LeetCode_1047_删除字符串中的所有相邻重复项.go" />
-        <option value="$PROJECT_DIR$/acm/LeetCode/滑动窗口/LeetCode_1208_尽可能使字符串相等_滑动窗口+二分.go" />
-        <option value="$PROJECT_DIR$/acm/LeetCode/滑动窗口/LeetCode_1208_尽可能使字符串相等.go" />
-        <option value="$PROJECT_DIR$/acm/LeetCode/滑动窗口/接口测试.go" />
-        <option value="$PROJECT_DIR$/acm/LeetCode/滑动窗口/接口测试_3.go" />
-        <option value="$PROJECT_DIR$/acm/LeetCode/滑动窗口/接口测试_LeetCode_3.go" />
-        <option value="$PROJECT_DIR$/acm/LeetCode/滑动窗口/LeetCode_1234_替换子串得到平衡字符串.go" />
-        <option value="$PROJECT_DIR$/acm/LeetCode/滑动窗口/接口测试_LeetCode_1234.go" />
-        <option value="$PROJECT_DIR$/acm/LeetCode/LeetCode_1128_等价多米诺骨牌的数量.go" />
-        <option value="$PROJECT_DIR$/acm/LeetCode/二叉树专题/LeetCode_1123_最深叶节点的最近公共祖先.go" />
-        <option value="$PROJECT_DIR$/acm/LeetCode/二叉树专题/LeetCode_222_完全二叉树的节点个数_自己解的.go" />
-        <option value="$PROJECT_DIR$/acm/LeetCode/二叉树专题/知识凝聚/获取树高.go" />
-        <option value="$PROJECT_DIR$/test/通过Sleep来回避并发中的问题.go" />
-        <option value="$PROJECT_DIR$/acm/LeetCode/比赛/第162场周赛/2.go" />
-        <option value="$PROJECT_DIR$/acm/LeetCode/比赛/第162场周赛/3.go" />
-        <option value="$PROJECT_DIR$/acm/LeetCode/比赛/第162场周赛/1.go" />
-        <option value="$PROJECT_DIR$/acm/LeetCode/比赛/第162场周赛/4.go" />
-        <option value="$PROJECT_DIR$/test/map测试.go" />
         <option value="$PROJECT_DIR$/test/base64测试.go" />
         <option value="$PROJECT_DIR$/test/token测试.go" />
         <option value="$PROJECT_DIR$/baseLearn/25-rand/rand.go" />
@@ -269,14 +187,51 @@
         <option value="$PROJECT_DIR$/test/test.go" />
         <option value="$PROJECT_DIR$/test/第二.go" />
         <option value="$PROJECT_DIR$/acm/LeetCode/LeetCode_1020_飞地的数量_更优美写法.go" />
+        <option value="$PROJECT_DIR$/acm/LeetCode/面试准备/LeetCode_113_路径总和2_另外一种揭发.go" />
+        <option value="$PROJECT_DIR$/acm/LeetCode/LeetCode_113_路径总和2_更优美的代码.go" />
+        <option value="$PROJECT_DIR$/acm/LeetCode/LeetCode_113_路径总和.go" />
+        <option value="$PROJECT_DIR$/acm/LeetCode/LeetCode_1008_先序遍历构造二叉树.go" />
+        <option value="$PROJECT_DIR$/acm/LeetCode/LeetCode_41_缺失的第一个正整数.go" />
+        <option value="$PROJECT_DIR$/acm/LeetCode/LeetCode_36_有效的数独.go" />
+        <option value="$PROJECT_DIR$/acm/LeetCode/LeetCode_33_搜索旋转排序数组_更优美代码.go" />
+        <option value="$PROJECT_DIR$/acm/LeetCode/LeetCode_33_搜索旋转排序数组_更更优美代码_迭代.go" />
+        <option value="$PROJECT_DIR$/acm/LeetCode/LeetCode_81_搜索旋转排序数组2.go" />
+        <option value="$PROJECT_DIR$/acm/LeetCode/LeetCode_45_跳跃游戏2.go" />
+        <option value="$PROJECT_DIR$/acm/LeetCode/LeetCode_45_跳跃游戏2_优美解法.go" />
+        <option value="$PROJECT_DIR$/acm/LeetCode/LeetCode_107_二叉树层序遍历2.go" />
+        <option value="$PROJECT_DIR$/acm/LeetCode/LeetCode_131_分割回文串.go" />
+        <option value="$PROJECT_DIR$/acm/LeetCode/LeetCode_131_分割回文串_加了dp回文串.go" />
+        <option value="$PROJECT_DIR$/acm/LeetCode/LeetCode_10_正则表达式.go" />
+        <option value="$PROJECT_DIR$/acm/LeetCode/LeetCode_481_神奇字符串.go" />
+        <option value="$PROJECT_DIR$/acm/LeetCode/LeetCode_22_括号生成_优美解法.go" />
+        <option value="$PROJECT_DIR$/acm/LeetCode/LeetCode_24_两两交换链表的节点_重写.go" />
+        <option value="$PROJECT_DIR$/acm/LeetCode/LeetCode_91_解码方法.go" />
+        <option value="$PROJECT_DIR$/acm/LeetCode/LeetCode_5_最长回文字符串_dp.go" />
+        <option value="$PROJECT_DIR$/acm/LeetCode/LeetCode_5_最长回文字符串_中心拓展.go" />
+        <option value="$PROJECT_DIR$/acm/LeetCode/LeetCode_43_字符串相乘_优美代码.go" />
+        <option value="$PROJECT_DIR$/acm/LeetCode/LeetCode_86_分隔链表.go" />
+        <option value="$PROJECT_DIR$/acm/LeetCode/LeetCode_147_对链表进行插入排序.go" />
+        <option value="$PROJECT_DIR$/acm/LeetCode/LeetCode_147_对链表进行插入排序_更优美代码.go" />
+        <option value="$PROJECT_DIR$/acm/LeetCode/LeetCode_915_分割数组.go" />
+        <option value="$PROJECT_DIR$/acm/LeetCode/LeetCode_10_正则表达式匹配_记忆化搜索.go" />
+        <option value="$PROJECT_DIR$/acm/LeetCode/LeetCode_1262_可被三整除的最大和.go" />
+        <option value="$PROJECT_DIR$/检验和/file.txt" />
+        <option value="$PROJECT_DIR$/检验和/check.go" />
+        <option value="$PROJECT_DIR$/acm/LeetCode/LeetCode_152_乘积最大子序列.go" />
+        <option value="$PROJECT_DIR$/acm/LeetCode/LeetCode_94_二叉树的中序遍历.go" />
+        <option value="$PROJECT_DIR$/acm/LeetCode/LeetCode_213_打家劫舍2.go" />
+        <option value="$PROJECT_DIR$/acm/LeetCode/LeetCode_647_回文子串.go" />
+        <option value="$PROJECT_DIR$/acm/LeetCode/LeetCode_205_同构字符串.go" />
+        <option value="$PROJECT_DIR$/acm/LeetCode/LeetCode_187_重复的DNA序列.go" />
+        <option value="$PROJECT_DIR$/acm/LeetCode/LeetCode_179_最大数.go" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="88" />
-    <option name="y" value="57" />
-    <option name="width" value="1656" />
-    <option name="height" value="961" />
+    <option name="x" value="165" />
+    <option name="y" value="144" />
+    <option name="width" value="1785" />
+    <option name="height" value="881" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -353,7 +308,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build rand.go">
+  <component name="RunManager" selected="Go Build.go build check.go">
     <configuration name="go build 二叉树.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="goProjects" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -367,6 +322,14 @@
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="FILE" />
       <filePath value="$PROJECT_DIR$/test/第二.go" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build check.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="goProjects" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/检验和/check.go" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
@@ -396,6 +359,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build check.go" />
         <item itemvalue="Go Build.go build test.go (1)" />
         <item itemvalue="Go Build.go build 二叉树.go" />
         <item itemvalue="Go Build.go build test.go" />
@@ -413,15 +377,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="88" y="57" width="1656" height="961" extended-state="0" />
+    <frame x="165" y="144" width="1785" height="881" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.78718257" visible="true" weight="0.19674185" />
-      <window_info id="Structure" order="1" sideWeight="0.21281742" side_tool="true" visible="true" weight="0.19674185" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.75915223" visible="true" weight="0.22028986" />
+      <window_info id="Structure" order="1" sideWeight="0.24084778" side_tool="true" weight="0.22724637" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49946696" weight="0.3261105" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.64179105" weight="0.30592504" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49946696" weight="0.3253796" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.64179105" weight="0.30522087" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49946696" weight="0.39973786" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -473,262 +437,39 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test/通过Sleep来回避并发中的问题.go" />
-    <entry file="file://$PROJECT_DIR$/acm/LeetCode/滑动窗口/接口测试_LeetCode_3.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1452">
-          <caret line="44" selection-start-line="44" selection-end-line="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/acm/LeetCode/滑动窗口/接口测试_LeetCode_1234.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1353">
-          <caret line="48" column="23" selection-start-line="48" selection-start-column="23" selection-end-line="48" selection-end-column="23" />
-          <folding>
-            <element signature="n#!!block;n#main#1" />
-            <element signature="n#!!block;n#max#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/acm/LeetCode/LeetCode_1128_等价多米诺骨牌的数量.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1320">
-          <caret line="40" column="33" selection-start-line="40" selection-start-column="33" selection-end-line="40" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/acm/LeetCode/二叉树专题/LeetCode_1123_最深叶节点的最近公共祖先.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2772">
-          <caret line="84" column="2" selection-start-line="84" selection-start-column="2" selection-end-line="84" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/acm/LeetCode/双指针/LeetCode_1047_删除字符串中的所有相邻重复项.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="891">
-          <caret line="27" column="22" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/acm/LeetCode/滑动窗口/LeetCode_1208_尽可能使字符串相等.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="12" column="14" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/acm/LeetCode/滑动窗口/LeetCode_1208_尽可能使字符串相等_滑动窗口+二分.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/acm/LeetCode/LeetCode_1105_填充书架.go">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/acm/LeetCode/LeetCode_1104_二叉树寻路.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="726">
-          <caret line="25" column="17" lean-forward="true" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/acm/LeetCode/二叉树专题/LeetCode_222_完全二叉树的节点个数_自己解的.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="39" column="1" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/acm/LeetCode/动态规划/LeetCode_72_编辑距离.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="9" column="13" lean-forward="true" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/acm/LeetCode/LeetCode_101_对称二叉树.go">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/acm/LeetCode/LeetCode_190_颠倒二进制位.go">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/acm/LeetCode/LeetCode_1_两数之和.go">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/acm/LeetCode/LeetCode_47_全排列2_更优美的写法.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="3" column="22" lean-forward="true" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/acm/LeetCode/比赛/第十二次双周赛/4.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/acm/LeetCode/比赛/第162场周赛/1.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="726">
-          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/acm/LeetCode/比赛/第162场周赛/2.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4026">
-          <caret line="122" column="32" selection-start-line="122" selection-start-column="32" selection-end-line="122" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/acm/LeetCode/比赛/第162场周赛/3.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="4" selection-start-line="4" selection-end-line="40" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Golang/Go/src/runtime/hashmap_fast.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4224">
-          <caret line="131" selection-start-line="131" selection-end-line="131" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Golang/Go/src/runtime/panic.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20163">
-          <caret line="615" selection-start-line="615" selection-end-line="615" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/acm/LeetCode/比赛/第162场周赛/4.go">
+    <entry file="file://$PROJECT_DIR$/acm/LeetCode/面试准备/LeetCode_113_路径总和2_另外一种揭发.go" />
+    <entry file="file://$PROJECT_DIR$/acm/LeetCode/LeetCode_1020_飞地的数量_更优美写法.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1386">
-          <caret line="42" column="14" selection-start-line="42" selection-start-column="14" selection-end-line="42" selection-end-column="14" />
+          <caret line="42" column="37" selection-start-line="42" selection-start-column="37" selection-end-line="42" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/map测试.go">
+    <entry file="file://$PROJECT_DIR$/acm/LeetCode/LeetCode_113_路径总和.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1716">
-          <caret line="52" column="41" selection-start-line="52" selection-start-column="41" selection-end-line="52" selection-end-column="41" />
+        <state relative-caret-position="2145">
+          <caret line="65" column="39" selection-start-line="65" selection-start-column="39" selection-end-line="65" selection-end-column="39" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blob/easyHttpRequest.go">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/base64测试.go">
+    <entry file="file://$PROJECT_DIR$/acm/LeetCode/LeetCode_1008_先序遍历构造二叉树.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        <state relative-caret-position="990">
+          <caret line="30" column="45" selection-start-line="30" selection-start-column="45" selection-end-line="30" selection-end-column="45" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/token测试.go">
+    <entry file="file://$PROJECT_DIR$/acm/LeetCode/LeetCode_41_缺失的第一个正整数.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1254">
-          <caret line="42" column="1" selection-start-line="42" selection-start-column="1" selection-end-line="42" selection-end-column="1" />
+        <state relative-caret-position="660">
+          <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/Golang/Go/src/fmt/scan.go">
+    <entry file="file://$PROJECT_DIR$/acm/LeetCode/LeetCode_113_路径总和2_更优美的代码.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="12342">
-          <caret line="383" column="16" selection-start-line="383" selection-start-column="16" selection-end-line="383" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/baseLearn/0-inputAndOutput/0-inputAndOutput.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/baseLearn/25-rand/rand.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/切片博客/test.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/acm/LeetCode/链表专题/LeetCode_206_反转链表.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1782">
-          <caret line="57" selection-start-line="57" selection-end-line="68" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/acm/LeetCode/链表专题/LeetCode_160_相交链表.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1716">
-          <caret line="52" selection-start-line="52" selection-end-line="68" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/acm/LeetCode/LeetCode_114_二叉树展开为链表.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2013">
-          <caret line="61" selection-start-line="61" selection-end-line="85" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/acm/LeetCode/LeetCode_654_最大二叉树.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1815">
-          <caret line="55" column="21" selection-start-line="55" selection-start-column="21" selection-end-line="55" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/二叉树.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/acm/LeetCode/面试准备/LeetCode_98_验证二叉搜索树_优美解法.go" />
-    <entry file="file://$PROJECT_DIR$/acm/LeetCode/LeetCode_98_验证二叉搜索树.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1980">
-          <caret line="62" column="5" selection-start-line="62" selection-start-column="5" selection-end-line="62" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/acm/LeetCode/LeetCode_98_验证二叉搜索树_优美解法.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/acm/LeetCode/LeetCode_23_合并K个排序链表.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/test.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="1518">
+          <caret line="46" column="24" selection-start-line="46" selection-start-column="24" selection-end-line="46" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -756,6 +497,241 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/acm/LeetCode/LeetCode_36_有效的数独.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2145">
+          <caret line="65" column="50" selection-start-line="65" selection-start-column="50" selection-end-line="65" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/acm/LeetCode/LeetCode_33_搜索旋转排序数组.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="759">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/acm/LeetCode/LeetCode_33_搜索旋转排序数组_更优美代码.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1353">
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/acm/LeetCode/LeetCode_81_搜索旋转排序数组2.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="693">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/acm/LeetCode/LeetCode_33_搜索旋转排序数组_更更优美代码_迭代.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="990">
+          <caret line="30" selection-start-line="5" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/acm/LeetCode/LeetCode_45_跳跃游戏2.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/acm/LeetCode/LeetCode_45_跳跃游戏2_优美解法.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/acm/LeetCode/LeetCode_107_二叉树层序遍历2.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1089">
+          <caret line="33" column="19" selection-start-line="33" selection-start-column="19" selection-end-line="33" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/acm/LeetCode/LeetCode_131_分割回文串.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/acm/LeetCode/LeetCode_131_分割回文串_加了dp回文串.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/acm/LeetCode/LeetCode_481_神奇字符串.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1353">
+          <caret line="41" column="21" selection-start-line="41" selection-start-column="21" selection-end-line="41" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/acm/LeetCode/LeetCode_21_合并两个有序链表.go">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/acm/LeetCode/LeetCode_22_括号生成.go">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/acm/LeetCode/LeetCode_22_括号生成_优美解法.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="8" column="40" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/acm/LeetCode/LeetCode_24_两两交换链表的节点_重写.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="957">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/acm/LeetCode/LeetCode_91_解码方法.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1122">
+          <caret line="34" column="28" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/acm/LeetCode/LeetCode_5_最长回文字符串_dp.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1254">
+          <caret line="38" column="81" selection-start-line="38" selection-start-column="81" selection-end-line="38" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/acm/LeetCode/LeetCode_5_最长回文字符串_中心拓展.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="15" column="48" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/acm/LeetCode/LeetCode_43_字符串相乘.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="429">
+          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/acm/LeetCode/LeetCode_86_分隔链表.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/acm/LeetCode/LeetCode_147_对链表进行插入排序.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2079">
+          <caret line="63" column="1" selection-start-line="63" selection-start-column="1" selection-end-line="63" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/acm/LeetCode/LeetCode_147_对链表进行插入排序_更优美代码.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="957">
+          <caret line="29" column="17" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/acm/LeetCode/LeetCode_915_分割数组.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="825">
+          <caret line="25" column="16" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/acm/LeetCode/LeetCode_10_正则表达式匹配_记忆化搜索.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1749">
+          <caret line="53" column="18" selection-start-line="53" selection-start-column="18" selection-end-line="53" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/检验和/file.txt" />
+    <entry file="file://$PROJECT_DIR$/检验和/check.go" />
+    <entry file="file://$PROJECT_DIR$/acm/LeetCode/LeetCode_10_正则表达式匹配.go">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/acm/LeetCode/LeetCode_1262_可被三整除的最大和.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="924">
+          <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/acm/LeetCode/LeetCode_152_乘积最大子序列.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2442">
+          <caret line="74" column="50" selection-start-line="74" selection-start-column="50" selection-end-line="74" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/acm/LeetCode/LeetCode_94_二叉树的中序遍历.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="957">
+          <caret line="29" column="23" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/acm/LeetCode/LeetCode_213_打家劫舍2.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="990">
+          <caret line="30" column="11" selection-start-line="30" selection-start-column="11" selection-end-line="30" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/acm/LeetCode/LeetCode_647_回文子串.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="726">
+          <caret line="22" column="92" selection-start-line="22" selection-start-column="92" selection-end-line="22" selection-end-column="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/acm/LeetCode/LeetCode_205_同构字符串.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="792">
+          <caret line="24" column="27" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/acm/LeetCode/LeetCode_187_重复的DNA序列.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/acm/LeetCode/LeetCode_10_正则表达式.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1584">
+          <caret line="48" column="64" selection-start-line="48" selection-start-column="64" selection-end-line="48" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/acm/LeetCode/LeetCode_43_字符串相乘_优美代码.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="3" selection-start-line="3" selection-end-line="32" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/acm/LeetCode/LeetCode_24_两两交换链表节点.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="825">
+          <caret line="27" column="20" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/baseLearn/3-varAndConstDefinition/3.1-varInitialValue.go">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -773,24 +749,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/第二.go">
+    <entry file="file://$PROJECT_DIR$/acm/LeetCode/LeetCode_179_最大数.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="33">
-          <caret line="33" column="40" selection-start-line="33" selection-start-column="40" selection-end-line="33" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/acm/LeetCode/LeetCode_1020_飞地的数量.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1419">
-          <caret line="11" column="24" lean-forward="true" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/acm/LeetCode/LeetCode_1020_飞地的数量_更优美写法.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="645">
-          <caret line="42" column="37" selection-start-line="42" selection-start-column="37" selection-end-line="42" selection-end-column="37" />
+        <state relative-caret-position="466">
+          <caret line="53" column="50" selection-start-line="53" selection-start-column="50" selection-end-line="53" selection-end-column="50" />
+          <folding>
+            <element signature="e#14#61#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

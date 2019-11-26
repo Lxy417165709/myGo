@@ -5,8 +5,9 @@ import "fmt"
 //
 type TreeNode struct {
 	   Val int
-	    Left *TreeNode
-	   Right *TreeNode}
+	   Left *TreeNode
+	   Right *TreeNode
+}
 
 var slice [][]int
 func pathSum(root *TreeNode, sum int) [][]int {
