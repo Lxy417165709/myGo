@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eac75ce5-bac3-4a4e-a1b4-5c24da70cf83" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/acm/LeetCode/LeetCode_202_快乐数.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/acm/LeetCode/LeetCode_216_组合总和3.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/acm/LeetCode/LeetCode_377_组合总和4.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acm/LeetCode/LeetCode_16_最接近的三数之和_双指针版.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/变量大小测试.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/acm/LeetCode/链表专题/LeetCode_24_两两交换链表节点.go" beforeDir="false" afterPath="$PROJECT_DIR$/acm/LeetCode/链表专题/LeetCode_24_两两交换链表节点.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/acm/LeetCode/LeetCode_16_最接近的三数之和.go" beforeDir="false" afterPath="$PROJECT_DIR$/acm/LeetCode/LeetCode_16_最接近的三数之和.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test.go" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -70,17 +69,56 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/acm/LeetCode/LeetCode_216_组合总和3.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="26" column="34" lean-forward="true" selection-start-line="26" selection-start-column="34" selection-end-line="26" selection-end-column="34" />
+            <state relative-caret-position="858">
+              <caret line="26" column="34" selection-start-line="26" selection-start-column="34" selection-end-line="26" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/acm/LeetCode/LeetCode_377_组合总和4.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="377">
+              <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/acm/LeetCode/LeetCode_16_最接近的三数之和.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="363">
+              <caret line="14" column="32" lean-forward="true" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/acm/LeetCode/LeetCode_16_最接近的三数之和_双指针版.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="396">
+              <caret line="12" column="31" lean-forward="true" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/acm/LeetCode/LeetCode_377_组合总和4.go">
+        <entry file="file://$PROJECT_DIR$/test/变量大小测试.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="278">
-              <caret line="26" column="10" lean-forward="true" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
+            <state relative-caret-position="226">
+              <caret line="49" column="6" lean-forward="true" selection-start-line="49" selection-start-column="6" selection-end-line="49" selection-end-column="6" />
+              <folding>
+                <element signature="e#14#42#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://C:/Golang/Go/src/unsafe/unsafe.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="122">
+              <caret line="177" column="65" lean-forward="true" selection-start-line="177" selection-start-column="65" selection-end-line="177" selection-end-column="65" />
             </state>
           </provider>
         </entry>
@@ -109,8 +147,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/acm/LeetCode/面试准备/LeetCode_98_验证二叉搜索树_优美解法.go" />
-        <option value="$PROJECT_DIR$/acm/LeetCode/LeetCode_23_合并K个排序链表.go" />
         <option value="$PROJECT_DIR$/test/第二.go" />
         <option value="$PROJECT_DIR$/acm/LeetCode/LeetCode_1020_飞地的数量_更优美写法.go" />
         <option value="$PROJECT_DIR$/acm/LeetCode/面试准备/LeetCode_113_路径总和2_另外一种揭发.go" />
@@ -151,7 +187,6 @@
         <option value="$PROJECT_DIR$/acm/LeetCode/LeetCode_187_重复的DNA序列.go" />
         <option value="$PROJECT_DIR$/acm/LeetCode/LeetCode_179_最大数.go" />
         <option value="$PROJECT_DIR$/baseLearn/21-string/21.1-strconv.go" />
-        <option value="$PROJECT_DIR$/test/test.go" />
         <option value="$PROJECT_DIR$/../算法学习/二叉树/反转链表.go" />
         <option value="$PROJECT_DIR$/../算法学习/链表/LeetCode_206_反转链表.go" />
         <option value="$PROJECT_DIR$/../算法学习/链表/LeetCode_160_相交链表.go" />
@@ -160,10 +195,13 @@
         <option value="$PROJECT_DIR$/acm/LeetCode/LeetCode_组合总和3.go" />
         <option value="$PROJECT_DIR$/acm/LeetCode/LeetCode_216_组合总和3.go" />
         <option value="$PROJECT_DIR$/acm/LeetCode/LeetCode_377_组合总和4.go" />
+        <option value="$PROJECT_DIR$/acm/LeetCode/LeetCode_16_最接近的三数之和.go" />
+        <option value="$PROJECT_DIR$/acm/LeetCode/LeetCode_16_最接近的三数之和_双指针版.go" />
+        <option value="$PROJECT_DIR$/test/test.go" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="184" />
     <option name="y" value="59" />
     <option name="width" value="1656" />
@@ -174,7 +212,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -196,19 +233,13 @@
             <path>
               <item name="Go" type="b2602c69:ProjectViewProjectNode" />
               <item name="Go" type="462c0819:PsiDirectoryNode" />
-              <item name="acm" type="462c0819:PsiDirectoryNode" />
-              <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
-              <item name="链表专题" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Go" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Go" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -322,12 +353,12 @@
     <frame x="184" y="59" width="1656" height="971" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.75915223" visible="true" weight="0.25438598" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.75915223" visible="true" weight="0.2575188" />
       <window_info id="Structure" order="1" sideWeight="0.24084778" side_tool="true" weight="0.22724637" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49946696" weight="0.3253796" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.64179105" weight="0.2462039" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.64179105" weight="0.45041817" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49946696" weight="0.39973786" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -379,23 +410,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/acm/LeetCode/LeetCode_131_分割回文串_加了dp回文串.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/acm/LeetCode/LeetCode_481_神奇字符串.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1353">
-          <caret line="41" column="21" selection-start-line="41" selection-start-column="21" selection-end-line="41" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/acm/LeetCode/LeetCode_21_合并两个有序链表.go">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/acm/LeetCode/LeetCode_22_括号生成.go">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -596,13 +610,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/test.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/baseLearn/21-string/21.0-string.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="363">
@@ -677,15 +684,46 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/acm/LeetCode/LeetCode_216_组合总和3.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="26" column="34" lean-forward="true" selection-start-line="26" selection-start-column="34" selection-end-line="26" selection-end-column="34" />
+        <state relative-caret-position="858">
+          <caret line="26" column="34" selection-start-line="26" selection-start-column="34" selection-end-line="26" selection-end-column="34" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/acm/LeetCode/LeetCode_377_组合总和4.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="26" column="10" lean-forward="true" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
+        <state relative-caret-position="377">
+          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/acm/LeetCode/LeetCode_16_最接近的三数之和.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="14" column="32" lean-forward="true" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/acm/LeetCode/LeetCode_16_最接近的三数之和_双指针版.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="12" column="31" lean-forward="true" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Golang/Go/src/unsafe/unsafe.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="177" column="65" lean-forward="true" selection-start-line="177" selection-start-column="65" selection-end-line="177" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/变量大小测试.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="49" column="6" lean-forward="true" selection-start-line="49" selection-start-column="6" selection-end-line="49" selection-end-column="6" />
+          <folding>
+            <element signature="e#14#42#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

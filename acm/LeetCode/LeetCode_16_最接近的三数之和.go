@@ -12,12 +12,12 @@ func search_r_l(slice []int,target int) int{
 	for ;l<=r ;  {
 		mid := (l+r)/2
 		if slice[mid] == target {
-			r = r - 1	// 可修改处1
+			r = mid - 1	// 可修改处1
 		}else{
 			if slice[mid] > target{
-				r = r -1
+				r = mid -1
 			}else{
-				l = l + 1
+				l = mid + 1
 			}
 		}
 	}
