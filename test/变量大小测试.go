@@ -7,10 +7,13 @@ import (
 )
 
 const (
-	a = 10000
+	a int32= 10000
 	b = 10.5
 	c = "www"
 	d = 1000000000000000000
+	o
+	p = true
+
 )
 var e = 10000
 var f = 10.5
@@ -26,6 +29,8 @@ func main() {
 	show(b)
 	show(c)
 	show(d)
+	show(o)
+	show(p)
 
 	show(e)
 	show(f)
@@ -51,11 +56,12 @@ func main() {
 }
 
 func show(x interface{}) {
-	fmt.Println(reflect.TypeOf(x),unsafe.Sizeof(x),unsafe.Sizeof(&x))
+	fmt.Println(x,reflect.TypeOf(x),unsafe.Sizeof(x),unsafe.Sizeof(&x))
 }
 
 /*
 	总结
 	1. go语言普通变量是16个字节的，而指针变量是8个字节.. (结论有待商榷)
+	2. 常量必须初始化
 
 */
