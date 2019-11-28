@@ -40,25 +40,6 @@ func show(root *TreeNode) {
 	}
 }
 
-func main() {
-	root := &TreeNode{1, nil, nil}
-	root.Left = &TreeNode{2, nil, nil}
-	root.Right = &TreeNode{2, nil, nil}
-
-	c := root
-	a := root.Left
-	b := root.Right
-	root = a
-	root.Left = &TreeNode{4, nil, nil}
-	root.Right = &TreeNode{3, nil, nil}
-	root = b
-	root.Left = &TreeNode{3, nil, nil}
-	root.Right = &TreeNode{4, nil, nil}
-
-	root = c
-	show(root)
-	fmt.Println(isSymmetric(root))
-}
 
 /*
 	总结
