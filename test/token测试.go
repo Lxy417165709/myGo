@@ -1,6 +1,7 @@
 package main
 
 import (
+	"env"
 	"fmt"
 	"github.com/dgrijalva/jwt-go"
 	"time"
@@ -18,7 +19,7 @@ func test(){
 	data := jwt.StandardClaims{Subject:info,ExpiresAt:time.Now().Unix()-1000}
 	tokenInfo := jwt.NewWithClaims(jwt.SigningMethodHS256,data)
 
-	// 获取加密结果
+	// 获取加密结果(错了，这是签名...之前理解错了）
 	tokenStr,err := tokenInfo.SignedString([]byte(key))
 	if err != nil {
 		fmt.Println("出错了!")
@@ -26,7 +27,15 @@ func test(){
 	}
 	fmt.Println("myToken is: ",tokenStr)
 
-
+	token, err := jwt.Parse(tokenStr, func(*jwt.Token) (interface{}, error) {
+		return []byte(env.Conf.Server.TokenKey), nil
+	})
+	fmt.Println(token)
+	// 这里会校验签名
+	if err !=nil{
+		fmt.Println("xx",err)
+		return
+	}
 	// 解密
 	result,ok := tokenInfo.Claims.(jwt.StandardClaims)
 	if !ok {

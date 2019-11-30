@@ -1,6 +1,8 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 // 参考 https://blog.csdn.net/deaidai/article/details/78167367
 
@@ -22,9 +24,10 @@ func lowbit(x int) int{
 func main() {
 	x:=7
 	fmt.Println(x,remove(x),lowbit(x))
-	//fmt.Println(x^(x-1))
 
-
+	for i:=1;i<20;i++{
+		fmt.Println(i,remove(i),remove(-i)," | ",modTwo(i),modTwo(-i), " | ",lowbit(i),lowbit(-i))
+	}
 }
 
 /*

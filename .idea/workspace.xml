@@ -2,13 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eac75ce5-bac3-4a4e-a1b4-5c24da70cf83" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/acm/LeetCode/LeetCode_32_最长有效括号.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/acm/LeetCode/LeetCode_32_最长有效括号_dp版.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/acm/LeetCode/LeetCode_80_删除排序数组中的重复项2.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/acm/LeetCode/LeetCode_80_删除排序数组中的重复项2_优化拓展版.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/unsafe.Pointer uintptr.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acm/LeetCode/LeetCode_1016_子串能表示从1到N数字的二进制串.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acm/LeetCode/LeetCode_108_将有序数组转换为二叉搜索树.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acm/LeetCode/LeetCode_109_有序链表转换二叉树.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acm/LeetCode/LeetCode_234_回文链表.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/acm/LeetCode/LeetCode_32_最长有效括号_AC但没优化版.go" beforeDir="false" afterPath="$PROJECT_DIR$/acm/LeetCode/LeetCode_32_最长有效括号_AC但没优化版.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/acm/LeetCode/位运算/模板/奇技淫巧.go" beforeDir="false" afterPath="$PROJECT_DIR$/acm/LeetCode/位运算/模板/奇技淫巧.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/token测试.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/token测试.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,91 +33,94 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://C:/Golang/Go/src/runtime/chan.go">
+        <entry file="file://$PROJECT_DIR$/baseLearn/4-operator/4.0-operator.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1617">
-              <caret line="52" column="14" selection-start-line="52" selection-start-column="14" selection-end-line="52" selection-end-column="14" />
+            <state relative-caret-position="660">
+              <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://C:/Golang/Go/src/runtime/runtime2.go">
+        <entry file="file://$PROJECT_DIR$/acm/LeetCode/位运算/模板/奇技淫巧.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="25509">
-              <caret line="777" column="5" selection-start-line="777" selection-start-column="5" selection-end-line="777" selection-end-column="5" />
+            <state relative-caret-position="924">
+              <caret line="30" column="1" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/acm/LeetCode/LeetCode_32_最长有效括号.go">
+        <entry file="file://$PROJECT_DIR$/acm/LeetCode/LeetCode_108_将有序数组转换为二叉搜索树.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="990">
-              <caret line="30" column="34" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="34" />
+            <state relative-caret-position="594">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/unsafe.Pointer uintptr.go">
+        <entry file="file://$PROJECT_DIR$/acm/LeetCode/LeetCode_109_有序链表转换二叉树.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+            <state relative-caret-position="1551">
+              <caret line="47" selection-start-line="47" selection-end-line="47" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://C:/Golang/Go/src/builtin/builtin.go">
+        <entry file="file://$PROJECT_DIR$/acm/LeetCode/LeetCode_234_回文链表.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2706">
-              <caret line="82" column="5" selection-start-line="82" selection-start-column="5" selection-end-line="82" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/acm/LeetCode/LeetCode_21_合并两个有序链表_优美版.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="759">
-              <caret line="23" column="2" selection-start-line="23" selection-start-column="2" selection-end-line="23" selection-end-column="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://C:/Golang/Go/src/unsafe/unsafe.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/acm/LeetCode/LeetCode_32_最长有效括号_dp版.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="363">
-              <caret line="11" column="36" lean-forward="true" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/acm/LeetCode/LeetCode_80_删除排序数组中的重复项2.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="363">
-              <caret line="11" column="24" lean-forward="true" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+            <state relative-caret-position="198">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/acm/LeetCode/LeetCode_80_删除排序数组中的重复项2_优化拓展版.go">
+        <entry file="file://$PROJECT_DIR$/test/token测试.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+            <state relative-caret-position="330">
+              <caret line="33" column="14" selection-start-line="33" selection-start-column="14" selection-end-line="33" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://C:/Golang/Go/src/strings/strings_amd64.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2541">
+              <caret line="77" column="20" selection-start-line="77" selection-start-column="20" selection-end-line="77" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://C:/Golang/Go/src/strings/strings.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30558">
+              <caret line="929" column="5" selection-start-line="929" selection-start-column="5" selection-end-line="929" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/acm/LeetCode/LeetCode_1016_子串能表示从1到N数字的二进制串.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1089">
+              <caret line="37" column="45" selection-start-line="37" selection-start-column="45" selection-end-line="37" selection-end-column="45" />
+              <folding>
+                <element signature="e#14#53#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://C:/Golang/Go/src/strconv/itoa.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3135">
+              <caret line="95" column="5" selection-start-line="95" selection-start-column="5" selection-end-line="95" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -146,12 +149,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/acm/LeetCode/LeetCode_91_解码方法.go" />
-        <option value="$PROJECT_DIR$/acm/LeetCode/LeetCode_5_最长回文字符串_dp.go" />
-        <option value="$PROJECT_DIR$/acm/LeetCode/LeetCode_5_最长回文字符串_中心拓展.go" />
-        <option value="$PROJECT_DIR$/acm/LeetCode/LeetCode_43_字符串相乘_优美代码.go" />
-        <option value="$PROJECT_DIR$/acm/LeetCode/LeetCode_86_分隔链表.go" />
-        <option value="$PROJECT_DIR$/acm/LeetCode/LeetCode_147_对链表进行插入排序.go" />
         <option value="$PROJECT_DIR$/acm/LeetCode/LeetCode_147_对链表进行插入排序_更优美代码.go" />
         <option value="$PROJECT_DIR$/acm/LeetCode/LeetCode_915_分割数组.go" />
         <option value="$PROJECT_DIR$/acm/LeetCode/LeetCode_10_正则表达式匹配_记忆化搜索.go" />
@@ -197,12 +194,18 @@
         <option value="$PROJECT_DIR$/acm/LeetCode/LeetCode_32_最长有效括号_dp版.go" />
         <option value="$PROJECT_DIR$/acm/LeetCode/LeetCode_80_删除排序数组中的重复项2.go" />
         <option value="$PROJECT_DIR$/acm/LeetCode/LeetCode_80_删除排序数组中的重复项2_优化拓展版.go" />
+        <option value="$PROJECT_DIR$/acm/LeetCode/LeetCode_1016_子串能表示从1到N数字的二进制串.go" />
+        <option value="$PROJECT_DIR$/acm/LeetCode/位运算/模板/奇技淫巧.go" />
+        <option value="$PROJECT_DIR$/acm/LeetCode/LeetCode_108_将有序数组转换为二叉搜索树.go" />
+        <option value="$PROJECT_DIR$/acm/LeetCode/LeetCode_109_有序链表转换二叉树.go" />
+        <option value="$PROJECT_DIR$/acm/LeetCode/LeetCode_234_回文链表.go" />
+        <option value="$PROJECT_DIR$/test/token测试.go" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="66" />
-    <option name="y" value="64" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-92" />
+    <option name="y" value="125" />
     <option name="width" value="1656" />
     <option name="height" value="971" />
   </component>
@@ -222,40 +225,7 @@
             <path>
               <item name="Go" type="b2602c69:ProjectViewProjectNode" />
               <item name="Go" type="462c0819:PsiDirectoryNode" />
-              <item name="acm" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Go" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Go" type="462c0819:PsiDirectoryNode" />
-              <item name="acm" type="462c0819:PsiDirectoryNode" />
-              <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Go" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Go" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Go" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="Go" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Go SDK 1.10.3" type="20ee2d1f:SyntheticLibraryElementNode" />
-            </path>
-            <path>
-              <item name="Go" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Go SDK 1.10.3" type="20ee2d1f:SyntheticLibraryElementNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Go" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Go SDK 1.10.3" type="20ee2d1f:SyntheticLibraryElementNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="unsafe" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -302,12 +272,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build unsafe.Pointer uintptr.go">
-    <configuration name="go build 二叉树.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Build.go build token测试.go">
+    <configuration name="go build 4.0-operator.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="goProjects" />
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/test/二叉树.go" />
+      <filePath value="$PROJECT_DIR$/baseLearn/4-operator/4.0-operator.go" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build 奇技淫巧.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="goProjects" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/acm/LeetCode/位运算/模板/奇技淫巧.go" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
@@ -343,14 +321,6 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build check.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="goProjects" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/检验和/check.go" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
     <configuration name="go build test.go (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="goProjects" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -377,11 +347,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build unsafe.Pointer uintptr.go" />
         <item itemvalue="Go Build.go build token测试.go" />
+        <item itemvalue="Go Build.go build 奇技淫巧.go" />
+        <item itemvalue="Go Build.go build 4.0-operator.go" />
+        <item itemvalue="Go Build.go build unsafe.Pointer uintptr.go" />
         <item itemvalue="Go Build.go build test.go (1)" />
-        <item itemvalue="Go Build.go build check.go" />
-        <item itemvalue="Go Build.go build 二叉树.go" />
       </list>
     </recent_temporary>
   </component>
@@ -395,15 +365,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="66" y="64" width="1656" height="971" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.75915223" visible="true" weight="0.27130327" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.75915223" visible="true" weight="0.21481876" />
       <window_info id="Structure" order="1" sideWeight="0.24084778" side_tool="true" weight="0.22724637" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49946696" weight="0.3253796" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.64179105" weight="0.2451193" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.64179105" weight="0.29826465" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49946696" weight="0.39973786" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -455,79 +425,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/acm/LeetCode/LeetCode_24_两两交换链表节点.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="825">
-          <caret line="27" column="20" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Golang/Go/src/strconv/atoi.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1082">
-          <caret line="155" selection-start-line="155" selection-end-line="155" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Golang/Go/src/strconv/atof.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="532" column="55" selection-start-line="532" selection-start-column="5" selection-end-line="532" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Golang/Go/src/strings/strings_amd64.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="25" selection-start-line="25" selection-end-line="25" selection-end-column="101" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../个人项目/LoginSystem/Doc/后端/jwt.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="759">
-          <caret line="28" column="37" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/acm/LeetCode/LeetCode_179_最大数.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1584">
-          <caret line="53" column="50" selection-start-line="53" selection-start-column="50" selection-end-line="53" selection-end-column="50" />
-          <folding>
-            <element signature="e#14#61#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/baseLearn/21-string/21.0-string.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/baseLearn/21-string/21.1-strconv.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="759">
-          <caret line="26" column="28" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/baseLearn/21-string/21.2-strings.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2343">
-          <caret line="74" column="26" selection-start-line="74" selection-start-column="26" selection-end-line="74" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Golang/Go/src/strings/strings.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="13728">
-          <caret line="419" column="19" selection-start-line="419" selection-start-column="19" selection-end-line="419" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/baseLearn/3-varAndConstDefinition/3.1-varInitialValue.go">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -666,13 +563,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/token测试.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/acm/LeetCode/LeetCode_814_二叉树剪枝_第二种更简洁的写法.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="759">
@@ -767,21 +657,101 @@
     <entry file="file://$PROJECT_DIR$/acm/LeetCode/LeetCode_32_最长有效括号_dp版.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="363">
-          <caret line="11" column="36" lean-forward="true" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
+          <caret line="11" column="36" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/acm/LeetCode/LeetCode_80_删除排序数组中的重复项2.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="363">
-          <caret line="11" column="24" lean-forward="true" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/acm/LeetCode/LeetCode_80_删除排序数组中的重复项2_优化拓展版.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
-          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/acm/LeetCode/位运算/LeetCode_190_颠倒二进制位.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/baseLearn/4-operator/4.0-operator.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/acm/LeetCode/位运算/模板/奇技淫巧.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="924">
+          <caret line="30" column="1" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/acm/LeetCode/LeetCode_108_将有序数组转换为二叉搜索树.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/acm/LeetCode/LeetCode_109_有序链表转换二叉树.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1551">
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Golang/Go/src/strings/strings_amd64.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2541">
+          <caret line="77" column="20" selection-start-line="77" selection-start-column="20" selection-end-line="77" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Golang/Go/src/strings/strings.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30558">
+          <caret line="929" column="5" selection-start-line="929" selection-start-column="5" selection-end-line="929" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/acm/LeetCode/LeetCode_1016_子串能表示从1到N数字的二进制串.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1089">
+          <caret line="37" column="45" selection-start-line="37" selection-start-column="45" selection-end-line="37" selection-end-column="45" />
+          <folding>
+            <element signature="e#14#53#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Golang/Go/src/strconv/itoa.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3135">
+          <caret line="95" column="5" selection-start-line="95" selection-start-column="5" selection-end-line="95" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/acm/LeetCode/LeetCode_234_回文链表.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/token测试.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="33" column="14" selection-start-line="33" selection-start-column="14" selection-end-line="33" selection-end-column="14" />
         </state>
       </provider>
     </entry>
