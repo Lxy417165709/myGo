@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eac75ce5-bac3-4a4e-a1b4-5c24da70cf83" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/acm/LeetCode/LeetCode_1016_子串能表示从1到N数字的二进制串.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/acm/LeetCode/LeetCode_108_将有序数组转换为二叉搜索树.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/acm/LeetCode/LeetCode_109_有序链表转换二叉树.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/acm/LeetCode/LeetCode_234_回文链表.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acm/LeetCode/LeetCode_1019_链表中的下一个更大节点.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acm/LeetCode/LeetCode_876_链表的中间节点.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/acm/LeetCode/位运算/模板/奇技淫巧.go" beforeDir="false" afterPath="$PROJECT_DIR$/acm/LeetCode/位运算/模板/奇技淫巧.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/token测试.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/token测试.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,33 +29,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/baseLearn/4-operator/4.0-operator.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="660">
-              <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/acm/LeetCode/位运算/模板/奇技淫巧.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="924">
-              <caret line="30" column="1" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/acm/LeetCode/LeetCode_108_将有序数组转换为二叉搜索树.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="594">
-              <caret line="18" selection-start-line="18" selection-end-line="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/acm/LeetCode/LeetCode_109_有序链表转换二叉树.go">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1551">
@@ -77,11 +46,38 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/token测试.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
+            <state relative-caret-position="924">
               <caret line="33" column="14" selection-start-line="33" selection-start-column="14" selection-end-line="33" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/acm/LeetCode/LeetCode_876_链表的中间节点.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="66">
+              <caret line="2" selection-start-line="2" selection-end-line="11" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../个人学习/算法学习/链表/链表中间节点.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="528">
+              <caret line="16" column="2" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/acm/LeetCode/LeetCode_1019_链表中的下一个更大节点.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="193">
+              <caret line="18" column="38" lean-forward="true" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -149,9 +145,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/acm/LeetCode/LeetCode_147_对链表进行插入排序_更优美代码.go" />
-        <option value="$PROJECT_DIR$/acm/LeetCode/LeetCode_915_分割数组.go" />
-        <option value="$PROJECT_DIR$/acm/LeetCode/LeetCode_10_正则表达式匹配_记忆化搜索.go" />
         <option value="$PROJECT_DIR$/acm/LeetCode/LeetCode_1262_可被三整除的最大和.go" />
         <option value="$PROJECT_DIR$/检验和/file.txt" />
         <option value="$PROJECT_DIR$/检验和/check.go" />
@@ -200,12 +193,15 @@
         <option value="$PROJECT_DIR$/acm/LeetCode/LeetCode_109_有序链表转换二叉树.go" />
         <option value="$PROJECT_DIR$/acm/LeetCode/LeetCode_234_回文链表.go" />
         <option value="$PROJECT_DIR$/test/token测试.go" />
+        <option value="$PROJECT_DIR$/acm/LeetCode/LeetCode_876_链表的中间节点.go" />
+        <option value="$PROJECT_DIR$/../个人学习/算法学习/链表/链表中间节点.go" />
+        <option value="$PROJECT_DIR$/acm/LeetCode/LeetCode_1019_链表中的下一个更大节点.go" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-92" />
-    <option name="y" value="125" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="46" />
+    <option name="y" value="116" />
     <option name="width" value="1656" />
     <option name="height" value="971" />
   </component>
@@ -214,7 +210,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -225,12 +220,24 @@
             <path>
               <item name="Go" type="b2602c69:ProjectViewProjectNode" />
               <item name="Go" type="462c0819:PsiDirectoryNode" />
+              <item name="acm" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Go" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Go" type="462c0819:PsiDirectoryNode" />
+              <item name="acm" type="462c0819:PsiDirectoryNode" />
+              <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Go" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Go" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -365,10 +372,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="46" y="116" width="1656" height="971" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.75915223" visible="true" weight="0.21481876" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.75915223" visible="true" weight="0.21992481" />
       <window_info id="Structure" order="1" sideWeight="0.24084778" side_tool="true" weight="0.22724637" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -425,17 +432,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/baseLearn/3-varAndConstDefinition/3.1-varInitialValue.go">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/baseLearn/3-varAndConstDefinition/3.2-varDomain.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../算法学习/二叉树/反转链表.go" />
     <entry file="file://$PROJECT_DIR$/../算法学习/链表/LeetCode_206_反转链表.go" />
     <entry file="file://$PROJECT_DIR$/acm/LeetCode/链表专题/LeetCode_148_排序链表.go">
       <provider selected="true" editor-type-id="text-editor" />
@@ -710,6 +706,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/acm/LeetCode/LeetCode_234_回文链表.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/token测试.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="924">
+          <caret line="33" column="14" selection-start-line="33" selection-start-column="14" selection-end-line="33" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/acm/LeetCode/LeetCode_876_链表的中间节点.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="2" selection-start-line="2" selection-end-line="11" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://C:/Golang/Go/src/strings/strings_amd64.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2541">
@@ -741,17 +758,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/acm/LeetCode/LeetCode_234_回文链表.go">
+    <entry file="file://$PROJECT_DIR$/../个人学习/算法学习/链表/链表中间节点.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        <state relative-caret-position="528">
+          <caret line="16" column="2" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/token测试.go">
+    <entry file="file://$PROJECT_DIR$/acm/LeetCode/LeetCode_1019_链表中的下一个更大节点.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="33" column="14" selection-start-line="33" selection-start-column="14" selection-end-line="33" selection-end-column="14" />
+        <state relative-caret-position="193">
+          <caret line="18" column="38" lean-forward="true" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
         </state>
       </provider>
     </entry>
