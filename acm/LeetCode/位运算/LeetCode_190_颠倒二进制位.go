@@ -13,6 +13,7 @@ func reverseBits(num uint32) uint32 {
 }
 func main() {
 	fmt.Println(reverseBits(2147483648*2-1))
+
 }
 /*
 	总结
