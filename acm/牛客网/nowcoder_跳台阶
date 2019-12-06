@@ -1,0 +1,18 @@
+class Solution {
+public:
+    int jumpFloor(int number) {
+        int dp[50];
+        dp[0] = 1;  // 注意初始条件
+        dp[1] = 1;
+        for (int i=2;i<=number;i++){
+            dp[i] = dp[i-1] + dp[i-2];
+        }
+        return dp[number];
+    }
+};
+
+/*
+    总结
+    1. 这题是斐波那契数列的简单变形。
+    2. 要注意初始条件。 (由于 dp[2] == 2，所以我们需要设置dp[0] = 1)
+*/

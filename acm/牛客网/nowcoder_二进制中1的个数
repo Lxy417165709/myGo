@@ -1,0 +1,17 @@
+class Solution {
+public:
+     int  NumberOf1(int n) {
+         int count = 0;
+         while(n!=0){
+             n = n&(n-1);
+             count++;
+         }
+         return count;
+     }
+};
+
+/*
+    总结
+    1. 这题目只要知道 n = n&(n-1) 为消除最低位的1就很简单做了了。(这个适用于正负数补码)
+    2. 如果使用右移运算的话，那对负数是不适用的(无法让它渐进到0)。
+*/

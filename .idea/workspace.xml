@@ -2,11 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eac75ce5-bac3-4a4e-a1b4-5c24da70cf83" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/acm/LeetCode/LeetCode_138_复制带随机指针的节点.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/acm/LeetCode/LeetCode_34_在排序数组中查找元素的第一个和最后一个_优美版.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/负数左右移.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acm/LeetCode/LeetCode_543_二叉树的直径.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acm/LeetCode/LeetCode_543_二叉树的直径_优化.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acm/牛客网/nowcoder_二进制中1的个数" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acm/牛客网/nowcoder_变态跳台阶" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acm/牛客网/nowcoder_变态跳台阶_dp优化版" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acm/牛客网/nowcoder_变态跳台阶_数学法" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acm/牛客网/nowcoder_数组中重复的数字" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acm/牛客网/nowcoder_斐波那契数列" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acm/牛客网/nowcoder_求1 + 2 + 3 ... + n" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acm/牛客网/nowcoder_跳台阶" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/acm/LeetCode/位运算/LeetCode_190_颠倒二进制位.go" beforeDir="false" afterPath="$PROJECT_DIR$/acm/LeetCode/位运算/LeetCode_190_颠倒二进制位.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,91 +37,82 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/acm/LeetCode/位运算/LeetCode_191_位1的个数.go">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/acm/LeetCode/LeetCode_543_二叉树的直径_优化.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="688">
+              <caret line="33" column="32" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/acm/LeetCode/位运算/LeetCode_190_颠倒二进制位.go">
+        <entry file="file://$PROJECT_DIR$/acm/牛客网/nowcoder_数组中重复的数字">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="137">
+              <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/acm/牛客网/nowcoder_二进制中1的个数">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="396">
+              <caret line="12" column="2" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/acm/牛客网/nowcoder_斐波那契数列">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="495">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
+              <caret line="15" column="57" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="57" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/负数左右移.go">
+        <entry file="file://$PROJECT_DIR$/acm/牛客网/nowcoder_跳台阶">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="589">
-              <caret line="33" selection-start-line="33" selection-end-line="33" />
+            <state relative-caret-position="429">
+              <caret line="13" column="2" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/二分查找.go">
+        <entry file="file://$PROJECT_DIR$/acm/牛客网/nowcoder_变态跳台阶">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="12" lean-forward="true" selection-start-column="12" selection-end-column="12" />
+            <state relative-caret-position="330">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/acm/牛客网/nowcoder_变态跳台阶_dp优化版">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="316">
+              <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/acm/牛客网/nowcoder_变态跳台阶_数学法">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="8" column="2" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/acm/LeetCode/LeetCode_34_在排序数组中查找元素的第一个和最后一个_优美版.go">
+        <entry file="file://$PROJECT_DIR$/acm/牛客网/nowcoder_求1 + 2 + 3 ... + n">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-              <folding>
-                <element signature="n#!!block;n#binarySearch#0" />
-                <element signature="n#!!block;n#firstGreaterOrEqual#0" />
-                <element signature="n#!!block;n#lastLessOrEqual#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/acm/LeetCode/LeetCode_34_在排序数组中查找元素的第一个和最后一个位置.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="457">
-              <caret line="85" lean-forward="true" selection-start-line="85" selection-end-line="85" />
-              <folding>
-                <element signature="n#!!block;n#index#0" />
-                <element signature="n#!!block;n#maxIndex#0" />
-                <element signature="n#!!block;n#minIndex#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/acm/LeetCode/滑动窗口/接口测试_LeetCode_3.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1749">
-              <caret line="53" column="21" selection-start-line="53" selection-start-column="21" selection-end-line="53" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/acm/LeetCode/LeetCode_226_翻转二叉树.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="627">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/acm/LeetCode/LeetCode_1016_子串能表示从1到N数字的二进制串.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1089">
-              <caret line="37" column="45" selection-start-line="37" selection-start-column="45" selection-end-line="37" selection-end-column="45" />
-              <folding>
-                <element signature="e#14#53#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="363">
+              <caret line="11" column="20" lean-forward="true" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -153,16 +150,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/acm/LeetCode/LeetCode_32_最长有效括号.go" />
-        <option value="$PROJECT_DIR$/test/unsafe.Pointer uintptr.go" />
-        <option value="$PROJECT_DIR$/acm/LeetCode/LeetCode_32_最长有效括号_dp版.go" />
-        <option value="$PROJECT_DIR$/acm/LeetCode/LeetCode_80_删除排序数组中的重复项2.go" />
-        <option value="$PROJECT_DIR$/acm/LeetCode/LeetCode_80_删除排序数组中的重复项2_优化拓展版.go" />
-        <option value="$PROJECT_DIR$/acm/LeetCode/LeetCode_1016_子串能表示从1到N数字的二进制串.go" />
-        <option value="$PROJECT_DIR$/acm/LeetCode/位运算/模板/奇技淫巧.go" />
-        <option value="$PROJECT_DIR$/acm/LeetCode/LeetCode_108_将有序数组转换为二叉搜索树.go" />
-        <option value="$PROJECT_DIR$/acm/LeetCode/LeetCode_109_有序链表转换二叉树.go" />
-        <option value="$PROJECT_DIR$/acm/LeetCode/LeetCode_234_回文链表.go" />
         <option value="$PROJECT_DIR$/test/token测试.go" />
         <option value="$PROJECT_DIR$/acm/LeetCode/LeetCode_876_链表的中间节点.go" />
         <option value="$PROJECT_DIR$/../个人学习/算法学习/链表/链表中间节点.go" />
@@ -204,12 +191,22 @@
         <option value="$PROJECT_DIR$/acm/LeetCode/位运算/LeetCode_190_颠倒二进制位.go" />
         <option value="$PROJECT_DIR$/test/负数左右移.go" />
         <option value="$PROJECT_DIR$/acm/LeetCode/LeetCode_34_在排序数组中查找元素的第一个和最后一个_优美版.go" />
+        <option value="$PROJECT_DIR$/acm/LeetCode/LeetCode_543_二叉树的直径.go" />
+        <option value="$PROJECT_DIR$/acm/LeetCode/LeetCode_543_二叉树的直径_优化.go" />
+        <option value="$PROJECT_DIR$/acm/牛客网/nowcoder_数组中重复的数字" />
+        <option value="$PROJECT_DIR$/acm/牛客网/nowcoder_二进制中1的个数" />
+        <option value="$PROJECT_DIR$/acm/牛客网/nowcoder_斐波那契数列" />
+        <option value="$PROJECT_DIR$/acm/牛客网/nowcoder_跳台阶" />
+        <option value="$PROJECT_DIR$/acm/牛客网/nowcoder_变态跳台阶" />
+        <option value="$PROJECT_DIR$/acm/牛客网/nowcoder_变态跳台阶_dp优化版" />
+        <option value="$PROJECT_DIR$/acm/牛客网/nowcoder_变态跳台阶_数学法" />
+        <option value="$PROJECT_DIR$/acm/牛客网/nowcoder_求1 + 2 + 3 ... + n" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="251" />
-    <option name="y" value="88" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="818" />
+    <option name="y" value="110" />
     <option name="width" value="1656" />
     <option name="height" value="971" />
   </component>
@@ -235,7 +232,7 @@
               <item name="Go" type="b2602c69:ProjectViewProjectNode" />
               <item name="Go" type="462c0819:PsiDirectoryNode" />
               <item name="acm" type="462c0819:PsiDirectoryNode" />
-              <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
+              <item name="牛客网" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Go" type="b2602c69:ProjectViewProjectNode" />
@@ -260,19 +257,19 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\hasee\Desktop\Go\acm\牛客网" />
+      <recent name="C:\Users\hasee\Desktop\Go\acm\LeetCode" />
+      <recent name="C:\Users\hasee\Desktop\Go\acm\LeetCode\比赛\第162场周赛" />
+      <recent name="C:\Users\hasee\Desktop\Go\acm\LeetCode\动态规划" />
+      <recent name="C:\Users\hasee\Desktop\Go\acm\LeetCode\滑动窗口" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\hasee\Desktop\Go\acm\LeetCode" />
       <recent name="C:\Users\hasee\Desktop\Go\acm\LeetCode\树" />
       <recent name="C:\Users\hasee\Desktop\Go\test" />
       <recent name="C:\Users\hasee\Desktop\Go\acm\LeetCode\比赛\第九次周赛" />
       <recent name="C:\Users\hasee\Desktop\Go\acm\LeetCode\二叉树专题" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\hasee\Desktop\Go\acm\LeetCode" />
-      <recent name="C:\Users\hasee\Desktop\Go\acm\LeetCode\比赛\第162场周赛" />
-      <recent name="C:\Users\hasee\Desktop\Go\acm\LeetCode\动态规划" />
-      <recent name="C:\Users\hasee\Desktop\Go\acm\LeetCode\滑动窗口" />
-      <recent name="C:\Users\hasee\Desktop\Go\baseLearn\13-interface" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -395,10 +392,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="251" y="88" width="1656" height="971" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.75915223" visible="true" weight="0.27944863" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.75915223" visible="true" weight="0.28624734" />
       <window_info id="Structure" order="1" sideWeight="0.24084778" side_tool="true" weight="0.22724637" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -455,64 +452,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/acm/LeetCode/LeetCode_143_重排链表递归优化版.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="759">
-          <caret line="23" column="28" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/acm/LeetCode/LeetCode_92_反转链表2.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1518">
-          <caret line="46" column="22" selection-start-line="46" selection-start-column="22" selection-end-line="46" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/acm/LeetCode/LeetCode_863_二叉树中所有距离为K的节点.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1518">
-          <caret line="46" column="56" selection-start-line="46" selection-start-column="56" selection-end-line="46" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/acm/LeetCode/LeetCode_206_反转链表.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="16" column="10" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/acm/LeetCode/LeetCode_143_重排链表_迭代.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1155">
-          <caret line="35" selection-start-line="35" selection-end-line="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/acm/LeetCode/LeetCode_208_实现Trie(前缀树).go">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/变量大小测试.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/搜索.go">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/快速排序.go">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/acm/LeetCode/LeetCode_141_环形链表.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="693">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://C:/Golang/Go/src/strings/strings_amd64.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2541">
@@ -735,6 +674,51 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/test/负数左右移.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1089">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/二分查找.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="12" selection-start-column="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/acm/LeetCode/LeetCode_34_在排序数组中查找元素的第一个和最后一个_优美版.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="8" column="41" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
+          <folding>
+            <element signature="n#!!block;n#binarySearch#0" />
+            <element signature="n#!!block;n#firstGreaterOrEqual#0" />
+            <element signature="n#!!block;n#lastLessOrEqual#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/acm/LeetCode/LeetCode_543_二叉树的直径.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="891">
+          <caret line="27" column="12" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/acm/LeetCode/LeetCode_34_在排序数组中查找元素的第一个和最后一个位置.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="693">
+          <caret line="85" selection-start-line="85" selection-end-line="85" />
+          <folding>
+            <element signature="n#!!block;n#index#0" />
+            <element signature="n#!!block;n#maxIndex#0" />
+            <element signature="n#!!block;n#minIndex#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/acm/LeetCode/滑动窗口/接口测试_LeetCode_3.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1749">
@@ -766,41 +750,66 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/acm/LeetCode/LeetCode_34_在排序数组中查找元素的第一个和最后一个位置.go">
+    <entry file="file://$PROJECT_DIR$/acm/LeetCode/LeetCode_543_二叉树的直径_优化.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="457">
-          <caret line="85" lean-forward="true" selection-start-line="85" selection-end-line="85" />
-          <folding>
-            <element signature="n#!!block;n#index#0" />
-            <element signature="n#!!block;n#maxIndex#0" />
-            <element signature="n#!!block;n#minIndex#0" />
-          </folding>
+        <state relative-caret-position="688">
+          <caret line="33" column="32" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/负数左右移.go">
+    <entry file="file://$PROJECT_DIR$/acm/牛客网/nowcoder_数组中重复的数字">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        <state relative-caret-position="137">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/二分查找.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="12" lean-forward="true" selection-start-column="12" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/acm/LeetCode/LeetCode_34_在排序数组中查找元素的第一个和最后一个_优美版.go">
+    <entry file="file://$PROJECT_DIR$/acm/牛客网/nowcoder_二进制中1的个数">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="n#!!block;n#binarySearch#0" />
-            <element signature="n#!!block;n#firstGreaterOrEqual#0" />
-            <element signature="n#!!block;n#lastLessOrEqual#0" />
-          </folding>
+          <caret line="12" column="2" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/acm/牛客网/nowcoder_跳台阶">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="429">
+          <caret line="13" column="2" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/acm/牛客网/nowcoder_斐波那契数列">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="15" column="57" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/acm/牛客网/nowcoder_变态跳台阶">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/acm/牛客网/nowcoder_变态跳台阶_dp优化版">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/acm/牛客网/nowcoder_变态跳台阶_数学法">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="8" column="2" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/acm/牛客网/nowcoder_求1 + 2 + 3 ... + n">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="11" column="20" lean-forward="true" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
         </state>
       </provider>
     </entry>

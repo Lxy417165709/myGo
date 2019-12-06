@@ -1,0 +1,27 @@
+
+
+/*
+    题目描述
+    求1+2+3+...+n，要求不能使用乘除法、for、while、if、else、switch、case等关键字及条件判断语句（A?B:C）。
+
+*/
+
+class Solution {
+public:
+    int Sum_Solution(int n) {
+        int sum = n;
+
+        bool tmp = (n!=0) && (sum += Sum_Solution(n-1));
+        // (n!=0) && (sum += Sum_Solution(n-1)); 直接这样写也可以
+        return sum;
+    }
+};
+
+/*
+    总结
+    1. 如果可以用乘除法，那么直接用等差数列求和公式就可以AC了。
+    2. 如果可以使用循环语句，那么直接一个for循环就AC了。
+    3. 如果可以使用判断语句，那么直接 递归 + if判断就AC了。
+    4. 如果以上都不可以使用，那么可以利用到逻辑运算符的短路功能了。
+            (n!=0) && (sum += Sum_Solution(n-1)); 这句话，当n == 0 时，后面的并不会执行。
+*/

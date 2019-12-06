@@ -1,0 +1,36 @@
+
+class Solution {
+public:
+    // Parameters:
+    //        numbers:     an array of integers
+    //        length:      the length of array numbers
+    //        duplication: (Output) the duplicated number in the array number
+    // Return value:       true if the input is valid, and there are some duplications in the array number
+    //                     otherwise false
+    bool duplicate(int numbers[], int length, int* duplication) {
+        int pointer = 0;
+        while(pointer<length){
+            while (numbers[pointer]!=pointer){
+                if (numbers[pointer] == numbers[numbers[pointer]]){
+
+                    // duplicate = &numbers[pointer];  这样写官方不给通过...
+                    *duplication = numbers[pointer];
+                    return true;
+                }
+                swap(numbers[pointer],numbers[numbers[pointer]]);
+            }
+            pointer++;
+        }
+        return false;
+    }
+};
+
+/*
+    总结
+    1. 由于该题不支持go语言写，所以我使用了C++写法。
+    2. 思路是，由于题目的限制，我们可以为每一个数组找到一个合适的位置摆放它。之后再进行比较，如果不在位的数字
+       与目的位置的数字一样，那么就说明它是重复的数字了。
+       例子: 0 1 2 3 2  扫描到最后的一个2时， numbers[位置2] == numbers[numbers[位置4]], 说明位置2和位置4的数字是一样的，
+       说明重复数字就是numbers[位置2] (or numbers[位置4])
+    3. 此题用哈希也可以，不过空间复杂度就为O(n)了
+*/
