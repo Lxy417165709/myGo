@@ -1,0 +1,23 @@
+class Solution {
+public:
+    ListNode* ReverseList(ListNode* pHead) {
+        if (pHead==NULL){
+            return pHead;
+        }
+        ListNode* pre = NULL;
+        ListNode* next = NULL;
+        while(pHead!=NULL){
+            next = pHead->next;
+            pHead->next = pre;
+            pre = pHead;
+            pHead = next;
+        }
+        return pre;
+    }
+};
+/*
+    总结
+    1. 简单反转链表。
+    2. 要注意链表表头非空的判断。
+
+*/

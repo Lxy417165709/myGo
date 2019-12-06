@@ -1,0 +1,18 @@
+class Solution {
+public:
+    void Mirror(TreeNode *pRoot) {
+        if (pRoot==NULL){
+            return;
+        }
+        swap(pRoot->left,pRoot->right);
+        Mirror(pRoot->left);
+        Mirror(pRoot->right);
+        return;
+    }
+};
+
+/*
+    总结
+    1. 这题也做过了。
+    2. 或许可以使用迭代AC。
+*/

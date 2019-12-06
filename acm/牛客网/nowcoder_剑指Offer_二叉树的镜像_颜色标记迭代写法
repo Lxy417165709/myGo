@@ -1,0 +1,38 @@
+class Solution {
+public:
+    void Mirror(TreeNode *pRoot) {
+        map<TreeNode*,int> color;
+        stack<TreeNode*> stack;
+        stack.push(pRoot);
+        color[pRoot] = 0;    // 颜色标记，0表示还不可以处理，1表示可以处理了
+        while(stack.size()!=0){
+            TreeNode* top = stack.top();
+            stack.pop();
+            if (top==NULL){
+                continue;
+            }
+            if (color[top]==0){
+                // 以下代码关联到前、中、后遍历
+                // -- 这样表示的遍历顺序是 根->右->左
+                stack.push(top->left);
+                stack.push(top->right);
+                stack.push(top);
+                // --
+                color[top->left] = 0;
+                color[top->right] = 0;
+                color[top] = 1;
+            }else{
+                // 以下代码涉及了根树的处理
+                swap(top->left,top->right);
+            }
+        }
+    }
+};
+
+/*
+    总结
+    1. 这题我采用迭代AC，而且是用了之前学到的颜色标记法。
+    2. 颜色标记法 color==0表示未入队，color==1表示已入队，接下来可以处理了。
+    3. 通过调整入栈顺序，我们可以实现前中后遍历。
+
+*/
