@@ -1,0 +1,32 @@
+class Solution {
+public:
+    ListNode* EntryNodeOfLoop(ListNode* pHead){
+        ListNode* slow = pHead,*fast = pHead;
+        bool loopFlag = false;
+        while(fast!=NULL && fast->next!=NULL){
+            fast = fast->next->next;
+            slow = slow->next;
+            if (fast==slow){
+                loopFlag = true;
+                break;
+            }
+        }
+        if (loopFlag==false){
+            return NULL;
+        }
+        ListNode *first = pHead,*second = slow;
+        while(first!=second){
+            first = first->next;
+            second = second->next;
+        }
+        return first;
+    }
+};
+/*
+    总结
+    1. 这题就是找环的入口，解法有多种。
+        (1) 使用哈希，遇到第一个重复走的点就直接返回，如果走到NULL，说明无环，则直接返回NULL。
+        (2) 使用快慢指针找到环，之后定义一个指针从头跳，定义一个指针从环的某点开始跳，相等时就是环入口了。
+
+
+*/

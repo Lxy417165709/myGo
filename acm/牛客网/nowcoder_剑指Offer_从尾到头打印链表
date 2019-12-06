@@ -1,0 +1,22 @@
+class Solution {
+public:
+    vector<int> printListFromTailToHead(ListNode* head) {
+        vector<int> list;
+        while(head!=NULL){
+            list.push_back(head->val);
+            head = head->next;
+        }
+        int length = list.size();
+        for (int i=0;i<length/2;i++){
+            swap(list[i],list[length-i-1]);
+        }
+        return list;
+    }
+};
+/*
+    总结
+    1. 这题有多解法:
+        (1) 我们可以把链表的元素逐一入栈，之后再弹出到list中。
+        (2) 我们可以翻转链表后遍历该链表，将其元素加入list中。
+        (3) 我们可以直接遍历链表，将元素加入到list中后，最后翻转list。
+*/

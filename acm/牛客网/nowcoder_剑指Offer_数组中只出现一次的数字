@@ -1,0 +1,32 @@
+class Solution {
+public:
+    void FindNumsAppearOnce(vector<int> data,int* num1,int *num2) {
+        int xOr = 0;
+        for (int i=0;i<data.size();i++){
+            xOr^=data[i];
+        }
+        // 此时 xOr == *num1 ^ *num2
+        int lowbit = xOr & (-xOr);
+
+        for (int i=0;i<data.size();i++){
+            // 要注意运算优先级
+            // (data[i] & lowbit) == 0 这样写才可以
+            // data[i] & lowbit == 0，'=='判断的优先级高于 &...
+            if ((data[i] & lowbit) ==0){
+                *num1 ^= data[i];
+            }else{
+                *num2 ^= data[i];
+            }
+        }
+    }
+};
+/*
+    总结
+    1. 思路: 全部xor,得到一个异或值，那么我们可以随意取这个异或值的1,这里说明
+            他们这2个数在该位是不一样的，一个是0，一个是1。
+            之后我们再遍历整个数组，把数组分为2个部分，一个部分是该位是0的，
+            一个部分是该位为1的。得到这2个部分之后，分别对两个部分全部异或
+            每一部分的值就是两个不同的数了。
+    2. 最后分为两个部分后，每一部分的题意就是: 其他数都出现2次，只有1个出现一次
+        然后求这个单独出现的数。
+*/

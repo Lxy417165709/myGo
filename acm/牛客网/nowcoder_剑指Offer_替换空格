@@ -1,0 +1,35 @@
+class Solution {
+public:
+	void replaceSpace(char *str,int length) {
+        int allLength=0;
+        for (int i=0;i<length;i++){
+           if (str[i]==' '){
+               allLength+=3;
+           }else{
+               allLength+=1;
+           }
+        }
+        int reader = length - 1;
+        int writer = allLength - 1;
+        while(reader>=0){
+            if (str[reader]==' '){
+                str[writer] = '0';
+                writer--;
+                str[writer] = '2';
+                writer--;
+                str[writer] = '%';
+                writer--;
+            }else{
+                str[writer] = str[reader];
+                writer--;
+            }
+            reader--;
+        }
+	}
+};
+/*
+    总结
+    1. 这题我的思路是: 先获取拓展后的字符串长度，之后定义2个指针。reader和writer，reader从源字符串右边向左读取。
+        而writer从目标字符串从右向左写。(目标字符串的空间包括了源字符串的空间)
+    2. 时空复杂度分别为: O(n),O(1)
+*/

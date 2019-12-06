@@ -1,0 +1,13 @@
+class Solution {
+public:
+    int TreeDepth(TreeNode* pRoot){
+        if(pRoot==NULL){
+            return 0;
+        }
+        return max(TreeDepth(pRoot->left),TreeDepth(pRoot->right))+1;
+    }
+};
+/*
+    总结
+    1. 二叉树深度 == 左子树深度 , 右子树深度 的最大值 + 1
+*/
