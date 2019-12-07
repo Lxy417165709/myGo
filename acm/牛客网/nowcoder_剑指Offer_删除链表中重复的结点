@@ -1,0 +1,32 @@
+class Solution {
+public:
+    ListNode* deleteDuplication(ListNode* pHead){
+        ListNode* dummyHead = new ListNode(-1);
+        dummyHead->next = pHead;
+        ListNode* cur = dummyHead;
+        while(cur!=NULL && cur->next!=NULL && cur->next->next!=NULL){
+            ListNode* begin = cur->next;
+            ListNode* end = cur->next->next;
+            bool flag = false;
+            while (end != NULL && begin->val == end->val){
+                // 这里说明出现了重复节点。
+                flag = true;
+                end = end->next;
+            }
+            if (flag==false){
+                cur = begin;
+            }else{
+                cur->next = end;
+                // cur = cur->next 注意这句不能写，因为我们无法保证cur->next所指向的值是否是重复的。
+                // 如果我们执行了这一句，那假如所指向的值是重复的，那我们也无法删除这个节点了。
+            }
+        }
+        return dummyHead->next;
+    }
+};
+/*
+    总结
+    1. 刚刚开始做的时候，只是删除了重复节点，保证了每个节点都出现1次。(即使原来重复了)
+    2. 看了测试结果后才发现要删除重复节点，不让他们出现，于是我采用了上面的方法AC了。
+    3. 其实用递归写更简单...
+*/

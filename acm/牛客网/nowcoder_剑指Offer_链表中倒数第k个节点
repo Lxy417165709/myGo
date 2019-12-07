@@ -1,0 +1,29 @@
+class Solution {
+public:
+    ListNode* FindKthToTail(ListNode* pListHead, unsigned int k) {
+        // 题目可能已经默认了，k<=链表长度
+        ListNode *first = pListHead,*second = pListHead;
+        while(k!=0){
+            // 为了防止k越界，我在这里判断，如果此时first==NULL，那么肯定k越界了。
+            if (first==NULL){
+                return NULL;
+            }
+            first = first->next;
+            k--;
+        }
+        while(first!=NULL){
+            first = first->next;
+            second = second->next;
+        }
+        return second;
+    }
+};
+/*
+    总结
+    1. 这题也有多解法 (以下假设k没越界)(定义的指针都指向头节点)
+        (1) 使用栈，把所有数都写入栈后，再弹出k-1个，栈顶就是倒数第k个了
+        (2) 使用数组，把所有数据写入数组，然后返回arr[len(arr)-k]
+        (3) 使用两次扫描，第一次获取链表长度，第二次走len(list)-k步就可以了。
+        (4) 使用双指针，第一个指针先走k步后，第一个指针和第二个指针一起走，直到第一个指针为NULL，那么第二个指针就是
+            倒数第k个了。
+*/

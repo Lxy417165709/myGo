@@ -1,0 +1,43 @@
+class Solution {
+public:
+        vector<vector<int> > Print(TreeNode* pRoot) {
+            vector<vector<int> > ans;
+            // 由于以下需要保证入队节点都非空，所以这里要判空闲
+            // 如果不需要保证入队节点非空，那么这句可以不用写
+            if (pRoot==NULL){
+                return ans;
+            }
+            queue<TreeNode*> Q;
+            Q.push(pRoot);
+            while(Q.size()>0){
+                int size = Q.size();
+                vector<int> vec;
+                for (int i=0;i<size;i++){
+
+                    TreeNode* top = Q.front();
+                    Q.pop();
+                    // 用于以及保证入队节点非空了，所以这里不用再判断top是否为NULL。
+                    // 如果没有入队节点非空，那么这里还要进行判断，如果为NULL则continue
+                    vec.push_back(top->val);
+
+                    // 由于以下需要保证入队节点都非空，所以这里要判空闲
+                    // 如果不需要保证入队节点非空，那么这句可以不用写
+                    if(top->left!=NULL){
+                        Q.push(top->left);
+                    }
+                    // 由于以下需要保证入队节点都非空，所以这里要判空闲
+                    // 如果不需要保证入队节点非空，那么这句可以不用写
+                    if(top->right!=NULL){
+                        Q.push(top->right);
+                    }
+                }
+                ans.push_back(vec);
+            }
+            return ans;
+        }
+};
+/*
+    总结
+    1. 这是二叉树层序遍历模板。
+    2. 如果入队没有判断NULL时，那就会导致最后一层入队的都为NULL，此时要注意这结果是否会影响答案了。
+*/

@@ -1,0 +1,33 @@
+class Solution {
+public:
+    vector<int> FindNumbersWithSum(vector<int> array,int sum) {
+        vector<int> ans;
+        int l=0,r = array.size()-1;
+        while(l<r){
+            int curSum = array[l] + array[r];
+            if (curSum==sum){
+                if (ans.size()==0){
+                    ans.push_back(array[l]);
+                    ans.push_back(array[r]);
+                }
+                if (array[l] * array[r] < ans[0] * ans[1]){
+                    ans[0] = array[l];
+                    ans[1] = array[r];
+                }
+                l++;
+                r--;
+            }else{
+                if (curSum > sum){
+                    r--;
+                }else{
+                    l++;
+                }
+            }
+        }
+        return ans;
+    }
+};
+/*
+    总结
+    1. 这题是两数和的简单拓展，可采用双指针AC。
+*/

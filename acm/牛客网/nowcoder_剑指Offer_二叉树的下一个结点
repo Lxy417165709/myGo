@@ -1,0 +1,42 @@
+/*
+struct TreeLinkNode {
+    int val;
+    struct TreeLinkNode *left;
+    struct TreeLinkNode *right;
+    struct TreeLinkNode *next;
+    TreeLinkNode(int x) :val(x), left(NULL), right(NULL), next(NULL) {
+
+    }
+};
+*/
+class Solution {
+public:
+    TreeLinkNode* GetNext(TreeLinkNode* pNode){
+        // 如果树空
+        if(pNode==NULL){
+            return NULL;
+        }
+        TreeLinkNode* ans;
+        if(pNode->right==NULL){
+             // 如果是右子树为空(返回该节点所归属的左子树的根节点)
+            ans = pNode;
+            while(ans->next != NULL && ans->next->left != ans){
+                ans = ans->next;
+            }
+            return ans->next;
+        }else{
+            // 如果是右子树非空(返回右子树的最左节点)
+            ans = pNode->right;
+            while(ans->left!=NULL){
+                ans = ans->left;
+            }
+            return ans;
+        }
+
+    }
+};
+/*
+    总结
+    1. 刚刚开始条件判断错了，以为和叶子节点有关，于是WA了。
+    2. 想了后才发现和节点有无右子树有关，于是根据分析，我AC了(分析在上面了)。
+*/

@@ -1,0 +1,20 @@
+class Solution {
+public:
+    int rectCover(int number) {
+       if (number==0){
+           return 0;
+       }
+       int dp[60];
+       dp[0] = 1;
+       dp[1] = 1;
+       for (int i=2;i<=number;i++){
+           dp[i] = dp[i-1]+dp[i-2];
+       }
+       return dp[number];
+    }
+};
+/*
+    总结
+    1. 这题是斐波那契的变形。
+    2. number==0时，返回值根据面试官的要求而定。
+*/

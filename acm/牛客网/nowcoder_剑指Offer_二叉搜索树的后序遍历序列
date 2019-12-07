@@ -1,0 +1,44 @@
+class Solution {
+public:
+    bool VerifySquenceOfBST(vector<int> sequence) {
+        // 题目没写要求，但是答案认为size==0时返回false
+        if (sequence.size()==0){
+            return false;
+        }
+        return solve(sequence);
+    }
+    bool solve(vector<int> sequence) {
+        // 这里返回true是为了简化代码
+        // 因为如果在下面判断左右子树是否为空后，再进行递归判断的话，那么代码会多了一些。
+        // 所以为了方便，判断size==0时，直接返回true。
+        if (sequence.size()==0){
+            return true;
+        }
+        int last = sequence.size()-1;
+        vector<int> left;
+        vector<int> right;
+        bool flag = false; // 用于判断是否开启右子树序列的创建
+        for (int i=0;i<last;i++){
+            if (sequence[i] < sequence[last]){
+                // 如果右子树序列开始构建了，又遇到小于根的，那么就说明这序列非法。
+                if (flag==true){
+                    return false;
+                }
+                left.push_back(sequence[i]);
+            }else{
+                // 遇到第一个大于根的数时就说明开始了右子树序列的构建
+                if (flag==false){
+                    flag = true;
+                }
+                right.push_back(sequence[i]);
+            }
+        }
+        return solve(left) && solve(right);
+    }
+};
+/*
+    总结
+    1. 我的思路是通过根节点，然后构建左右子树的序列，之后分别对其判断，最终得到true，就说明是后续序列，否则就不是。
+    2. size==0时要注意，要按照面试官的要求来，因为size==0可以认为是后续序列，也可以认为不是。(不确定)
+    3. 我们可以通过指针的方式而不用传vector来节省空间，。
+*/

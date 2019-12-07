@@ -1,0 +1,37 @@
+class Solution {
+public:
+    string ReverseSentence(string str) {
+        if (str==""){
+            return str;
+        }
+        string ans = "";
+        int begin=str.length()-1,end=str.length()-1;
+        while(begin<str.length()){
+            if (str[end]==' '){
+                begin--;
+                end--;
+                continue;
+            }
+            string s = "";
+            while(begin>=0 && str[begin]!=' '){
+                s = str[begin] + s;
+                begin--;
+            }
+            if (ans.length()!=0){
+                ans = ans + " " + s;
+            }else{
+                ans = ans + s;
+            }
+            end = begin - 1;
+            begin = end;
+        }
+        if (ans==""){
+            return str;
+        }
+        return ans;
+    }
+};
+/*
+    总结
+    1. 这次我从右到左扫了，没用到栈。
+*/

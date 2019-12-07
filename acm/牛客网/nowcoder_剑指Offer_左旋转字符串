@@ -1,0 +1,56 @@
+// 拼接的
+class Solution {
+public:
+    string LeftRotateString(string str, int n) {
+        str = str + str;
+        string ans = "";
+        for (int i=n;i<n+str.length()/2;i++){
+            ans = ans + str[i];
+        }
+        return ans;
+    }
+};
+
+// 求模的
+class Solution {
+public:
+    string LeftRotateString(string str, int n) {
+        string ans = "";
+        for (int i=0;i<str.length();i++){
+            ans += str[(n+i)%str.length()];
+        }
+        return ans;
+    }
+};
+
+
+// 原地翻转
+class Solution {
+public:
+    void reverse(string &s,int begin,int end){
+        if (end<=begin || begin<0 || end>=s.length()){
+            return ;
+        }
+        for (int i=0;i<(end-begin+1)/2;i++){
+            swap(s[begin+i],s[end-i]);
+        }
+    }
+
+    string LeftRotateString(string str, int n) {
+        reverse(str,0,str.length()-1);
+        int point = str.length() - n;
+        reverse(str,0,point-1);
+        reverse(str,point,str.length()-1);
+        return str;
+    }
+};
+
+/*
+    总结
+    1. 这题我的AC思路是: 我先把原字符串进行拼接，之后从n位置开始读取原长度个字符串
+       然后返回结构就可以了。
+    2. 其实可以不用拼接，使用求模运算就能AC了，接下来我用求模AC。
+    3. 如果要原地的话，那么也可以，接下来我用原地算法。
+    4. 原地翻转的思想是: 对原字符串进行翻转，之后再对 [0,point-1]、[point,length-1]进行翻转 (point == length-n)
+        这样就能得到答案了。
+*/

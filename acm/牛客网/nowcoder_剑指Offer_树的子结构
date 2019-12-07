@@ -1,0 +1,34 @@
+
+class Solution {
+public:
+
+    bool isSub(TreeNode* tree1,TreeNode* tree2){
+        if (tree1==NULL && tree2==NULL){
+            return true;
+        }
+        if (tree1==NULL){
+            return false;
+        }
+        if (tree2==NULL){
+            return true;
+        }
+        return tree1->val == tree2->val && isSub(tree1->left,tree2->left) && isSub(tree1->right,tree2->right);
+    }
+
+    bool HasSubtree(TreeNode* pRoot1, TreeNode* pRoot2){
+        if(pRoot1==NULL || pRoot2==NULL){
+            return false;
+        }
+        // 判断pRoot2是否是以当前根pRoot1的子树
+        // 否则就判断pRoot2是否是当前根pRoot1左、右子树的子树
+        return isSub(pRoot1,pRoot2) || HasSubtree(pRoot1->left,pRoot2) || HasSubtree(pRoot1->right,pRoot2);
+    }
+};
+/*
+    总结
+    1. 刚刚开始以为他们指向的是同一棵树，那么这样我们只需要判断指针，就可以知道他们是否是一颗子树了。
+    2. 第二次写了一个函数isSame,判断两颗树是否相同，但是这样是错误的，因为子树可能只是该树的一部分
+            比如  [1 2 3 4] 和 [1 2 3] 这两棵树是不一样的，但[1 2 3]是[1 2 3 4]的子树
+    3. 第三次把isSame改为isSub，判断是否是子树。之后编写代码后就AC了。代码在上面。
+    4. 面试的时候要问清楚呀，比如 树的子结构的定义、或举一个例子。
+*/

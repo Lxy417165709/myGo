@@ -1,0 +1,48 @@
+class Solution {
+public:
+    string ReverseSentence(string str) {
+        if (str==""){
+            return str;
+        }
+        stack<string> sta;
+        // 设定 str[begin,end-1] 为一个单词
+        int begin=0,end=0;
+        while(begin<str.length()){
+            // 这一步可以使连续的' '被当成一个' '
+            if (str[begin]==' '){
+                begin++;
+                end++;
+                continue;
+            }
+            string s = "";
+            while(end<str.length() && str[end]!=' '){
+                s = s + str[end];
+                end++;
+            }
+            sta.push(s);
+            begin = end + 1;
+            end = begin;
+        }
+        string ans = "";
+        if (sta.size()!=0){
+            ans = ans + sta.top();
+            sta.pop();
+        }else{
+            // 题目没说，这里要注意一下，当单词都为空时，应该返回什么。
+            return str;
+        }
+
+        while(sta.size()!=0){
+            ans = ans + " " + sta.top();
+            sta.pop();
+        }
+        return ans;
+    }
+};
+/*
+    总结
+    1. 这题我的解决思路是: 从左到右扫描字符串，扫描了一个单词后，就把这个单词加入到栈中，之后再弹出栈的内容，
+        就可以得到翻转序列了。
+    2. 由于题目有很多条件没说清楚，因此在面试的时候要注意问面试官。
+    3. 本次是从左到右扫描的，需要栈结构，其实也可以从右到左扫，把扫到的单词加入字符串，这样就不用栈了。
+*/
