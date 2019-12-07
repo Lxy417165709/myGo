@@ -2,19 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eac75ce5-bac3-4a4e-a1b4-5c24da70cf83" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/acm/牛客网/nowcoder_剑指Offer_二叉搜索树的后序遍历序列" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/acm/牛客网/nowcoder_剑指Offer_二叉树的下一个结点" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/acm/牛客网/nowcoder_剑指Offer_删除链表中重复的结点" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/acm/牛客网/nowcoder_剑指Offer_合并两个排序的链表" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/acm/牛客网/nowcoder_剑指Offer_和微S的两个数字" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/acm/牛客网/nowcoder_剑指Offer_左旋转字符串" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/acm/牛客网/nowcoder_剑指Offer_把二叉树打印成多行" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/acm/牛客网/nowcoder_剑指Offer_树的子结构" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/acm/牛客网/nowcoder_剑指Offer_矩形覆盖" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/acm/牛客网/nowcoder_剑指Offer_翻转单词顺序列" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/acm/牛客网/nowcoder_剑指Offer_翻转单词顺序列_逆序搜索不用栈法" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/acm/牛客网/nowcoder_剑指Offer_链表中倒数第k个节点" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/acm/牛客网/nowcoder_剑指Offer_顺时针打印矩阵" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acm/牛客网/nowcoder_剑指Offer_不用加减乘除做加法" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acm/牛客网/nowcoder_剑指Offer_丑数" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acm/牛客网/nowcoder_剑指Offer_二叉搜索树与双向链表" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acm/牛客网/nowcoder_剑指Offer_二叉树中和为某一值的路径" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acm/牛客网/nowcoder_剑指Offer_二维数组中的查找" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acm/牛客网/nowcoder_剑指Offer_从上往下打印二叉树" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acm/牛客网/nowcoder_剑指Offer_和为S的连续正数序列" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acm/牛客网/nowcoder_剑指Offer_最小的K个数" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acm/牛客网/nowcoder_剑指Offer_构建乘积数组" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acm/牛客网/nowcoder_剑指Offer_第一个只出现一次的字符" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acm/牛客网/nowcoder_剑指Offer_连续子数组的最大和" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -40,91 +38,91 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/acm/牛客网/nowcoder_剑指Offer_和微S的两个数字">
+        <entry file="file://$PROJECT_DIR$/acm/牛客网/nowcoder_剑指Offer_二叉树中和为某一值的路径">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="665">
-              <caret line="31" column="28" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="28" />
+            <state relative-caret-position="1485">
+              <caret line="45" column="60" selection-start-line="45" selection-start-column="60" selection-end-line="45" selection-end-column="60" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/acm/牛客网/nowcoder_剑指Offer_顺时针打印矩阵">
+        <entry file="file://$PROJECT_DIR$/acm/牛客网/nowcoder_剑指Offer_二叉搜索树与双向链表">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="759">
-              <caret line="29" column="35" selection-start-line="29" selection-start-column="35" selection-end-line="29" selection-end-column="35" />
+            <state relative-caret-position="1221">
+              <caret line="37" column="33" selection-start-line="37" selection-start-column="33" selection-end-line="37" selection-end-column="33" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/acm/牛客网/nowcoder_剑指Offer_合并两个排序的链表">
+        <entry file="file://$PROJECT_DIR$/acm/牛客网/nowcoder_剑指Offer_连续子数组的最大和">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="698">
-              <caret line="25" column="19" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
+            <state relative-caret-position="429">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/acm/牛客网/nowcoder_剑指Offer_链表中倒数第k个节点">
+        <entry file="file://$PROJECT_DIR$/acm/牛客网/nowcoder_剑指Offer_不用加减乘除做加法">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="559">
-              <caret line="27" column="19" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
+            <state relative-caret-position="330">
+              <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/acm/牛客网/nowcoder_剑指Offer_翻转单词顺序列">
+        <entry file="file://$PROJECT_DIR$/acm/牛客网/nowcoder_剑指Offer_构建乘积数组">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1292">
-              <caret line="46" column="55" selection-start-line="46" selection-start-column="55" selection-end-line="46" selection-end-column="55" />
+            <state relative-caret-position="1254">
+              <caret line="38" column="10" selection-start-line="38" selection-start-column="10" selection-end-line="38" selection-end-column="10" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/acm/牛客网/nowcoder_剑指Offer_翻转单词顺序列_逆序搜索不用栈法">
+        <entry file="file://$PROJECT_DIR$/acm/牛客网/nowcoder_剑指Offer_二维数组中的查找">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="559">
-              <caret line="35" column="22" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="22" />
+            <state relative-caret-position="182">
+              <caret line="34" column="47" selection-start-line="34" selection-start-column="47" selection-end-line="34" selection-end-column="47" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/acm/牛客网/nowcoder_剑指Offer_左旋转字符串">
+        <entry file="file://$PROJECT_DIR$/acm/牛客网/nowcoder_剑指Offer_最小的K个数">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="731">
-              <caret line="54" column="18" selection-start-line="54" selection-start-column="18" selection-end-line="54" selection-end-column="18" />
+            <state relative-caret-position="1023">
+              <caret line="31" column="14" selection-start-line="31" selection-start-column="14" selection-end-line="31" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/acm/牛客网/nowcoder_剑指Offer_矩形覆盖">
+        <entry file="file://$PROJECT_DIR$/acm/牛客网/nowcoder_剑指Offer_丑数">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="594">
-              <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/acm/牛客网/nowcoder_剑指Offer_树的子结构">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1056">
-              <caret line="32" column="37" selection-start-line="32" selection-start-column="37" selection-end-line="32" selection-end-column="37" />
+            <state relative-caret-position="236">
+              <caret line="65" column="18" selection-start-line="65" selection-start-column="18" selection-end-line="65" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/acm/牛客网/nowcoder_剑指Offer_二叉搜索树的后序遍历序列">
+        <entry file="file://$PROJECT_DIR$/acm/牛客网/nowcoder_剑指Offer_从上往下打印二叉树">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="434">
-              <caret line="31" column="17" lean-forward="true" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
+            <state relative-caret-position="559">
+              <caret line="27" column="36" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/acm/LeetCode/排序/随机选择.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret line="21" column="33" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -153,17 +151,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/acm/LeetCode/LeetCode_705_设计哈希集合.go" />
-        <option value="$PROJECT_DIR$/acm/LeetCode/LeetCode_203_移除链表元素.go" />
-        <option value="$PROJECT_DIR$/acm/LeetCode/LeetCode_450_删除二叉搜索树的节点_重做.go" />
-        <option value="$PROJECT_DIR$/acm/LeetCode/LeetCode_796_旋转字符串_超妙解法.go" />
-        <option value="$PROJECT_DIR$/acm/LeetCode/LeetCode_138_复制带随机指针的节点.go" />
-        <option value="$PROJECT_DIR$/acm/LeetCode/位运算/LeetCode_190_颠倒二进制位.go" />
-        <option value="$PROJECT_DIR$/test/负数左右移.go" />
-        <option value="$PROJECT_DIR$/acm/LeetCode/LeetCode_34_在排序数组中查找元素的第一个和最后一个_优美版.go" />
-        <option value="$PROJECT_DIR$/acm/LeetCode/LeetCode_543_二叉树的直径.go" />
-        <option value="$PROJECT_DIR$/acm/LeetCode/LeetCode_543_二叉树的直径_优化.go" />
-        <option value="$PROJECT_DIR$/acm/牛客网/nowcoder_数组中重复的数字" />
         <option value="$PROJECT_DIR$/acm/牛客网/nowcoder_二进制中1的个数" />
         <option value="$PROJECT_DIR$/acm/牛客网/nowcoder_斐波那契数列" />
         <option value="$PROJECT_DIR$/acm/牛客网/nowcoder_跳台阶" />
@@ -204,12 +191,23 @@
         <option value="$PROJECT_DIR$/acm/牛客网/nowcoder_剑指Offer_矩形覆盖" />
         <option value="$PROJECT_DIR$/acm/牛客网/nowcoder_剑指Offer_树的子结构" />
         <option value="$PROJECT_DIR$/acm/牛客网/nowcoder_剑指Offer_二叉搜索树的后序遍历序列" />
+        <option value="$PROJECT_DIR$/acm/牛客网/nowcoder_剑指Offer_和为S的连续正数序列" />
+        <option value="$PROJECT_DIR$/acm/牛客网/nowcoder_剑指Offer_第一个只出现一次的字符" />
+        <option value="$PROJECT_DIR$/acm/牛客网/nowcoder_剑指Offer_二叉树中和为某一值的路径" />
+        <option value="$PROJECT_DIR$/acm/牛客网/nowcoder_剑指Offer_二叉搜索树与双向链表" />
+        <option value="$PROJECT_DIR$/acm/牛客网/nowcoder_剑指Offer_连续子数组的最大和" />
+        <option value="$PROJECT_DIR$/acm/牛客网/nowcoder_剑指Offer_不用加减乘除做加法" />
+        <option value="$PROJECT_DIR$/acm/牛客网/nowcoder_剑指Offer_构建乘积数组" />
+        <option value="$PROJECT_DIR$/acm/牛客网/nowcoder_剑指Offer_二维数组中的查找" />
+        <option value="$PROJECT_DIR$/acm/牛客网/nowcoder_剑指Offer_最小的K个数" />
+        <option value="$PROJECT_DIR$/acm/牛客网/nowcoder_剑指Offer_丑数" />
+        <option value="$PROJECT_DIR$/acm/牛客网/nowcoder_剑指Offer_从上往下打印二叉树" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="532" />
-    <option name="y" value="32" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="101" />
+    <option name="y" value="377" />
     <option name="width" value="1656" />
     <option name="height" value="950" />
   </component>
@@ -255,19 +253,19 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\hasee\Desktop\Go\acm\牛客网" />
-      <recent name="C:\Users\hasee\Desktop\Go\acm\LeetCode" />
-      <recent name="C:\Users\hasee\Desktop\Go\acm\LeetCode\比赛\第162场周赛" />
-      <recent name="C:\Users\hasee\Desktop\Go\acm\LeetCode\动态规划" />
-      <recent name="C:\Users\hasee\Desktop\Go\acm\LeetCode\滑动窗口" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\hasee\Desktop\Go\acm\LeetCode" />
       <recent name="C:\Users\hasee\Desktop\Go\acm\LeetCode\树" />
       <recent name="C:\Users\hasee\Desktop\Go\test" />
       <recent name="C:\Users\hasee\Desktop\Go\acm\LeetCode\比赛\第九次周赛" />
       <recent name="C:\Users\hasee\Desktop\Go\acm\LeetCode\二叉树专题" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\hasee\Desktop\Go\acm\牛客网" />
+      <recent name="C:\Users\hasee\Desktop\Go\acm\LeetCode" />
+      <recent name="C:\Users\hasee\Desktop\Go\acm\LeetCode\比赛\第162场周赛" />
+      <recent name="C:\Users\hasee\Desktop\Go\acm\LeetCode\动态规划" />
+      <recent name="C:\Users\hasee\Desktop\Go\acm\LeetCode\滑动窗口" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -390,10 +388,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="508" y="91" width="1656" height="950" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.75915223" visible="true" weight="0.23933902" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.75915223" visible="true" weight="0.29197994" />
       <window_info id="Structure" order="1" sideWeight="0.24084778" side_tool="true" weight="0.22724637" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -450,98 +448,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/acm/LeetCode/LeetCode_543_二叉树的直径.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="891">
-          <caret line="27" column="12" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/acm/LeetCode/LeetCode_34_在排序数组中查找元素的第一个和最后一个位置.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="693">
-          <caret line="85" selection-start-line="85" selection-end-line="85" />
-          <folding>
-            <element signature="n#!!block;n#index#0" />
-            <element signature="n#!!block;n#maxIndex#0" />
-            <element signature="n#!!block;n#minIndex#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/acm/LeetCode/滑动窗口/接口测试_LeetCode_3.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1749">
-          <caret line="53" column="21" selection-start-line="53" selection-start-column="21" selection-end-line="53" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/acm/LeetCode/LeetCode_226_翻转二叉树.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="627">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/acm/LeetCode/LeetCode_1016_子串能表示从1到N数字的二进制串.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1089">
-          <caret line="37" column="45" selection-start-line="37" selection-start-column="45" selection-end-line="37" selection-end-column="45" />
-          <folding>
-            <element signature="e#14#53#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/acm/LeetCode/LeetCode_543_二叉树的直径_优化.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1089">
-          <caret line="33" column="32" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/acm/牛客网/nowcoder_剑指Offer_二进制中1的个数">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="12" column="2" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/acm/牛客网/nowcoder_剑指Offer_斐波那契数列">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="15" column="57" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/acm/牛客网/nowcoder_剑指Offer_跳台阶">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="13" column="2" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/acm/牛客网/nowcoder_剑指Offer_变态跳台阶">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/acm/牛客网/nowcoder_剑指Offer_变态跳台阶_dp优化版">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/acm/牛客网/nowcoder_剑指Offer_变态跳台阶_数学法">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="8" column="2" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://C:/Golang/Go/src/strconv/itoa.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3135">
@@ -743,49 +649,49 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/acm/牛客网/nowcoder_剑指Offer_和微S的两个数字">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="665">
+        <state relative-caret-position="1023">
           <caret line="31" column="28" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/acm/牛客网/nowcoder_剑指Offer_顺时针打印矩阵">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="759">
+        <state relative-caret-position="957">
           <caret line="29" column="35" selection-start-line="29" selection-start-column="35" selection-end-line="29" selection-end-column="35" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/acm/牛客网/nowcoder_剑指Offer_合并两个排序的链表">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="698">
+        <state relative-caret-position="825">
           <caret line="25" column="19" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/acm/牛客网/nowcoder_剑指Offer_链表中倒数第k个节点">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="559">
+        <state relative-caret-position="891">
           <caret line="27" column="19" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/acm/牛客网/nowcoder_剑指Offer_翻转单词顺序列">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1292">
+        <state relative-caret-position="1518">
           <caret line="46" column="55" selection-start-line="46" selection-start-column="55" selection-end-line="46" selection-end-column="55" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/acm/牛客网/nowcoder_剑指Offer_翻转单词顺序列_逆序搜索不用栈法">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="559">
+        <state relative-caret-position="1155">
           <caret line="35" column="22" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/acm/牛客网/nowcoder_剑指Offer_左旋转字符串">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="731">
+        <state relative-caret-position="1782">
           <caret line="54" column="18" selection-start-line="54" selection-start-column="18" selection-end-line="54" selection-end-column="18" />
         </state>
       </provider>
@@ -806,8 +712,92 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/acm/牛客网/nowcoder_剑指Offer_二叉搜索树的后序遍历序列">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="434">
-          <caret line="31" column="17" lean-forward="true" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
+        <state relative-caret-position="1023">
+          <caret line="31" column="17" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/acm/牛客网/nowcoder_剑指Offer_和为S的连续正数序列">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1815">
+          <caret line="55" column="20" selection-start-line="55" selection-start-column="20" selection-end-line="55" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/acm/牛客网/nowcoder_剑指Offer_第一个只出现一次的字符">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="693">
+          <caret line="21" column="46" selection-start-line="21" selection-start-column="46" selection-end-line="21" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/acm/牛客网/nowcoder_剑指Offer_二叉树中和为某一值的路径">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1485">
+          <caret line="45" column="60" selection-start-line="45" selection-start-column="60" selection-end-line="45" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/acm/牛客网/nowcoder_剑指Offer_二叉搜索树与双向链表">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1221">
+          <caret line="37" column="33" selection-start-line="37" selection-start-column="33" selection-end-line="37" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/acm/牛客网/nowcoder_剑指Offer_连续子数组的最大和">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="429">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/acm/牛客网/nowcoder_剑指Offer_不用加减乘除做加法">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/acm/牛客网/nowcoder_剑指Offer_构建乘积数组">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1254">
+          <caret line="38" column="10" selection-start-line="38" selection-start-column="10" selection-end-line="38" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/acm/牛客网/nowcoder_剑指Offer_二维数组中的查找">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="34" column="47" selection-start-line="34" selection-start-column="47" selection-end-line="34" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/acm/LeetCode/排序/随机选择.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="21" column="33" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/acm/牛客网/nowcoder_剑指Offer_最小的K个数">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1023">
+          <caret line="31" column="14" selection-start-line="31" selection-start-column="14" selection-end-line="31" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/acm/牛客网/nowcoder_剑指Offer_丑数">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="65" column="18" selection-start-line="65" selection-start-column="18" selection-end-line="65" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/acm/牛客网/nowcoder_剑指Offer_从上往下打印二叉树">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="559">
+          <caret line="27" column="36" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="36" />
         </state>
       </provider>
     </entry>

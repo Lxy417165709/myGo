@@ -1,0 +1,30 @@
+class Solution {
+public:
+    vector<int> PrintFromTopToBottom(TreeNode* root) {
+
+        vector<int> ans;
+        if(root==NULL){
+            return ans;
+        }
+        queue<TreeNode*> Q;
+        Q.push(root);
+        while(Q.size()!=0){
+            TreeNode* top = Q.front();
+            Q.pop();
+            ans.push_back(top->val);
+            if(top->left!=NULL){
+                Q.push(top->left);
+            }
+            if(top->right!=NULL){
+                Q.push(top->right);
+            }
+        }
+        return ans;
+    }
+};
+/*
+    总结
+    1. 这题就是二叉树的层序遍历...
+    2. 我提交的时候只是想看看测试案例，然后AC我也有点意外...
+
+*/

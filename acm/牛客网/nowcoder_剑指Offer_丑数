@@ -1,0 +1,98 @@
+class Solution {
+public:
+    int GetUglyNumber_Solution(int index) {
+        // 非法输入
+        if (index==0){
+            return 0;
+        }
+        int* dp = new int[1000050];
+        dp[0] = 1;
+
+        int length = 3;
+        int* pointer = new int[length];
+        map<int,int> mp;
+        mp[0] = 2;
+        mp[1] = 3;
+        mp[2] = 5;
+        for (int i=0;i<length;i++){
+            pointer[i] = 0;
+        }
+        int count = 1;
+        while(count < index){
+            int idx = -1;
+            int mn = 1<<30;
+            for (int t=0;t < length;t++){
+                int result = dp[pointer[t]]*mp[t];
+                if (mn > result){
+                    mn = result;
+                    idx = t;
+                }
+            }
+            pointer[idx]++;
+            // 要注意这里，因为2*3和3*2是一样的，但是他们是同一个丑数
+            if (mn == dp[count-1]){
+                continue;
+            }
+            dp[count] = mn;
+            count++;
+        }
+        return dp[index-1];
+    }
+};
+
+// 优美代码
+class Solution {
+public:
+    int GetUglyNumber_Solution(int index) {
+        // 非法输入
+        if (index==0){
+            return 0;
+        }
+
+        int* dp = new int[1000050];
+        dp[0] = 1;
+
+        int length = 3;
+        int* pointer = new int[length];
+        map<int,int> mp;
+        mp[0] = 2;
+        mp[1] = 3;
+        mp[2] = 5;
+        for (int i=0;i<length;i++){
+            pointer[i] = 0;
+        }
+
+        int count = 1;
+        // 循环体更优美了
+        while(count < index){
+             dp[count] = 1<<30;    // 设为无穷大(最好更大些)
+            for (int t=0;t < length;t++){
+                dp[count] = min(dp[pointer[t]]*mp[t],dp[count]);
+            }
+            for (int t=0;t < length;t++){
+                if(dp[count] == dp[pointer[t]]*mp[t]){
+                    pointer[t]++;
+                }
+            }
+            count++;
+        }
+        return dp[index-1];
+    }
+};
+
+
+/*
+    总结
+    1. 这题之前做过了，我这次使用的是dp。
+        思路是:
+                由于丑数只能有2,3,5因子，因此下一个丑数一定是在当前的某个丑数发展而来的，
+                我先定义3个指针pointer[3]，并设置权值分别是2,3,5(用map映射存储or数组映射存储)，
+                每一个指针指向了丑数序列中的某一个，那么在获得丑数的时候，我们就可以得到，
+                由该指针发展而来的丑数为 dp[pointer[t]]*mp[t]，之后我们再取可得的丑数最小的一个就可以了，
+                之后再把该发展该丑数的指针前移。
+                (上面还有一些注意点，就是2*3 3*2是同一个丑数，因此要注意判断一下)
+    2. 这题index范围应该不大，而力扣有这个题目的升级版，他是求第n个丑数，n<=1e9，此时求要用二分了，
+        思路是选择一个x,判断它是第多少个丑数，之后再对x进行相应变化。
+    3. 力扣有更优美的代码(我借鉴后重写了次)
+
+*/

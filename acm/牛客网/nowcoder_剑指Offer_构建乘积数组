@@ -1,0 +1,42 @@
+class Solution {
+public:
+    vector<int> multiply(const vector<int>& A) {
+        vector<int> B;
+        if (A.size()<=1){
+            return  B;
+        }
+        int *left = new int[A.size()];
+        int *right = new int[A.size()];
+        left[0] = A[0];
+        right[A.size()-1] = A[A.size()-1];
+
+        for (int i=1;i<A.size();i++){
+            left[i] = left[i-1] * A[i];
+        }
+        for (int i=A.size()-2;i>=0;i--){
+            right[i] = right[i+1] * A[i];
+        }
+        // 注意，此时默认数组长度>=2
+
+        B.push_back(right[1]);  // 此时是B[0]，那么直接加入right[1]
+        for(int i=1;i<=A.size()-2;i++){
+            B.push_back(left[i-1] * right[i+1]);
+        }
+        B.push_back(left[A.size()-2]);  // 此时是B[A.size()-1]，那么直接加入left[A.size()-2]
+        return B;
+    }
+};
+/*
+    总结
+    1. 这题有多种解法
+        (1) 如果可以用除法，且数组都非0，那么可以先把最大和求出(且没有溢出)，
+            之后B[i] = sum/A[i]了
+        (2) 根据题目条件，那么可以使用暴力，模拟它的每次相乘，这样时空复杂度为
+            O(n) O(1)
+        (3) 可以构建两个数组，left,right, left[i]存放A[0->i]的乘积,right[i]存放A[i<-A.size()-1]的乘积
+            那么就很容易在O(n)时间内获得B了。(详情看上面代码)
+    2. 其实为了方便，我们可以定义left[0] == 1 ，left[i]为A[0->i-1]的乘积 (i>=1)，同样的，也可以让B[size()]=1
+        ,这样就不用单独把0和size()-1拿出来了,而是把B的求解都包括到for循环。
+
+
+*/

@@ -1,0 +1,49 @@
+class Solution {
+public:
+    bool Find(int target, vector<vector<int> > array) {
+        if(array.size()==0){
+            return false;
+        }
+        int m = array.size(),n = array[0].size();
+        int beginX = 0, beginY = n-1;
+        while(beginX < m && beginY>=0){
+            if (array[beginX][beginY]==target){
+                return true;
+            }else{
+                if (array[beginX][beginY]>target){
+                    beginY--;
+                }else{
+                    beginX++;
+                }
+            }
+        }
+        return false;
+    }
+};
+/*
+
+    在一个二维数组中（每个一维数组的长度相同），每一行都按照从左到右递增的顺序排序，
+    每一列都按照从上到下递增的顺序排序。请完成一个函数，输入这样的一个二维数组和一个整数，
+    判断数组中是否含有该整数。
+
+
+    总结
+    1. 解法:
+        (1) 暴力，时间复杂度O(n*m)
+        (2) 对暴力优化，每一列二分查找，时间复杂度O(m*logn)
+        (2) 贪心选择，我们每次从右上角出发，根据所在节点的值与target的比较决定移动方向，如果
+            找到了target，则返回true，否则全部走完后没找到就返回false，时间复杂度O(n+m)
+    2. 这题和我之前在LeetCode做的有些取别，力扣的是把整个一维排序数组转为二维后再让我进行查找，
+        比如 1 2 3 4 5 6 7 8 9  ->  1 2 3
+                                    4 5 6
+                                    7 8 9
+            这样的话就可以使用2次二分查找。(因为第一次二分查找(搜索第一列的话)能唯一确认接下来搜索哪一行)
+        但是这题目和力扣的不一样，它会有这种情况  1 2 3
+                                                  2 3 4
+                                                  4 5 6
+            所以我们不能用两次二分查找。(因为第一次二分查找(搜索第一列的话)不能唯一确认接下来搜索哪一行)
+            (当然，我们可以对每一列执行二分查找)
+    3. 官方还提供了十字分割法 0.0.。
+
+
+*/

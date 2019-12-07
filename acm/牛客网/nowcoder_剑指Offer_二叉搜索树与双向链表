@@ -1,0 +1,39 @@
+class Solution {
+public:
+    TreeNode* Convert(TreeNode* pRootOfTree){
+        return solve(pRootOfTree);
+    }
+    TreeNode* solve(TreeNode* root){
+        if (root==NULL){
+            return root;
+        }
+        root->left = solve(root->left);
+        root->right = solve(root->right);
+        if (root->right!=NULL){
+            root->right->left = root;
+        }
+        if (root->left!=NULL){
+            TreeNode* left = root->left;
+            TreeNode* tmp = left;
+            // 接下来为了找到左子树的最右节点
+            while(tmp->right!=NULL){
+                tmp = tmp->right;
+            }
+            tmp->right = root;
+            root->left = tmp;
+            root = left;
+        }
+        return root;
+    }
+};
+/*
+    总结
+    1. 这题目的双向链表构成是: left指针为pre指针，right指针为next指针。
+    2. 我解题的思路是: 将左右子树构成双向链表后，找左子树的最右节点，之后将根节点拼接到
+                        该节点下，(注意把根节点左指针修成为 左子树的最右节点)，最后返回
+                        左子树节点就可以了，层层递归就可以AC了。
+    3. 在寻找左子树最右节点的过程中，有许多步是重复的，每次都从头开始找，其实我们每次可以从上次
+       tmp的位置开始找就可以了，接下来我写个优化版。 (太麻烦了..因为如果刚刚开始定义的是左子树的
+       最右节点为连接点的话，那么到根节点的右子树后，会产生错误，因为我们还是使用左子树的连接点
+       连接右子树的子树) (我没有写出来 0.0..再看吧)
+*/

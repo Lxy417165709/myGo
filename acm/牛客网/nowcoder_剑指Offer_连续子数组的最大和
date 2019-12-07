@@ -1,0 +1,36 @@
+class Solution {
+public:
+    int FindGreatestSumOfSubArray(vector<int> array) {
+        int* dp = new int[array.size()];
+        dp[0] = array[0];
+        int ans = dp[0];
+        for (int i=1;i<array.size();i++){
+            dp[i] = max(array[i],array[i]+dp[i-1]);
+            ans = max(dp[i],ans);
+        }
+        return ans;
+    }
+};
+
+// 空间优化版
+class Solution {
+public:
+    int FindGreatestSumOfSubArray(vector<int> array) {
+        // 题目已经限制了长度>=1
+        int dp = array[0];
+        int ans = dp;
+        for (int i=1;i<array.size();i++){
+            dp = max(array[i],array[i]+dp);
+            ans = max(dp,ans);
+        }
+        return ans;
+    }
+};
+
+
+/*
+    总结
+    1. 连续子序列和的模板题，dp思路是，以array[i]为最后的节点能到达的连续最大和，
+        则  dp[i] = max(array[i],array[i]+dp[i-1]); (i>0)
+    2. 空间还可以优化，接下来我优化下空间。(因为我们每次只使用了前一次的一个状态)。
+*/

@@ -1,0 +1,57 @@
+class Solution {
+public:
+    vector<vector<int> > FindContinuousSequence(int sum) {
+        vector<vector<int> > ans;
+        vector<int> window;
+        int s = 0;
+        for (int i=1;i<sum;i++){
+            window.push_back(i);
+            s+=i;
+            while(s>sum){
+                s-=window[0];
+                window.erase(window.begin());
+            }
+            if (s==sum){
+                ans.push_back(window);
+            }
+        }
+        return ans;
+    }
+};
+
+// 优化版
+class Solution {
+public:
+    vector<vector<int> > FindContinuousSequence(int sum) {
+        vector<vector<int> > ans;
+        vector<int> window;
+        if(sum == 1){
+           return ans;
+        }
+
+        int s = 0;
+        for (int i=1;i<=(sum+1)/2;i++){
+            window.push_back(i);
+            s+=i;
+            while(s>sum){
+                s-=window[0];
+                window.erase(window.begin());
+            }
+            if (s==sum){
+                ans.push_back(window);
+            }
+        }
+        return ans;
+    }
+};
+
+
+
+
+/*
+    总结
+    1. 这题我是使用滑动窗口AC的，当窗口内的值大于sum时，我就从最左边开始弹，直到不满足大于
+        跳出循环后我判断是否等于，等于则就是答案，否则继续向右边加值，通过这样的过程，我就能AC了。
+    2. 其实感觉可以优化，我们不用从i==1判断到i==sum-1。其实到(sum+1)/2就可以了。(注意sum==1的时候特殊判断)
+    3. 还可以使用平均值法AC喔。
+*/
