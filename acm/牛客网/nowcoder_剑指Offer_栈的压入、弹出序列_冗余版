@@ -1,0 +1,48 @@
+class Solution {
+public:
+    bool IsPopOrder(vector<int> pushV,vector<int> popV) {
+        if(pushV.size()==0 && popV.size()==0){
+            return true;
+        }
+        if(pushV.size()==0 || popV.size()==0){
+            return false;
+        }
+        stack<int> stackA;
+        stack<int> stackB;
+        int pointerA = -1;
+        int pointerB = -1;
+        int length = popV.size();
+
+        while(true){
+            if(pointerB==length-1){
+                return false;
+            }
+            stackB.push(popV[++pointerB]);
+            if (stackA.size()==0){
+                stackA.push(pushV[++pointerA]);
+            }
+            while(stackA.top() != stackB.top()){
+                if(pointerA==length-1){
+                    return false;
+                }
+                stackA.push(pushV[++pointerA]);
+            }
+            stackA.pop();
+            stackB.pop();
+            if (pointerA == length-1 && pointerB == length - 1){
+                return stackA.size()==0 && stackB.size()==0;
+            }
+
+        }
+        return false;
+
+    }
+};
+
+
+/*
+    总结
+    1. 这个代码思路是使用两个栈，代码很冗余，不适合编写。
+    2. 接下来我借鉴别人的思路，用一个栈试试。
+
+*/

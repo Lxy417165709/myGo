@@ -1,0 +1,60 @@
+class Solution {
+public:
+    priority_queue<int> left;    // 大顶
+    priority_queue<int, vector<int>, greater<int> > right;    // 小顶
+    int length = 0;
+    void Insert(int num){
+        if(length<2){
+            if(length==0){
+                left.push(num);
+            }else{
+                right.push(num);
+                if (left.top()>right.top()){
+                    int numLeft = left.top();
+                    int numRight = right.top();
+                    right.pop();
+                    left.pop();
+                    right.push(numLeft);
+                    left.push(numRight);
+                }
+            }
+            length++;
+            return;
+        }
+
+        if ((length & 1) == 0){
+            if (num<=right.top()){
+                left.push(num);
+            }else{
+                right.push(num);
+                left.push(right.top());
+                right.pop();
+            }
+        }else{
+            if (num<=right.top()){
+                left.push(num);
+                right.push(left.top());
+                left.pop();
+            }else{
+                right.push(num);
+            }
+        }
+        length++;
+    }
+
+    double GetMedian(){
+        if((length & 1) == 0){
+            return (left.top()+right.top())/2.0;
+        }else{
+            return left.top();
+        }
+        return -1;
+    }
+};
+
+/*
+    总结
+    1. 这是第一次用两个堆做出来的，但是代码太冗余了...很乱
+    2. 注意 "&"的优先级低于"==", 所以 length & 1 == 0 的运行是 length & (1 == 0) ....要注意
+
+*/

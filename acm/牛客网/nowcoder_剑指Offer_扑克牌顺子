@@ -1,0 +1,70 @@
+class Solution {
+public:
+
+    bool isRepeat(vector<int> numbers){
+        map<int,int> count;
+        for(int i=0;i<numbers.size();i++){
+            if (numbers[i]==0){
+                continue;
+            }
+            count[numbers[i]]++;
+            if (count[numbers[i]]>=2){
+                return true;
+            }
+        }
+        return false;
+    }
+    int min(int a,int b){
+        if(a>b){
+            return b;
+        }
+        return a;
+    }
+    int max(int a,int b){
+        if(a>b){
+            return a;
+        }
+        return b;
+    }
+    int getMin(vector<int> numbers){
+        int mn = 100;
+        for(int i=0;i<numbers.size();i++){
+            if (numbers[i]==0){
+                continue;
+            }
+            mn = min(mn,numbers[i]);
+        }
+        return mn;
+    }
+    int getMax(vector<int> numbers){
+        int mx = 0;
+        for(int i=0;i<numbers.size();i++){
+            if (numbers[i]==0){
+                continue;
+            }
+            mx = max(mx,numbers[i]);
+        }
+        return mx;
+    }
+    bool IsContinuous( vector<int> numbers ) {
+        // 空扑克牌为false
+        if(numbers.size()==0){
+            return false;
+        }
+        // 出现重复数字为false
+        if (isRepeat(numbers)){
+            return false;
+        }
+        int mn = getMin(numbers);
+        int mx = getMax(numbers);
+        // 最大值和最小值相差小于等于5就true，因为有0补充，大于的话就无能为力了。
+        return (mx-mn)+1<=5;
+    }
+};
+
+/*
+    总结
+    1. 这题有点坑，因为从题意看，LL就是抽了5张，但是案例居然有个抽了0张的..
+        所以这次WA了。而第一次WA是因为isRepeat返回值有误，重复时我返回了false,不重复返回了true
+    2. 思路在上面了
+*/

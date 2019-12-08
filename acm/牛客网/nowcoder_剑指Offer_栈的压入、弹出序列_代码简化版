@@ -1,0 +1,41 @@
+class Solution {
+public:
+    int inf = 1e9;
+    bool IsPopOrder(vector<int> pushV,vector<int> popV) {
+        // 序列长度不等一定为false
+        if(pushV.size()!=popV.size()){
+            return false;
+        }
+        stack<int> myStack;
+        myStack.push(-inf);    // 插入一个哑头(这样可以剔除判断栈空的代码)
+        int index = 0;
+        for(int i=0;i<popV.size();i++){
+            // 一直入栈，pushV没有元素or栈顶和popV[i]相等
+            while(index < pushV.size() && popV[i] != myStack.top()){
+                myStack.push(pushV[index]);
+                index++;
+            }
+            // 这里表示栈顶不同
+            if (popV[i] != myStack.top()){
+                return false;
+            }else{
+                myStack.pop();
+            }
+        }
+        // 栈空时为true,否则为false
+        return myStack.top() == -inf;
+    }
+};
+
+
+/*
+    总结
+    1. 这次我使用了一个栈，思路是：从左到右扫描出栈序列，当myStack栈顶与入栈序列的元素不同时，
+        那我就把入栈序列的元素入栈，直到相同或入栈序列已经没有元素了。
+        之后我再判断一下myStack栈栈顶与出栈序列元素是否相同，相同则让myStack栈顶出栈，否则表示
+        出栈序列非法，返回false。
+    2. 为了简化代码，我还在myStack刚刚开始插入了一个哑头节点，这样就不需要通过栈的大小来判断栈非空了，而是通过
+        栈顶是否为-inf(我设置的)，来判断栈非空。
+    3. 上面的方法是将出栈序列先入栈，接下来我用入栈序列先入栈来编码(牛客官方使用这方法更简洁)
+
+*/

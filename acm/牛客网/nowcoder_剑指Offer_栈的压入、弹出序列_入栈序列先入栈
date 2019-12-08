@@ -1,0 +1,29 @@
+class Solution {
+public:
+    int inf = 1e9;
+    bool IsPopOrder(vector<int> pushV,vector<int> popV) {
+        // 序列长度不等一定为false
+        if(pushV.size() != popV.size()){
+            return false;
+        }
+        stack<int> myStack;
+        myStack.push(-inf);    // 插入一个哑头(这样可以剔除判断栈空的代码)
+        int index = 0;
+        for(int i=0;i<pushV.size();i++){
+            myStack.push(pushV[i]);
+            while(myStack.top() == popV[index]){
+                myStack.pop();
+                index++;        // 注意别漏了这里
+            }
+        }
+        // 栈空时为true,否则为false
+        return myStack.top() == -inf;
+    }
+};
+
+
+/*
+    总结
+    1. 对于这题目，这是我写的最简洁的版本了！
+    2. 思路是让入栈序列先入栈，之后判断出栈序列...
+*/

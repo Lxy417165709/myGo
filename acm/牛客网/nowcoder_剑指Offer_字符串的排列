@@ -1,0 +1,41 @@
+class Solution {
+public:
+    vector<string> ans;
+    static bool cmp(string a,string b){
+        return a.compare(b)<0;
+    }
+    vector<string> Permutation(string str) {
+        ans.clear();
+        solve(str,0,str.length()-1);
+        sort(ans.begin(),ans.end(),cmp);    // 由于题目还要求按字典序从小到大排列，所以这里要排个序
+        return ans;
+    }
+
+    void solve(string &str,int l,int r){
+        if(l>r){
+            return;
+        }
+        if(l==r){
+            ans.push_back(str);
+            return;
+        }
+        map<char,bool> isUsed;
+        for(int i=l;i<=r;i++){
+            // 由于题目说可能有重复字符，所以这里我们要判断一下，该字符已经使用过了那就不能再使用了。
+            if(isUsed[str[i]]==true){
+                continue;
+            }
+            isUsed[str[i]] = true;  // 标记使用
+            swap(str[l],str[i]);    // 替换
+            solve(str,l+1,r);       // 回溯
+            swap(str[l],str[i]);    // 还原，为了不影响下一次循环
+        }
+    }
+};
+
+
+/*
+    总结
+    1. 这题就是求排列组合，我采用回溯法 + 外部变量AC了。
+
+*/

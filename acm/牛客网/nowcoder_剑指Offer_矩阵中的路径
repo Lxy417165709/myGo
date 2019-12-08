@@ -1,0 +1,135 @@
+
+
+// 简化版
+class Solution {
+public:
+
+    // dx,dy 要对应好
+    int *dx = new int[4]{1,0,0,-1}; // x变化量
+    int *dy = new int[4]{0,-1,1,0}; // y变化量
+
+    map<int,bool> isVisit;          // 标记已访问，防止走回头路
+    int off = 10;                   // 位置偏移，为的是用一维map存放二维坐标映射关系。
+
+    // 位置合法性判断
+    bool judge(int x,int y,int rows, int cols){
+        if (x<0 || y<0 || x>=rows || y>=cols || isVisit[x<<off|y]){
+            return false;
+        }
+        return true;
+    }
+
+    bool hasPath(char* matrix, int rows, int cols, char* str){
+        for(int i=0;i<rows;i++){
+            for(int t=0;t<cols;t++){
+                if (dfs(matrix,rows,cols,str,i,t)){
+                	return true;
+				}
+            }
+        }
+        return false;
+    }
+
+    // dfs找路
+    bool dfs(char* matrix, int rows, int cols, char* str,int x,int y){
+        // 说明前面已经匹配完成了，所以返回true
+        if(strlen(str)==0){
+            return true;
+        }
+        // 位置非法则返回false
+        if(judge(x,y,rows,cols) == false){
+            return false;
+        }
+        // 首字母不相同也返回false
+        if (str[0] != *(matrix + x*cols + y)){
+            return false;
+        }
+        // 标记已访问，目的是不能走回头路
+        isVisit[x<<off|y] = true;
+        for(int i=0;i<4;i++){
+            if(dfs(matrix,rows,cols,str+1,x+dx[i],y+dy[i])){
+                return true;
+            }
+        }
+        // 清空标记，因为接下来递归可能还要走这个点
+        isVisit[x<<off|y] = false;
+        return false;
+    }
+};
+
+// 二维存储坐标映射(这版本代码不简洁)
+class Solution {
+public:
+
+    int *dx;
+    int *dy;
+    bool isVisit[1050][1050];
+
+    int off = 100;
+    // 位置合法性判断
+    bool judge(int x,int y,int rows, int cols){
+
+        if (x<0 || y<0 || x>=rows || y>=cols || isVisit[x][y]==true){
+            return false;
+        }
+        return true;
+    }
+
+    bool hasPath(char* matrix, int rows, int cols, char* str){
+        dx = new int[4]{1,0,0,-1};
+        dy = new int[4]{0,-1,1,0};
+        cout<<off<<endl;
+        // 注意初始化...没初始化的话提交会错误，但是自己测试的时候不会有错
+        for(int i=0;i<rows;i++){
+            for(int t=0;t<cols;t++){
+            	isVisit[i][t]=false;
+            }
+
+        }
+        for(int i=0;i<rows;i++){
+            for(int t=0;t<cols;t++){
+            	bool ans = dfs(matrix,rows,cols,str,i,t);
+                if (ans==true){
+                	return true;
+				}
+            }
+        }
+        return false;
+    }
+
+    bool dfs(char* matrix, int rows, int cols, char* str,int x,int y){
+        if(strlen(str)==0){
+            return true;
+        }
+        if(judge(x,y,rows,cols) == false){
+            return false;
+        }
+        // 注意是 x*cols 不是 x*rows
+        if (str[0] != *(matrix + x*cols + y)){
+            return false;
+        }
+
+        isVisit[x][y] = true;
+        for(int i=0;i<4;i++){
+            if(dfs(matrix,rows,cols,str+1,x+dx[i],y+dy[i])){
+                return true;
+            }
+        }
+        isVisit[x][y] = false;
+        return false;
+    }
+};
+
+
+/*
+    总结
+    1. 我使用dfs AC了这个题目。
+    2. 不知道为什么，第一次做的时候老是WA，调试了一个半小时也不知道哪里出错了。
+    3. 接下来我要发现哪里出错了
+        -> 我发现出错的地方了，第一次出错是因为 int off = 15写到了hasPath里，导致外部的off没有初始化，从而导致错误。
+    4. 注意 "-" "+"优先级高于"<<"
+            所以 1<<2 + 1 == 8 而不是 == 5
+            所以 1<<2 - 1 == 2 而不是 == 3
+    5. 第一个版本的[x<<off|y]可以改为[(x<<off)+y]  (前提是 off足够大，不能让2个不同坐标的哈希值一样)
+
+*/
