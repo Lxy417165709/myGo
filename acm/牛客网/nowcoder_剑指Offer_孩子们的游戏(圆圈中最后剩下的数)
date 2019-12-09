@@ -1,0 +1,68 @@
+struct Node{
+    int number;
+    Node* next;
+    Node(int number = -1){
+        this->number = number;
+        this->next = NULL;
+    }
+};
+
+// 单向循环链表
+class List{
+public:
+    Node* tail;
+    Node* head;
+    List(){
+        tail = NULL;
+        head = NULL;
+    }
+    // 这里是为了构建环(我们要记录表头和表尾，这么才方便插入)
+    void push(int number){
+    	Node* newNode = new Node(number);
+		if(tail==NULL){
+			tail = newNode;
+			head = newNode;
+		}else{
+			tail->next = newNode;
+			tail = tail->next;
+		}
+        tail->next = head;
+    }
+    // 解决约瑟夫环问题(按照规则做就可以了)
+    int solve(int m){
+    	Node* cur = head;
+    	Node* pre = tail;
+    	// cur == pre 时，表示环只有一个元素了
+    	while(cur != pre){
+    	    // 这个循环是模拟报数
+    		for(int i=1;i<m;i++){
+                pre = cur;
+                cur = cur ->next;
+			}
+			pre->next = cur->next;
+			cur = cur->next;
+		}
+		return cur->number;
+    }
+};
+
+
+class Solution {
+public:
+    int LastRemaining_Solution(int n, int m){
+        if(n<=0 || m <= 0){
+            return -1;
+        }
+        List list;
+        for(int i=0;i<n;i++){
+		    list.push(i);
+	    }
+        return list.solve(m);
+    }
+};
+/*
+    总结
+    1. 这题就是约瑟夫环问题。
+    2. 我使用了循环单向链表AC了。
+    3. 其实这题有公式法 0.0...但是我不知道公式是怎么样的
+*/

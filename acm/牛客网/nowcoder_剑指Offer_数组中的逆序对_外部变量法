@@ -1,0 +1,54 @@
+class Solution {
+public:
+    int mod = 1000000007;
+    int ans = 0;
+    int InversePairs(vector<int> data) {
+        mergeSort(data);
+        return ans;
+    }
+    void mergeSort(vector<int> &data){
+        mergeSortExec(data,0,data.size()-1);
+    }
+
+    void mergeSortExec(vector<int> &data,int l,int r){
+        if(l>=r){
+            return;
+        }
+        int mid = (l+r)/2;
+        mergeSortExec(data,l,mid);
+        mergeSortExec(data,mid+1,r);
+        merge(data,l,mid,mid+1,r);
+    }
+    void merge(vector<int> &data,int l1,int r1,int l2,int r2){
+        vector<int> array;
+        int L = l1;
+        while(l1<=r1 && l2<=r2){
+            if(data[l1]<=data[l2]){
+                array.push_back(data[l1]);
+                l1++;
+            }else{
+                array.push_back(data[l2]);
+                l2++;
+
+                // 此时才会产生逆序数 (与普通归并排序只添加了这)
+                ans += (r1-l1+1);
+                ans %= mod;
+            }
+        }
+        while(l1<=r1){
+            array.push_back(data[l1]);
+            l1++;
+        }
+        while(l2<=r2){
+            array.push_back(data[l2]);
+            l2++;
+        }
+        for(int i=0;i<array.size();i++){
+            data[L+i] = array[i];
+        }
+    }
+};
+/*
+    总结
+    1. 这是使用外部变量的归并排序，用来求逆序数。
+*/
