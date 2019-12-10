@@ -28,7 +28,7 @@ public:
 		}
         tail->next = head;
     }
-    // 解决约瑟夫环问题(按照规则做就可以了)
+    // 解决约瑟夫环问题(按照规则做就可以了) (下面有一个代码量减了一些的solve函数)
     int solve(int m){
     	Node* cur = head;
     	Node* pre = tail;
@@ -43,6 +43,19 @@ public:
 			cur = cur->next;
 		}
 		return cur->number;
+    }
+
+    // 解决约瑟夫环问题，这个写法也可以
+    int solve(int m){
+        Node* cur = head;
+        while(cur->next != cur){
+            for(int i=1;i<m-1;i++){
+                cur = cur ->next;
+            }
+            cur->next = cur->next->next;
+            cur = cur->next;
+        }
+        return cur->number;
     }
 };
 
