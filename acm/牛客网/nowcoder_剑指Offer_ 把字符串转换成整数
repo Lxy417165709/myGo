@@ -1,0 +1,56 @@
+class Solution {
+public:
+    int StrToInt(string str) {
+        // 长度判断，为什么大于11返回0呢？因为最长的-2147483648‬ 才11位 (+2147483647也11位)
+        if(str.length()==0 || str.length()>11){
+            return 0;
+        }
+        long long ans = 0;
+
+        // 符号判断
+        if(str[0]=='-' || str[0]=='+'){
+            /*
+            // 这句其实可以去掉，因为长度==1时，getNum(str.substr)还是==0
+            if(str.length()==1){
+                return 0;
+            }
+            */
+            ans = getNum(str.substr(1));
+            if(str[0]=='-'){
+                ans=-ans;
+            }
+        }else{
+            ans = getNum(str);
+        }
+
+        // 越界判断
+        if (ans > ((1<<31)-1) || ans< (-(1<<31))){
+            ans = 0;
+        }
+
+        return ans;
+    }
+
+    // 将没有正负号的字符串转换为整数(非法则返回0)
+    long long getNum(string str){
+        long long ans = 0;
+        for(int i=0;i<str.length();i++){
+            if(str[i]>='0' && str[i]<='9'){
+                ans = ans * 10 + int(str[i]-'0');
+            }else{
+                return 0;
+            }
+
+        }
+        return ans;
+    }
+};
+/*
+    总结
+    1. 这是看了别人的解法后自己AC的，其实自己把题目想复杂了
+    2. 能转换为整数的字符串满足：
+                (1) 如果有特殊字符(不是数字和正负号)，那么就说明字符串非法，返回0
+                (2) 如果有符号，那么符号只能出现在字符串的起始，且此时字符串长度>1
+                (3) 如果没符号，那么直接转换。
+                (4) 注意溢出判断(要注意int负数的最小值的绝对值大于int整数的最大值)
+*/
