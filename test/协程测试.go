@@ -1,18 +1,16 @@
 package main
 
-import (
-	"fmt"
-	"time"
-)
+func Inc() (v int) {
+	defer func(){ v++ } ()
+	return 42
+}
 
 func main() {
-
-	arr := []int64{1,2,3}
-	for _,e := range arr{
-		go func(param int64){
-			fmt.Println(param)
-		}(e)
+	for i := 0; i < 3; i++ {
+		// 通过函数传入i
+		// defer 语句会马上对调用参数求值
+		println(&i)
+		defer func(i int){ println(i) ;println(&i)} (i)
 	}
-	time.Sleep(5000)
-	// ok!
 }
+
