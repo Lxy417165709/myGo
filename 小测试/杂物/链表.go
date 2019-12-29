@@ -1,4 +1,4 @@
-package main
+package 杂物
 
 import (
 	"fmt"

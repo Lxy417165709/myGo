@@ -1,4 +1,4 @@
-package main
+package 杂物
 
 func Inc() (v int) {
 	defer func(){ v++ } ()
