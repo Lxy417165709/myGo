@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="01240cb2-2371-4cb9-81f7-c4b15296316e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../小测试/type测试/type测试.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../小测试/方法集测试/test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../单例模式/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../单例模式/src/pattern/lazySingleton1.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../单例模式/src/pattern/lazySingleton2.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../单例模式/src/pattern/singletonHunger.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../外观模式/src/pattern/light.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../外观模式/src/pattern/magicButton.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../外观模式/src/pattern/tv.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../外观模式/src/pattern/waterHeater.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../工厂方法模式/src/pattern/naichaFactory.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../工厂方法模式/src/pattern/snackFactory.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../建造者模式/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../建造者模式/src/pattern/BXMMXMBuilder.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../建造者模式/src/pattern/BobaNaiChaBuilder.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../建造者模式/src/pattern/BuildDirector.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../建造者模式/src/pattern/Drink.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../建造者模式/src/pattern/DrinkBuilder.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../抽象工厂模式/src/pattern/baoma.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../抽象工厂模式/src/pattern/car.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../抽象工厂模式/src/pattern/suv.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../状态模式(ToDo)/src/pattern/myself.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pattern/person.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pattern/strategy.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pattern/strategy1.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pattern/strategy2.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pattern/strategy3.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../简单工厂模式/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../简单工厂模式/src/pattern/food.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../简单工厂模式/src/pattern/kissmeFactory.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../简单工厂模式/src/pattern/naicha.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../简单工厂模式/src/pattern/snack.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../组合模式/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../组合模式/src/pattern/city.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../组合模式/src/pattern/country.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../组合模式/src/pattern/province.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../组合模式/src/pattern/region.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../装饰器模式/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../装饰器模式/src/pattern/drink.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../装饰器模式/src/pattern/naiCha.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../装饰器模式/src/pattern/paoBing.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../装饰器模式/src/pattern/pearl.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../装饰器模式/src/pattern/redBean.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../小测试/汇编测试/hello.go" beforeDir="false" afterPath="$PROJECT_DIR$/../../小测试/汇编测试/hello.go" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pattern/person.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="462">
+              <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/main.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="792">
+              <caret line="24" column="3" selection-start-line="24" selection-start-column="3" selection-end-line="24" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pattern/strategy3.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="231">
+              <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pattern/strategy.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="99">
+              <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pattern/strategy1.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pattern/strategy2.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="297">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" path="C:\Golang\Go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="GoLibraries">
+    <option name="urls">
+      <list>
+        <option value="file://$PROJECT_DIR$" />
+      </list>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/pattern/strategy.go" />
+        <option value="$PROJECT_DIR$/src/pattern/eat.go" />
+        <option value="$PROJECT_DIR$/src/pattern/strategy1.go" />
+        <option value="$PROJECT_DIR$/src/pattern/strategy2.go" />
+        <option value="$PROJECT_DIR$/src/pattern/person.go" />
+        <option value="$PROJECT_DIR$/src/pattern/strategy3.go" />
+        <option value="$PROJECT_DIR$/main.go" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="983" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="策略模式" type="b2602c69:ProjectViewProjectNode" />
+              <item name="策略模式" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="策略模式" type="b2602c69:ProjectViewProjectNode" />
+              <item name="策略模式" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="策略模式" type="b2602c69:ProjectViewProjectNode" />
+              <item name="策略模式" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pattern" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="策略模式" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="configurable.Global.GOPATH.is.expanded" value="true" />
+    <property name="configurable.Module.GOPATH.is.expanded" value="false" />
+    <property name="configurable.Project.GOPATH.is.expanded" value="true" />
+    <property name="go.gopath.indexing.explicitly.defined" value="true" />
+    <property name="go.sdk.automatically.set" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.goide.configuration.GoLibrariesConfigurableProvider" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\hasee\Desktop\Go\设计模式\策略模式\src\pattern" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="策略模式" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/main.go" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Build.go build main.go" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.329718" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/pattern/strategy.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pattern/strategy1.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pattern/strategy2.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pattern/person.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pattern/strategy3.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="792">
+          <caret line="24" column="3" selection-start-line="24" selection-start-column="3" selection-end-line="24" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

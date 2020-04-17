@@ -2,7 +2,57 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eac75ce5-bac3-4a4e-a1b4-5c24da70cf83" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/作弊测试/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/小测试/type测试/type测试.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/小测试/方法集测试/test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/设计模式/享元模式/src/pattern/store.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/设计模式/代理模式/src/pattern/IProxy.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/设计模式/代理模式/src/pattern/proxy.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/设计模式/代理模式/src/pattern/subject.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/设计模式/单例模式/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/设计模式/单例模式/src/pattern/lazySingleton1.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/设计模式/单例模式/src/pattern/lazySingleton2.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/设计模式/单例模式/src/pattern/singletonHunger.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/设计模式/外观模式/src/pattern/light.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/设计模式/外观模式/src/pattern/magicButton.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/设计模式/外观模式/src/pattern/tv.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/设计模式/外观模式/src/pattern/waterHeater.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/设计模式/工厂方法模式/src/pattern/naichaFactory.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/设计模式/工厂方法模式/src/pattern/snackFactory.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/设计模式/建造者模式/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/设计模式/建造者模式/src/pattern/BXMMXMBuilder.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/设计模式/建造者模式/src/pattern/BobaNaiChaBuilder.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/设计模式/建造者模式/src/pattern/BuildDirector.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/设计模式/建造者模式/src/pattern/Drink.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/设计模式/建造者模式/src/pattern/DrinkBuilder.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/设计模式/抽象工厂模式/src/pattern/baoma.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/设计模式/抽象工厂模式/src/pattern/car.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/设计模式/抽象工厂模式/src/pattern/suv.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/设计模式/状态模式(ToDo)/src/pattern/myself.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/设计模式/策略模式/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/设计模式/策略模式/src/pattern/person.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/设计模式/策略模式/src/pattern/strategy.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/设计模式/策略模式/src/pattern/strategy1.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/设计模式/策略模式/src/pattern/strategy2.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/设计模式/策略模式/src/pattern/strategy3.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/设计模式/简单工厂模式/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/设计模式/简单工厂模式/src/pattern/food.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/设计模式/简单工厂模式/src/pattern/kissmeFactory.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/设计模式/简单工厂模式/src/pattern/naicha.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/设计模式/简单工厂模式/src/pattern/snack.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/设计模式/组合模式/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/设计模式/组合模式/src/pattern/city.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/设计模式/组合模式/src/pattern/country.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/设计模式/组合模式/src/pattern/province.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/设计模式/组合模式/src/pattern/region.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/设计模式/装饰器模式/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/设计模式/装饰器模式/src/pattern/drink.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/设计模式/装饰器模式/src/pattern/naiCha.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/设计模式/装饰器模式/src/pattern/paoBing.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/设计模式/装饰器模式/src/pattern/pearl.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/设计模式/装饰器模式/src/pattern/redBean.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/小测试/汇编测试/hello.go" beforeDir="false" afterPath="$PROJECT_DIR$/小测试/汇编测试/hello.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,87 +77,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/小测试/变量初始化测试/变量初始化测试1.go">
+        <entry file="file://$PROJECT_DIR$/邮件发送/邮件.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
+            <state relative-caret-position="1518">
+              <caret line="49" column="19" selection-start-line="49" selection-start-column="19" selection-end-line="49" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/小测试/map测试/map测试.go">
+        <entry file="file://$PROJECT_DIR$/刷题代码/LeetCode/LeetCode_55_跳跃游戏_贪心.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://C:/Golang/Go/src/sync/rwmutex.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="825">
-              <caret line="29" selection-start-line="29" selection-end-line="30" selection-end-column="78" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://C:/Golang/Go/src/builtin/builtin.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="8382">
-              <caret line="254" column="5" selection-start-line="254" selection-start-column="5" selection-end-line="254" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://C:/Golang/Go/src/runtime/panic.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="20163">
-              <caret line="615" selection-start-line="615" selection-end-line="615" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/刷题代码/LeetCode/LeetCode_492_构造矩形.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/刷题代码/LeetCode/位运算/模板/奇技淫巧.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="660">
-              <caret line="22" selection-start-line="22" selection-end-line="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/刷题代码/LeetCode/位运算/LeetCode_190_颠倒二进制位.go">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/刷题代码/LeetCode/位运算/LeetCode_191_位1的个数.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/小测试/有限状态自动机测试/测试2/正则表达式测试.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="858">
-              <caret line="26" column="24" selection-start-line="20" selection-start-column="4" selection-end-line="26" selection-end-column="24" />
+            <state relative-caret-position="561">
+              <caret line="17" column="70" selection-start-line="17" selection-start-column="70" selection-end-line="17" selection-end-column="70" />
             </state>
           </provider>
         </entry>
@@ -117,9 +99,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Go Application" />
         <option value="Go File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -129,79 +111,78 @@
       <find>nums</find>
     </findStrings>
   </component>
-  <component name="GOROOT" path="C:\Golang\Go" />
+  <component name="GOROOT" path="C:\Language\Go" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/../算法学习/动态规划/数组/求数组中组成n的最小元素数.go" />
-        <option value="$PROJECT_DIR$/acm/LeetCode/LeetCode_236_二叉树的最近公共祖先_优美代码.go" />
-        <option value="$PROJECT_DIR$/acm/LeetCode/LeetCode_1254_统计封闭岛屿的数目.go" />
-        <option value="$PROJECT_DIR$/../算法学习/搜索/求连通块数_深搜.go" />
-        <option value="$PROJECT_DIR$/acm/LeetCode/LeetCode_1020_飞地的数量_比较统一的写法.go" />
-        <option value="$PROJECT_DIR$/../算法学习/动态规划/子序列/最长上升子序列.go" />
-        <option value="$PROJECT_DIR$/../算法学习/动态规划/子序列/最大整除子集.go" />
-        <option value="$PROJECT_DIR$/acm/LeetCode/LeetCode_977_有序数组的平方_双指针.go" />
-        <option value="$PROJECT_DIR$/acm/LeetCode/LeetCode_538_把二叉搜索树转换为累加树.go" />
-        <option value="$PROJECT_DIR$/../算法学习/树论/二叉树/二叉树结构调整/把二叉搜索树转换为累加树.go" />
-        <option value="$PROJECT_DIR$/../算法学习/随机选择/选择数组中的第k小.go" />
-        <option value="$PROJECT_DIR$/../算法学习/动态规划/子序列/最长定差子序列.go" />
-        <option value="$PROJECT_DIR$/acm/LeetCode/LeetCode_312_戳气球.go" />
-        <option value="$PROJECT_DIR$/../算法学习/链表/获取链表环入口.go" />
-        <option value="$PROJECT_DIR$/acm/LeetCode/LeetCode_887_鸡蛋掉落.go" />
-        <option value="$PROJECT_DIR$/../算法学习/滑动窗口/实战演练/LeetCode_3_无重复字符的最长子串.go" />
-        <option value="$PROJECT_DIR$/../算法学习/滑动窗口/实战演练/LeetCode_1208_尽可能使字符串相等.go" />
-        <option value="$PROJECT_DIR$/acm/LeetCode/滑动窗口/LeetCode_424_替换后的最长重复字符.go" />
-        <option value="$PROJECT_DIR$/acm/LeetCode/LeetCode_463_岛屿的周长.go" />
-        <option value="$PROJECT_DIR$/acm/LeetCode/滑动窗口/LeetCode_1208_尽可能使字符串相等_滑动窗口+二分.go" />
-        <option value="$PROJECT_DIR$/acm/LeetCode/LeetCode_594_最长和谐子序列.go" />
-        <option value="$PROJECT_DIR$/acm/LeetCode/LeetCode_1290_二进制链表转整数.go" />
-        <option value="$PROJECT_DIR$/../算法学习/双指针/滑动窗口/实战演练/LeetCode_1234_替换子串得到平衡字符串.go" />
-        <option value="$PROJECT_DIR$/../算法学习/双指针/滑动窗口/实战演练/LeetCode_3_无重复字符的最长子串.go" />
-        <option value="$PROJECT_DIR$/acm/LeetCode/比赛/第168场周赛/1.go" />
-        <option value="$PROJECT_DIR$/acm/LeetCode/比赛/第168场周赛/2.go" />
-        <option value="$PROJECT_DIR$/acm/LeetCode/比赛/第168场周赛/3.go" />
-        <option value="$PROJECT_DIR$/acm/LeetCode/比赛/第168场周赛/4.go" />
-        <option value="$PROJECT_DIR$/小测试/有限状态自动机测试/正则表达式测试2.go" />
-        <option value="$PROJECT_DIR$/小测试/有限状态自动机测试/正则表达式测试.go" />
-        <option value="$PROJECT_DIR$/小测试/有限状态自动机测试/测试2/正则表达式测试2.go" />
-        <option value="$PROJECT_DIR$/小测试/有限状态自动机测试/测试2/正则表达式测试.go" />
-        <option value="$PROJECT_DIR$/小测试/有限状态自动机测试/测试1/正则表达式测试.go" />
-        <option value="$PROJECT_DIR$/../算法学习/未分类模块/状态机/LeetCode_65_有效数字.go" />
-        <option value="$PROJECT_DIR$/刷题代码/LeetCode/LeetCode_492_构造矩形.go" />
-        <option value="$PROJECT_DIR$/小测试/位运算测试/左右移运算测试/左右移位运算测试.go" />
-        <option value="$PROJECT_DIR$/小测试/位运算哈希测试/test.go" />
-        <option value="$PROJECT_DIR$/小测试/位运算测试/位运算哈希测试/test.go" />
-        <option value="$PROJECT_DIR$/小测试/切片测试/切片测试1.go" />
-        <option value="$PROJECT_DIR$/小测试/切片测试/切片测试2.go" />
-        <option value="$PROJECT_DIR$/小测试/错误测试/错误测试1.go" />
-        <option value="$PROJECT_DIR$/小测试/汇编测试/hello.go" />
-        <option value="$PROJECT_DIR$/小测试/匿名函数测试/匿名函数测试1.go" />
-        <option value="$PROJECT_DIR$/小测试/闭包测试/闭包测试1.go" />
-        <option value="$PROJECT_DIR$/小测试/切片测试/扩容测试.go" />
-        <option value="$PROJECT_DIR$/小测试/闭包测试/闭包测试2.go" />
-        <option value="$PROJECT_DIR$/小测试/包测试/pkg/file1.go" />
-        <option value="$PROJECT_DIR$/小测试/包测试/pkg/main.go" />
-        <option value="$PROJECT_DIR$/小测试/锁测试/锁测试.go" />
-        <option value="$PROJECT_DIR$/小测试/变量初始化测试/变量初始化测试1.go" />
         <option value="$PROJECT_DIR$/小测试/map测试/map测试.go" />
+        <option value="$PROJECT_DIR$/小测试/汇编测试/hello.go" />
+        <option value="$PROJECT_DIR$/小测试/Kissme/object.go" />
+        <option value="$PROJECT_DIR$/小测试/Kissme/kissme_test.go" />
+        <option value="$PROJECT_DIR$/小测试/Kissme/conf.go" />
+        <option value="$PROJECT_DIR$/小测试/Kissme/conf.ini" />
+        <option value="$PROJECT_DIR$/小测试/Kissme/kissme.go" />
+        <option value="$PROJECT_DIR$/小测试/Kissme/src/conf/conf.go" />
+        <option value="$PROJECT_DIR$/小测试/type测试/type测试.go" />
+        <option value="$PROJECT_DIR$/小测试/方法集测试/test.go" />
+        <option value="$PROJECT_DIR$/模块/密码相关/加盐加密.go" />
+        <option value="$PROJECT_DIR$/模块/密码相关/加盐哈希密码校验.go" />
+        <option value="$PROJECT_DIR$/模块/密码相关/加盐哈希.go" />
+        <option value="$PROJECT_DIR$/模块/密码相关/加盐哈希_test.go" />
+        <option value="$PROJECT_DIR$/模块/密码相关/密码格式校验_test.go" />
+        <option value="$PROJECT_DIR$/模块/密码相关/密码格式校验.go" />
+        <option value="$PROJECT_DIR$/模块/账号相关/账号格式验证.go" />
+        <option value="$PROJECT_DIR$/模块/账号相关/账号格式验证_test.go" />
+        <option value="$PROJECT_DIR$/模块/登录相关/登录.go" />
+        <option value="$PROJECT_DIR$/模块/src/登录相关/登录.go" />
+        <option value="$PROJECT_DIR$/模块/src/注册相关/注册(TODU).go" />
+        <option value="$PROJECT_DIR$/模块/src/注册相关/注册(TODO).go" />
+        <option value="$PROJECT_DIR$/模块/src/formatCheck/格式验证函数_test.go" />
+        <option value="$PROJECT_DIR$/模块/src/formatCheck/密码格式校验.go" />
+        <option value="$PROJECT_DIR$/模块/src/formatCheck/账号格式验证.go" />
+        <option value="$PROJECT_DIR$/模块/src/psw/加盐哈希.go" />
+        <option value="$PROJECT_DIR$/模块/src/psw/加盐哈希_test.go" />
+        <option value="$PROJECT_DIR$/模块/src/formatCheck/校验函数集合_test.go" />
+        <option value="$PROJECT_DIR$/模块/src/formatCheck/校验函数集合.go" />
+        <option value="$PROJECT_DIR$/模块/src/formatCheck/格式验证函数.go" />
+        <option value="$PROJECT_DIR$/模块/src/formatCheck/校验函数接口.go" />
+        <option value="$PROJECT_DIR$/模块/src/formatCheck/校验函数单元.go" />
+        <option value="$PROJECT_DIR$/模块/src/formatCheck/校验工厂.go" />
+        <option value="$PROJECT_DIR$/模块/src/formatCheck/校验单元_test.go" />
+        <option value="$PROJECT_DIR$/模块/src/formatCheck/校验单元.go" />
+        <option value="$PROJECT_DIR$/模块/src/formatCheck/校验函数.go" />
+        <option value="$PROJECT_DIR$/模块/src/common/加盐哈希.go" />
+        <option value="$PROJECT_DIR$/模块/src/common/加盐哈希_test.go" />
+        <option value="$PROJECT_DIR$/模块/src/登录相关/登录(TODO)_test.go" />
+        <option value="$PROJECT_DIR$/模块/src/登录相关/登录(TODO).go" />
+        <option value="$PROJECT_DIR$/邮件发送/邮件.go" />
+        <option value="$PROJECT_DIR$/设计模式/设计原则/ocp.go" />
+        <option value="$PROJECT_DIR$/设计模式/建造者模式.go" />
+        <option value="$PROJECT_DIR$/OAuth/views/hello.html" />
+        <option value="$PROJECT_DIR$/OAuth/main.go" />
+        <option value="$PROJECT_DIR$/内存对其/main.go" />
+        <option value="$PROJECT_DIR$/深入/小例子/main.go" />
+        <option value="$PROJECT_DIR$/作弊测试/main.go" />
+        <option value="$PROJECT_DIR$/oop/employee/employee.go" />
+        <option value="$PROJECT_DIR$/oop/main.go" />
+        <option value="$PROJECT_DIR$/刷题代码/LeetCode/LeetCode_55_跳跃游戏_贪心.go" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-431" />
-    <option name="y" value="7" />
-    <option name="width" value="1932" />
-    <option name="height" value="1004" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-316" />
+    <option name="y" value="388" />
+    <option name="width" value="1936" />
+    <option name="height" value="984" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -209,15 +190,11 @@
               <item name="Go" type="b2602c69:ProjectViewProjectNode" />
               <item name="Go" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Go" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Go" type="462c0819:PsiDirectoryNode" />
-              <item name="小测试" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -233,19 +210,19 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\hasee\Desktop\Go\小测试\有限状态自动机测试" />
-      <recent name="C:\Users\hasee\Desktop\Go\acm\LeetCode\比赛\第168场周赛" />
-      <recent name="C:\Users\hasee\Desktop\Go\acm\LeetCode\滑动窗口" />
-      <recent name="C:\Users\hasee\Desktop\Go\acm\LeetCode" />
-      <recent name="C:\Users\hasee\Desktop\Go\test" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\hasee\Desktop\Go\小测试\位运算测试" />
-      <recent name="C:\Users\hasee\Desktop\Go\小测试\有限状态自动机测试\测试2" />
-      <recent name="C:\Users\hasee\Desktop\Go\小测试\有限状态自动机测试\测试1" />
-      <recent name="C:\Users\hasee\Desktop\Go\小测试\杂物" />
-      <recent name="C:\Users\hasee\Desktop\Go\acm\LeetCode" />
+      <recent name="C:\Users\hasee\Desktop\Go\模块\src\common" />
+      <recent name="C:\Users\hasee\Desktop\Go\模块\src\formatCheck" />
+      <recent name="C:\Users\hasee\Desktop\Go\模块\src" />
+      <recent name="C:\Users\hasee\Desktop\Go\小测试\Kissme" />
+      <recent name="C:\Users\hasee\Desktop\Go\小测试\Kissme\src\conf" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\hasee\Desktop\Go\模块\src\登录相关" />
+      <recent name="C:\Users\hasee\Desktop\Go\模块\src\formatCheck" />
+      <recent name="C:\Users\hasee\Desktop\Go\模块\账号相关" />
+      <recent name="C:\Users\hasee\Desktop\Go\模块\密码相关" />
+      <recent name="C:\Users\hasee\Desktop\Go\小测试\Kissme" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -260,92 +237,28 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build map测试.go">
-    <configuration name="go build 切片测试1.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Build.go build main.go">
+    <configuration name="go build 邮件.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="goProjects" />
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/小测试/切片测试/切片测试1.go" />
+      <filePath value="$PROJECT_DIR$/邮件发送/邮件.go" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build 变量初始化测试1.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build 建造者模式.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="goProjects" />
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/小测试/变量初始化测试/变量初始化测试1.go" />
+      <filePath value="$PROJECT_DIR$/设计模式/建造者模式.go" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build 闭包测试1.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build 协程测试.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="goProjects" />
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/小测试/闭包测试/闭包测试1.go" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build 闭包测试1.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="goProjects" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/小测试/闭包测试/闭包测试1.go" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build 错误测试1.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="goProjects" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/小测试/错误测试/错误测试1.go" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build 2.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="goProjects" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/acm/LeetCode/比赛/第168场周赛/2.go" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build 闭包测试2.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="goProjects" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/小测试/闭包测试/闭包测试2.go" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build 切片测试2.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="goProjects" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/小测试/切片测试/切片测试2.go" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build 切片测试2.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="goProjects" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/小测试/切片测试/切片测试2.go" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build 正则表达式测试.go (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="goProjects" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/小测试/有限状态自动机测试/测试2/正则表达式测试.go" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build 正则表达式测试.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="goProjects" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/小测试/有限状态自动机测试/正则表达式测试.go" />
+      <filePath value="$PROJECT_DIR$/test/协程测试.go" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
@@ -354,22 +267,6 @@
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="FILE" />
       <filePath value="$PROJECT_DIR$/test/变量大小测试.go" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build 变量大小测试.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="goProjects" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/test/变量大小测试.go" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build 锁测试.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="goProjects" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/小测试/锁测试/锁测试.go" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
@@ -413,71 +310,93 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build 排序.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="goProjects" />
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/acm/LeetCode/排序/排序.go" />
+      <filePath value="$PROJECT_DIR$/内存对其/main.go" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build 链表.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build ocp.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="goProjects" />
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/test/链表.go" />
+      <filePath value="$PROJECT_DIR$/设计模式/设计原则/ocp.go" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build 左右移位运算测试.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="TestLoginCheck in 登录相关" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="goProjects" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/小测试/位运算测试/左右移运算测试/左右移位运算测试.go" />
+      <working_directory value="$PROJECT_DIR$/模块/src/登录相关" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="登录相关" />
       <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestLoginCheck$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build 变量大小测试.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="登录(TODO)_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="goProjects" />
-      <working_directory value="$PROJECT_DIR$/" />
+      <working_directory value="$PROJECT_DIR$/模块/src/登录相关" />
+      <framework value="gotest" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/test/变量大小测试.go" />
       <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build 第二.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="goProjects" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/test/第二.go" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build 协程测试.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="goProjects" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/test/协程测试.go" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build map测试.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="goProjects" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/小测试/map测试/map测试.go" />
-      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/模块/src/登录相关/登录(TODO)_test.go" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build map测试.go" />
-        <item itemvalue="Go Build.go build 切片测试1.go" />
-        <item itemvalue="Go Build.go build 正则表达式测试.go (1)" />
-        <item itemvalue="Go Build.go build 正则表达式测试.go" />
-        <item itemvalue="Go Build.go build 2.go" />
+        <item itemvalue="Go Build.go build main.go" />
+        <item itemvalue="Go Build.go build ocp.go" />
+        <item itemvalue="Go Build.go build 邮件.go" />
+        <item itemvalue="Go Test.登录(TODO)_test.go" />
+        <item itemvalue="Go Test.TestLoginCheck in 登录相关" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="eac75ce5-bac3-4a4e-a1b4-5c24da70cf83" name="Default Changelist" comment="" />
+      <created>1581839904952</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1581839904952</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="TestCheckUnit_Check_in_formatCheck - 2020.02.17 at 17h 25m 49s.xml">
+      <configuration name="TestCheckUnit_Check in formatCheck" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestCheckUnit_Check_in_formatCheck - 2020.02.17 at 17h 26m 24s.xml">
+      <configuration name="TestCheckUnit_Check in formatCheck" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestCheckUnit_Check_in_formatCheck - 2020.02.17 at 17h 27m 00s.xml">
+      <configuration name="TestCheckUnit_Check in formatCheck" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestCheckUnit_Check_in_formatCheck - 2020.02.17 at 17h 27m 47s.xml">
+      <configuration name="TestCheckUnit_Check in formatCheck" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestCheckUnit_Check_in_formatCheck - 2020.02.17 at 17h 28m 49s.xml">
+      <configuration name="TestCheckUnit_Check in formatCheck" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestCheckUnit_Check_in_formatCheck - 2020.02.17 at 17h 38m 30s.xml">
+      <configuration name="TestCheckUnit_Check in formatCheck" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestCheckUnit_Check_in_formatCheck - 2020.02.17 at 17h 39m 16s.xml">
+      <configuration name="TestCheckUnit_Check in formatCheck" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestCheckUnit_Check_in_formatCheck - 2020.02.17 at 17h 39m 33s.xml">
+      <configuration name="TestCheckUnit_Check in formatCheck" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="go_test_common_(1) - 2020.02.17 at 20h 30m 35s.xml">
+      <configuration name="go test common (1)" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="go_test_common_(1) - 2020.02.17 at 20h 31m 49s.xml">
+      <configuration name="go test common (1)" configurationId="GoTestRunConfiguration" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -492,12 +411,12 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.75915223" visible="true" weight="0.19189766" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.75915223" visible="true" weight="0.18336888" />
       <window_info id="Structure" order="1" sideWeight="0.24084778" side_tool="true" weight="0.22724637" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49946696" weight="0.3253796" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.64179105" weight="0.45553145" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.64179105" weight="0.2635575" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49946696" weight="0.39973786" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -505,12 +424,15 @@
       <window_info anchor="bottom" id="Database Changes" order="7" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="TODO" order="9" weight="0.2" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.61388284" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.44251627" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.35820895" side_tool="true" weight="0.4301192" />
+      <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="Coverage" order="4" side_tool="true" weight="0.32995737" />
+      <window_info anchor="right" id="SciView" order="5" />
     </layout>
     <layout-to-restore>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.141258" />
@@ -537,176 +459,21 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/baseLearn/3-varAndConstDefinition/3-varAndConstDefinition.go</url>
-          <line>19</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/acm/LeetCode/LeetCode_1290_二进制链表转整数.go" />
-    <entry file="file://$PROJECT_DIR$/acm/LeetCode/滑动窗口/接口测试_LeetCode_3.go" />
-    <entry file="file://$PROJECT_DIR$/acm/LeetCode/LeetCode_463_岛屿的周长.go" />
-    <entry file="file://$PROJECT_DIR$/../算法学习/二分/二分查找/进阶二分查找.go" />
-    <entry file="file://$PROJECT_DIR$/acm/牛客网/nowcoder_剑指Offer_ 滑动窗口的最大值" />
-    <entry file="file://$PROJECT_DIR$/acm/牛客网/nowcoder_剑指Offer_ 表示数值的字符串" />
-    <entry file="file://$PROJECT_DIR$/acm/牛客网/nowcoder_剑指Offer_孩子们的游戏(圆圈中最后剩下的数)_递归" />
-    <entry file="file://$PROJECT_DIR$/acm/LeetCode/LeetCode_594_最长和谐子序列.go" />
-    <entry file="file://$PROJECT_DIR$/acm/LeetCode/滑动窗口/LeetCode_1208_尽可能使字符串相等_滑动窗口+二分.go" />
-    <entry file="file://$PROJECT_DIR$/acm/LeetCode/滑动窗口/LeetCode_1208_尽可能使字符串相等.go" />
-    <entry file="file://$PROJECT_DIR$/acm/LeetCode/滑动窗口/LeetCode_3_无重复字符的子串.go" />
-    <entry file="file://$PROJECT_DIR$/../算法学习/双指针/滑动窗口/实战演练/LeetCode_3_无重复字符的最长子串.go" />
-    <entry file="file://$PROJECT_DIR$/acm/LeetCode/LeetCode_1024_视频拼接.go" />
-    <entry file="file://$PROJECT_DIR$/acm/LeetCode/比赛/第168场周赛/1.go" />
-    <entry file="file://$PROJECT_DIR$/acm/LeetCode/比赛/第168场周赛/2.go" />
-    <entry file="file://$PROJECT_DIR$/acm/LeetCode/比赛/第168场周赛/4.go" />
-    <entry file="file://$PROJECT_DIR$/acm/LeetCode/滑动窗口/接口测试_LeetCode_1234.go" />
-    <entry file="file://$PROJECT_DIR$/acm/LeetCode/滑动窗口/LeetCode_1234_替换子串得到平衡字符串.go" />
-    <entry file="file://$PROJECT_DIR$/acm/牛客网/nowcoder_剑指Offer_ 序列化二叉树" />
-    <entry file="file://$PROJECT_DIR$/acm/LeetCode/排序/排序.go" />
-    <entry file="file://$PROJECT_DIR$/acm/LeetCode/比赛/第168场周赛/3.go" />
-    <entry file="file://$PROJECT_DIR$/../算法学习/双指针/滑动窗口/实战演练/LeetCode_209_长度最小的子数组.go" />
-    <entry file="file://$PROJECT_DIR$/刷题代码/LeetCode/LeetCode_75_颜色分类.go">
+    <entry file="file://$PROJECT_DIR$/小测试/type测试/type测试.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="627">
-          <caret line="19" column="48" selection-start-line="19" selection-start-column="48" selection-end-line="19" selection-end-column="48" />
+        <state relative-caret-position="231">
+          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../算法学习/双指针/滑动窗口/实战演练/LeetCode_1234_替换子串得到平衡字符串.go" />
-    <entry file="file://$PROJECT_DIR$/../算法学习/未分类模块/状态机/LeetCode_65_有效数字.go" />
-    <entry file="file://$PROJECT_DIR$/小测试/有限状态自动机测试/测试1/正则表达式测试.go">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/小测试/位运算测试/左右移运算测试/左右移位运算测试.go">
+    <entry file="file://$PROJECT_DIR$/小测试/方法集测试/test.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1122">
-          <caret line="34" column="2" selection-start-line="34" selection-start-column="2" selection-end-line="34" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/刷题代码/LeetCode/排序/排序.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2673">
-          <caret line="84" column="43" selection-start-line="84" selection-start-column="43" selection-end-line="84" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/小测试/位运算测试/位运算哈希测试/test.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="2" selection-start-line="2" selection-end-line="58" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/小测试/切片测试/切片测试1.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="693">
-          <caret line="21" column="20" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/小测试/切片测试/切片测试2.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1584">
-          <caret line="52" column="11" selection-start-line="52" selection-start-column="11" selection-end-line="52" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/小测试/错误测试/错误测试1.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+        <state relative-caret-position="198">
+          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
           <folding>
             <element signature="e#14#42#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/小测试/匿名函数测试/匿名函数测试1.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/小测试/汇编测试/hello.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/小测试/闭包测试/闭包测试1.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1815">
-          <caret line="55" column="54" selection-start-line="55" selection-start-column="54" selection-end-line="55" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/小测试/切片测试/扩容测试.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1155">
-          <caret line="35" column="60" selection-start-line="35" selection-start-column="60" selection-end-line="35" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/小测试/包测试/pkg/file1.go" />
-    <entry file="file://$PROJECT_DIR$/小测试/包测试/pkg/main.go" />
-    <entry file="file://$PROJECT_DIR$/小测试/闭包测试/闭包测试2.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-          <folding>
-            <element signature="e#14#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/小测试/锁测试/锁测试.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="792">
-          <caret line="27" column="11" selection-start-line="27" selection-start-column="11" selection-end-line="27" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Golang/Go/src/sync/map.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2244">
-          <caret line="71" column="67" selection-start-line="71" selection-start-column="32" selection-end-line="71" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/小测试/变量初始化测试/变量初始化测试1.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Golang/Go/src/sync/rwmutex.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="825">
-          <caret line="29" selection-start-line="29" selection-end-line="30" selection-end-column="78" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Golang/Go/src/builtin/builtin.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8382">
-          <caret line="254" column="5" selection-start-line="254" selection-start-column="5" selection-end-line="254" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Golang/Go/src/runtime/panic.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20163">
-          <caret line="615" selection-start-line="615" selection-end-line="615" />
         </state>
       </provider>
     </entry>
@@ -717,6 +484,15 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://C:/Golang/Go/src/regexp/backtrack.go" />
+    <entry file="file://C:/Golang/Go/src/regexp/regexp.go" />
+    <entry file="file://C:/Golang/Go/src/regexp/exec.go" />
+    <entry file="file://$PROJECT_DIR$/模块/src/密码相关/加盐哈希_test.go" />
+    <entry file="file://$PROJECT_DIR$/模块/src/密码相关/加盐哈希.go" />
+    <entry file="file://$PROJECT_DIR$/模块/src/密码相关/密码格式校验_test.go" />
+    <entry file="file://$PROJECT_DIR$/模块/src/密码相关/密码格式校验.go" />
+    <entry file="file://$PROJECT_DIR$/模块/src/账号相关/账号格式验证.go" />
+    <entry file="file://$PROJECT_DIR$/模块/src/账号相关/账号格式验证_test.go" />
     <entry file="file://$PROJECT_DIR$/刷题代码/LeetCode/位运算/模板/奇技淫巧.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="660">
@@ -741,10 +517,83 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/小测试/map测试/map测试.go">
+    <entry file="file://$PROJECT_DIR$/模块/src/formatCheck/密码格式校验.go" />
+    <entry file="file://$PROJECT_DIR$/模块/src/formatCheck/账号格式验证.go" />
+    <entry file="file://$PROJECT_DIR$/模块/src/formatCheck/密码格式校验_test.go" />
+    <entry file="file://$PROJECT_DIR$/模块/src/formatCheck/账号格式验证_test.go" />
+    <entry file="file://$PROJECT_DIR$/模块/src/formatCheck/校验工厂_test.go" />
+    <entry file="file://$PROJECT_DIR$/模块/src/formatCheck/校验函数单元.go" />
+    <entry file="file://$PROJECT_DIR$/模块/src/formatCheck/校验函数_test.go" />
+    <entry file="file://$PROJECT_DIR$/模块/src/formatCheck/校验函数接口.go" />
+    <entry file="file://$PROJECT_DIR$/模块/src/formatCheck/校验工厂.go" />
+    <entry file="file://$PROJECT_DIR$/模块/src/formatCheck/校验单元.go" />
+    <entry file="file://$PROJECT_DIR$/模块/src/formatCheck/校验函数.go" />
+    <entry file="file://$PROJECT_DIR$/模块/src/formatCheck/校验单元_test.go" />
+    <entry file="file://$PROJECT_DIR$/模块/src/注册相关/注册(TODO).go" />
+    <entry file="file://$PROJECT_DIR$/模块/src/common/加盐哈希.go" />
+    <entry file="file://$PROJECT_DIR$/模块/src/common/加盐哈希_test.go" />
+    <entry file="file://$PROJECT_DIR$/模块/src/登录相关/登录(TODO)_test.go" />
+    <entry file="file://$PROJECT_DIR$/模块/src/env/获取ini配置.go" />
+    <entry file="file://$PROJECT_DIR$/模块/src/env/配置结构.go" />
+    <entry file="file://$PROJECT_DIR$/模块/src/commonConst/全局.go" />
+    <entry file="file://$PROJECT_DIR$/模块/src/common/交互协议结构.go" />
+    <entry file="file://$PROJECT_DIR$/模块/src/登录相关/登录(TODO).go" />
+    <entry file="file://C:/Golang/Go/src/net/smtp/auth.go" />
+    <entry file="file://$PROJECT_DIR$/设计模式/建造者模式.go" />
+    <entry file="file://$PROJECT_DIR$/OAuth/views/hello.html" />
+    <entry file="file://$PROJECT_DIR$/OAuth/main.go" />
+    <entry file="file://$PROJECT_DIR$/作弊测试/main.go" />
+    <entry file="file://$PROJECT_DIR$/内存对其/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1518">
+          <caret line="49" column="45" selection-start-line="49" selection-start-column="45" selection-end-line="49" selection-end-column="45" />
+          <folding>
+            <element signature="e#14#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/深入/小例子/main.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Golang/Go/src/builtin/builtin.go" />
+    <entry file="file://C:/Golang/Go/src/net/http/server.go" />
+    <entry file="file://$PROJECT_DIR$/设计模式/设计原则/ocp.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1089">
+          <caret line="33" column="30" selection-start-line="33" selection-start-column="30" selection-end-line="33" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oop/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oop/employee/employee.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="429">
+          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/邮件发送/邮件.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1518">
+          <caret line="49" column="19" selection-start-line="49" selection-start-column="19" selection-end-line="49" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/刷题代码/LeetCode/LeetCode_55_跳跃游戏_贪心.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="17" column="70" selection-start-line="17" selection-start-column="70" selection-end-line="17" selection-end-column="70" />
         </state>
       </provider>
     </entry>
