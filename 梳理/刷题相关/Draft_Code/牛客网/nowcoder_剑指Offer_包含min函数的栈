@@ -1,0 +1,39 @@
+class Solution {
+public:
+    stack<int> myStack;
+    stack<int> minStack;
+
+    int min(int a,int b){
+        if (a>b){
+            return b;
+        }
+        return a;
+    }
+
+    void push(int value) {
+        myStack.push(value);
+        if (minStack.size()==0){
+            minStack.push(value);
+        }else{
+            // 标准库的min函数使用报错...于是我自己写了个min函数
+            minStack.push(min(value,minStack.top()));
+        }
+    }
+    void pop() {
+        myStack.pop();
+        minStack.pop();
+    }
+    int top() {
+        return myStack.top();
+    }
+    int min() {
+        return minStack.top();
+    }
+};
+/*
+    总结
+    1. 这题看过解答，思路就是开2个栈，一个栈是原来的栈，一个存放当前最小值，之后进行相应操作就可以了。
+    2. 对最小栈的空间其实还可以优化一点点，比如 5 4 4 4 4 4 2 2 2 2 那么我们可以弄一个结构体记录重复的次数，
+       这样就变为了 5(1) 4(5) 2(4) 可以节省一些空间。
+    3. 牛客还有用异或优化空间的 牛皮。
+*/

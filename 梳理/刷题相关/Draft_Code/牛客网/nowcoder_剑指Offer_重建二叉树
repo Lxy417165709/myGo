@@ -1,0 +1,42 @@
+class Solution {
+public:
+    TreeNode* reConstructBinaryTree(vector<int> pre,vector<int> vin) {
+        if (pre.size()==0){
+            return NULL;
+        }
+        vector<int> nextVinLeft;
+        vector<int> nextVinRight;
+        vector<int> nextPreLeft;
+        vector<int> nextPreRight;
+        int mid = pre[0];
+        bool flag = false;
+        for (int i=0;i<vin.size();i++){
+            if (vin[i]==mid){
+                flag=true;
+            }else{
+                if (flag==true){
+                    nextVinRight.push_back(vin[i]);
+                }else{
+                    nextVinLeft.push_back(vin[i]);
+                }
+            }
+        }
+        for (int i=1;i<=nextVinLeft.size();i++){
+            nextPreLeft.push_back(pre[i]);
+        }
+        for (int i=nextVinLeft.size()+1;i<pre.size();i++){
+            nextPreRight.push_back(pre[i]);
+        }
+        TreeNode* root = new TreeNode(mid);
+        root->left = reConstructBinaryTree(nextPreLeft,nextVinLeft);
+        root->right = reConstructBinaryTree(nextPreRight,nextVinRight);
+        return root;
+    }
+};
+/*
+    总结
+    1. 这题就是用中序遍历和先序遍历构建二叉树，之前做过了。
+    2. 用C++做感觉有点不方便，因为不能使用切片，
+        也由于不能使用切片，每一次递归都要开4个vector,这使得空间耗费更大了。
+
+*/

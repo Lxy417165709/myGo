@@ -1,0 +1,14 @@
+class Solution {
+public:
+    int GetNumberOfK(vector<int> data ,int k) {
+        int beginIndex = lower_bound(data.begin(),data.end(),k) - data.begin();
+        int endIndex = upper_bound(data.begin(),data.end(),k) - data.begin();
+        return endIndex - beginIndex;
+    }
+};
+
+/*
+    总结
+    1. 第一次看到这题目想到了O(n) O(1)的算法，思路就是直接扫一遍，等于k次数就+1。
+    2. 然后觉得这题目好容易，于是看题解，原来它是要O(logn)的算法，于是直接用二分AC了。
+*/

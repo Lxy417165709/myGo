@@ -1,0 +1,50 @@
+// 我创了一个结构体来存储index和val的对应，这样的话比较直观
+// 官方有的直接把index加入单调队列中，这样其实也可以，因为通过index我们就可以获得val了。
+struct Node{
+    int index;
+    int val;
+    Node(int index,int val){
+        this->index = index;
+        this->val = val;
+    }
+};
+
+class Solution {
+public:
+    vector<int> maxInWindows(const vector<int>& num, unsigned int size){
+
+        deque<Node> D;      // 双端队列，接下来要保证它里面的节点的val非递增
+        vector<int> ans;    // 存放答案
+        for(int i=0;i<num.size();i++){
+            // 这一步是剔除窗口外的节点
+            while(D.size()!=0 && i - D.front().index >= size){
+                D.pop_front();
+            }
+
+            Node node(i,num[i]);
+            // 这一步是剔除小于当前节点val的节点
+            while(D.size()!=0 && node.val>=D.back().val){
+                D.pop_back();
+            }
+            // 把当前节点插入到合适的位置
+            D.push_back(node);
+
+            // 当i >= size - 1时，窗口就完整了，此时才开始产生最大值。(题目要求的)
+            if(i >= size - 1){
+                ans.push_back(D.front().val);
+            }
+        }
+        return ans;
+    }
+};
+/*
+    总结
+    1. 这题目用到了类似贪心的策略，每次都选最靠后的且最大的,思路写在上面了。
+    2. 注意点:
+        (1) 由于size是unsigned int, -1会被转换为unsigned int的-1(42亿)
+            所以 -1 > size == true (size < -1 也 == true)
+        (2) 题目应该保证了size!=0, 如果没有保证，要注意size-1 != -1 而是等于42亿多，因为size是unsigned int类型
+    3. 官方还有使用map写的，设map变量名为count，思路就是：count记录nums[i]的次数，当窗口大于size时就把超过窗口的元素次数-1，
+        如果等于0，则删除其键值对。那么此时 count.rbegin().first 就是窗口内的最大值了。
+            (count.rbegin(), rbegin()是反向迭代器，由于map是有序且递增的，此时反向就是为了取得最大值，而first对应的就是键值)
+*/

@@ -1,0 +1,34 @@
+class Solution
+{
+public:
+    void push(int node) {
+        stack1.push(node);
+    }
+
+    // 由于题目限定了pop合法，所以我们不需要考虑非法情况。如果以后存在不合法的情况，请注意要异常处理
+    int pop() {
+        if (stack2.size()==0){
+            while(stack1.size()!=0){
+                stack2.push(stack1.top());
+                stack1.pop();
+            }
+        }
+        int ans = stack2.top();
+        stack2.pop();
+        return ans;
+    }
+
+private:
+    stack<int> stack1;
+    stack<int> stack2;
+};
+/*
+    总结
+    1. 这题我的思路是，用stack2作为出队序列，stack1为入队序列。
+    2. 当需要出队时，只需要把stack2的栈顶弹出就可以了(此时栈非空)，如果出队时，stack2为空
+        那么就需要把stack1的内容全部弹入stack2，之后再弹出stack2栈顶就可以了。
+    3. 时间复杂度 push: O(1)    pop: O(n)
+
+
+
+*/

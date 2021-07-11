@@ -1,0 +1,38 @@
+class Solution {
+public:
+    int cur;        // 当前节点属于第cur小
+    TreeNode* ans;  // 指向第cur小的节点
+    TreeNode* KthNode(TreeNode* pRoot, int k){
+        cur = 0;
+        ans = NULL;
+        solve(pRoot,k);
+        return ans;
+    }
+    void solve(TreeNode* pRoot,int k){
+        // ans != NULL时表示已经找到了，所以我们不用再递归下去了。
+        if(pRoot==NULL || ans != NULL){
+            return ;
+        }
+        solve(pRoot->left,k);
+        cur++;
+        // 找到第k小就返回
+        if (cur == k){
+            ans = pRoot;
+            return ;
+        }
+        solve(pRoot->right,k);
+    }
+};
+
+
+/*
+    总结
+    1. 这题其实就是中序遍历的变形，解法有:
+        (1) 暴力方法：获取所有节点后排序，取第k小，时空复杂度O(nlogn),O(n)
+        (2) 中序遍历形成一个列表，之后取k小，时空复杂度O(n),O(n)
+        (3) 在中序遍历过程中，找到第k小就返回，时空复杂度O(k)，O(logn) (logn是递归产生的)
+    2. 我采用的是第3种，实现方式就是定义两个外部变量，cur和ans,cur表明我们找到了第多少小，
+        ans指向第k小的元素(如果没找到第k小，则为NULL)，之后进行中序遍历，找到第k小后直接返回，
+        接下来不用再递归，这样就可以实现时间复杂度O(k)了。
+
+*/

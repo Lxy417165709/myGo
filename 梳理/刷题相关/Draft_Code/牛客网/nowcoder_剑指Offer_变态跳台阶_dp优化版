@@ -1,0 +1,22 @@
+class Solution {
+public:
+    int jumpFloorII(int number) {
+        int dp[50];
+        int sum[50];
+        dp[0] = 1;
+        dp[1] = 1;
+        sum[0] = dp[0];
+        sum[1] = sum[0] + dp[1];
+        for (int i=2;i<=number;i++){
+            dp[i] = sum[i-1];
+            sum[i] = sum[i-1] + dp[i];
+        }
+        return dp[number];
+    }
+};
+
+/*
+    总结
+    1. 这次优化直接把时间复杂度降低到了O(n)
+    2. 思想是: 每次保留dp[0] -> dp[i-1]的总和，那么dp[i] = sum[i-1]了。
+*/

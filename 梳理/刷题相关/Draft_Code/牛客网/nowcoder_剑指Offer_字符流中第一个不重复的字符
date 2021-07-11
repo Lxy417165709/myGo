@@ -1,0 +1,48 @@
+
+class Solution
+{
+public:
+  //Insert one char from stringstream
+    int *indexs = new int[size];    // size放在下面也不会报错...
+    int size = 256;
+    int inf = 1e9+7;
+    int inf2 = 1e9+6;
+    int index = 0;
+    Solution(){
+        // 初始化
+        for(int i=0;i<size;i++){
+            indexs[i] = inf;
+        }
+    }
+    void Insert(char ch){
+        if(indexs[int(ch)]==inf){
+            indexs[int(ch)] = index;
+        }else{
+            indexs[int(ch)] = inf2;
+        }
+        index++;
+    }
+   //return the first appearence once char in current stringstream
+    char FirstAppearingOnce(){
+        int minIndex = inf2;
+        char ch = '#';
+        for(int i=0;i<size;i++){
+            if(indexs[i]<minIndex){
+                // 进入到这里时，说明肯定有一个合法的字符了，所以修改ch，
+                // 如果扫描完都没有满足要求的，那么就不可能修改ch,ch取默认值，为'#'
+                minIndex = indexs[i];
+                ch = char(i);
+            }
+        }
+        return ch;
+    }
+};
+/*
+    总结
+    1. 这是看了剑指offer后启发写出来的
+    2. 思路是: 维持一个indexs[256],初始化为inf,如果字符是第一次放入字符串中时，则indexs[ch] = index
+       如果以后要加入的时候，则把它设为inf2(inf2<inf1),那么获取第一次不重复的字符就可以直接遍历indexs[256],
+       找到最小值就可以了 (最小值大于等于inf2时就为'#'了)(看上面代码)
+    3. 牛客官方还有其他思路的解法，但是也是类似使用哈希。
+    4. 我觉得可以用set
+*/

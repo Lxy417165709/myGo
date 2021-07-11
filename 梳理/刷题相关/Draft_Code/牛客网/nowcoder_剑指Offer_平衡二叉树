@@ -1,0 +1,34 @@
+class Solution {
+public:
+
+    bool ans = true;
+    bool IsBalanced_Solution(TreeNode* pRoot) {
+        getHeight(pRoot);
+        return ans;
+    }
+
+    int getHeight(TreeNode* root){
+        if (root==NULL){
+            return 0;
+        }
+        int left = getHeight(root->left);
+        int right = getHeight(root->right);
+        if (abs(left-right)>1){
+            ans = false;
+        }
+        return max(left,right)+1;
+    }
+
+
+};
+/*
+    总结
+    1. 由于平衡二叉树的左右子树高度差≤1，且左右子树也为平衡二叉树。
+        所以我的思路是：在求树高的过程中判断所有子树是否为平衡二叉树，并用
+        一个外部变量记录它。如果遍历完成，该变量为true(初始为true)，则说明满足；
+        否则说明有一颗子树不为平衡二叉树(这里我说的子树包括了自己)。
+    2. 如果不想使用外部变量，也可以把该变量加入到参数之中，作为引用
+    3. 如果不想有这些变量，那么我们可以把高度返回为-1时表示该树不是平衡二叉树
+
+
+*/

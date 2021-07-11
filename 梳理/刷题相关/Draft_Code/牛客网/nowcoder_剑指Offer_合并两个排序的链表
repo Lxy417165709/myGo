@@ -1,0 +1,27 @@
+class Solution {
+public:
+    ListNode* Merge(ListNode* pHead1, ListNode* pHead2){
+        if (pHead1 == NULL && pHead2 == NULL){
+            return NULL;
+        }
+        if (pHead1==NULL){
+            return pHead2;
+        }
+        if (pHead2==NULL){
+            return pHead1;
+        }
+        if (pHead1->val<pHead2->val){
+            pHead1->next = Merge(pHead1->next,pHead2);  // 这里参数顺序无所谓
+            return pHead1;
+        }else{
+            pHead2->next = Merge(pHead1, pHead2->next); // 这里参数顺序无所谓
+            return pHead2;
+        }
+        return NULL;    // 这一句不会执行的
+    }
+};
+/*
+    总结
+    1. 这题我是使用递归AC的，其实还有迭代的方法，之前也写过了。
+    2. 思路看代码吧，很清楚的。
+*/

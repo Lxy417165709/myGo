@@ -1,0 +1,41 @@
+class Solution {
+public:
+    vector<vector<int> > Print(TreeNode* pRoot) {
+        vector<vector<int> > ans;
+        if (pRoot==NULL){
+            return ans;
+        }
+        queue<TreeNode*> Q;
+        Q.push(pRoot);
+        int lay = 0;
+        while(Q.size()>0){
+            int size = Q.size();
+            vector<int> vec;
+            for (int i=0;i<size;i++){
+                TreeNode* top = Q.front();
+                Q.pop();
+                vec.push_back(top->val);
+                if (top->left!=NULL){
+                    Q.push(top->left);
+                }
+                if (top->right!=NULL){
+                    Q.push(top->right);
+                }
+            }
+            if ((lay & 1) == 1){
+                for (int i=0;i<vec.size()/2;i++){
+                    swap(vec[i],vec[vec.size()-1-i]);
+                }
+            }
+            ans.push_back(vec);
+            lay++;
+        }
+        return ans;
+    }
+};
+/*
+    总结
+    1. 这题是层序遍历的简单变形，只需要把层序遍历的层号为奇数翻转就可以了
+            (层号从0开始)
+
+*/

@@ -1,0 +1,23 @@
+class Solution {
+public:
+    int jumpFloorII(int number) {
+        int dp[50];
+        dp[0] = 1;
+        dp[1] = 1;
+        for (int i=2;i<=number;i++){
+            dp[i] = 0;  // 注意C++栈内存不清空，所以我们需要先清空dp[i]先。
+            for (int t=1;t<=i;t++){
+                dp[i]+=dp[i-t];
+            }
+        }
+        return dp[number];
+    }
+};
+
+/*
+    总结
+    1. 这题是跳台阶的升级版，也是一道dp题目。
+    2. 这题还可以推出递推公式的，使用数学法O(1)时间可以AC。
+    3. 这题我的时间复杂度是O(n^2),空间复杂度是O(n)。 (为了方便，我直接开了个大小50的数组)
+    4. 其实可以再优化，我接下来写优化的。
+*/

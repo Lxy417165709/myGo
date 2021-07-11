@@ -1,0 +1,34 @@
+class Solution {
+public:
+    static string toString(int a){
+        string A="";
+        while(a!=0){
+            A=char(a%10+'0') + A;
+            a/=10;
+        }
+        if (A==""){
+            A = "0";
+        }
+        return A;
+    }
+
+    static bool cmp(int a,int b){
+        string A = toString(a),B=toString(b);
+        string C = A+B,D=B+A;
+        return C.compare(D)<0;
+    }
+
+    string PrintMinNumber(vector<int> numbers) {
+        sort(numbers.begin(),numbers.end(),cmp);
+        string ans = "";
+        for (int i=0;i<numbers.size();i++){
+            ans += toString(numbers[i]);
+        }
+        return ans;
+    }
+};
+
+/*
+    总结
+    1. 这题和排成最大的数思想类似，只需要改一下排序函数的规则就可以了。
+*/

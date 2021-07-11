@@ -1,0 +1,27 @@
+class Solution {
+public:
+    int FirstNotRepeatingChar(string str) {
+        map<char,int> mp;
+        for(int i=0;i<str.length();i++){
+            mp[str[i]]++;
+        }
+        for(int i=0;i<str.length();i++){
+            if(mp[str[i]]==1){
+                return i;
+            }
+        }
+        return -1;
+
+    }
+    // 暴力
+    // 排序
+    // 哈希
+};
+/*
+    总结
+    1. 这题我想到了多种方法，但是感觉不是最优的.. (官方没提供特殊解法，普遍用哈希)
+        (1) 暴力: 对每一个字符都查找是不是只出现一次的，时空复杂度O(n^2) O(1)
+        (2) 排序: 排序字符串后，前后判断一次就可以了，但这里还要判断一下它在原字符串的索引，
+                    所以还要使用到哈希。时空复杂度O(nlogn) O(n)
+        (3) 哈希: 两次扫描，第一次记录个数，第二次判断哪个是出现1次的。时空复杂度O(n) O(n)
+*/

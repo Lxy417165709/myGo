@@ -1,0 +1,55 @@
+class Solution {
+public:
+    map<int,bool> isVisit;
+    int off = 20;
+    int ans = 0;
+    int* dx = new int[4]{0,0,1,-1};
+    int* dy = new int[4]{-1,1,0,0};
+
+    int movingCount(int threshold, int rows, int cols){
+        ans = 0;
+        dfs(0,0,threshold,rows,cols);
+        return ans;
+    }
+
+    // 从(x,y)点开始dfs
+    void dfs(int x,int y,int threshold,int rows,int cols){
+        if(judge(x,y,threshold,rows,cols)==false){
+            return;
+        }
+        isVisit[x<<off|y]=true;
+        ans++;
+        for(int i=0;i<4;i++){
+            dfs(x+dx[i],y+dy[i],threshold,rows,cols);
+        }
+    }
+
+    // 坐标合法性判断
+    bool judge(int x,int y,int threshold,int rows,int cols){
+        if(x<0 || y<0 || x>=rows ||  y>=cols|| isVisit[x<<off|y]){
+            return false;
+        }
+        // 题目要求 不能进入行坐标和列坐标的数位之和大于k的threshold
+        // 所以这里要判断一下
+        if(toSum(x)+toSum(y)>threshold){
+            return false;
+        }
+        return true;
+    }
+    int toSum(int a){
+        int sum = 0;
+        while(a!=0){
+            sum+=a%10;
+            a/=10;
+        }
+        return sum;
+    }
+};
+
+/*
+    总结
+    1. 这题我直接使用dfs + 外部变量 AC了。
+    2. 这些dfs题目点像模板。...
+
+
+*/

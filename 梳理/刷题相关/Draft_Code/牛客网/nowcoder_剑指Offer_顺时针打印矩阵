@@ -1,0 +1,44 @@
+class Solution {
+public:
+    vector<int> printMatrix(vector<vector<int> > matrix) {
+        vector<int> ans;
+        if (matrix.size()==0){
+            return ans;
+        }
+        int m = matrix.size();
+        int n = matrix[0].size();
+        int l = 0,u = 0,r = n - 1,d = m - 1;
+        while(true){
+            for (int i=l;i<=r;i++){
+                ans.push_back(matrix[u][i]);
+            }
+            u++;
+            if (l>r || u>d) break;
+
+            for (int i=u;i<=d;i++){
+                ans.push_back(matrix[i][r]);
+            }
+            r--;
+            if (l>r || u>d) break;
+
+            for (int i=r;i>=l;i--){
+                ans.push_back(matrix[d][i]);
+            }
+            d--;
+            if (l>r || u>d) break;
+
+            for (int i=d;i>=u;i--){
+                ans.push_back(matrix[i][l]);
+            }
+            l++;
+            if (l>r || u>d) break;
+        }
+        return ans;
+    }
+};
+/*
+    总结
+    1. 这题目只需要定义4个指针，左、右、上、下，然后在这个范围内扫描就可以AC了。
+    2. 要注意异常情况比如 l>r || u>d 时要直接退出循环，不然会出现重复遍历情况 比如对[[1] [2] [3] [4] [5]]
+        如果异常情况没有终止的话，最终会输出 1 2 3 4 5 4 3 2(up -> down的第4次循环非法了)
+*/

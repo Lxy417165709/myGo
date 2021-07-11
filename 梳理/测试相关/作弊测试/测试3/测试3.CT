@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheatTable CheatEngineTableVersion="29">
+  <CheatEntries>
+    <CheatEntry>
+      <ID>4</ID>
+      <Description>"敌人血"</Description>
+      <VariableType>8 Bytes</VariableType>
+      <Address>c042071ed0</Address>
+      <Offsets>
+        <Offset>10</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>6</ID>
+      <Description>"我的血"</Description>
+      <VariableType>8 Bytes</VariableType>
+      <Address>c042071ec8</Address>
+      <Offsets>
+        <Offset>10</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>7</ID>
+      <Description>"我的攻击力"</Description>
+      <VariableType>8 Bytes</VariableType>
+      <Address>c042071ec8</Address>
+      <Offsets>
+        <Offset>8</Offset>
+      </Offsets>
+    </CheatEntry>
+  </CheatEntries>
+  <UserdefinedSymbols/>
+</CheatTable>

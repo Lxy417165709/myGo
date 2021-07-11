@@ -1,0 +1,53 @@
+class Solution {
+public:
+    int NumberOf1Between1AndN_Solution(int n){
+        int weight = 1;          // 表示当前轮次的权值
+        int ans = 0;           // 答案
+        int number = n;        // 暂存n，因为接下来要对number进行操作,而且还要用到n
+        int specialNumber = 1;    // 这题目统计的是1出现的次数，所以我设为1
+        while(number != 0){
+            int round = number / 10;
+            int low = number % 10;
+            if(low == specialNumber){
+                // low == specialNumber 时，最后一个轮次不完整，所以需要计算不完整轮次能
+                // 贡献多少个specialNumber
+                ans += round*weight + 1 + n%weight;
+            }else{
+                if(low > specialNumber){
+                    // low > specialNumber 时，最后一个轮次是完整的，所以轮次数加一
+                    ans += (round + 1)*weight;
+                }else{
+                    // low < specialNumber 时，不存在最后一个轮次，所以轮次数不变
+                    ans += round*weight;
+                }
+            }
+            number/=10;
+            weight*=10;
+        }
+        return ans;
+    }
+};
+/*
+    总结
+    1. 这题之前见过，但是重新遇到的时候还是有点懵逼，还是只会暴力的解法。
+    2. 看了题解之后，才理解了一些。
+        思路是类似找规律:
+            我们发现
+                [0,9] 有1个specialNumber
+                [0,99] 有10个specialNumber
+                [0,999] 有100个specialNumber
+                ...
+            所以可以得出上面的规律。
+            于是对于某个数   514014，第一次我们把它拆为 51401 4,最低位4>1 所以轮次就是 (51401+1)
+                所以 ans += (51401+1)*weight。                     (此时weight==1)
+            进入第二次循环前，需要把weight翻倍。
+            接下来，我们右移一位(10进制的)，则 514014 -> 51401, 则此时拆为 5140 1, 最低位1 == 1,所以轮次不完整，
+                所以看该位后面的数值 51401[4],可以看到为4， 那么这个不完整的轮次就可以提供 [0,4]个特殊数值，
+                所以 ans += (5140)*weight + (4 - 0 + 1)。          (此时weight==10)
+            进入第三次循环前，需要把weight翻倍。
+            接下来，我们继续右移，则 51401 -> 5140, 则此时拆为 514 0, 最低位 0 < 1, 所以最后轮次不存在，
+                所以 ans += (514)*weight。                         (此时weight==100)
+            以此类推，直到数为0....
+
+
+*/

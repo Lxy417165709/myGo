@@ -1,0 +1,47 @@
+class Solution {
+public:
+    static bool cmp(vector<int> &a,vector<int> &b){
+        return a.size()>b.size();
+    }
+    vector<vector<int> > FindPath(TreeNode* root,int expectNumber) {
+        vector<vector<int> > ans = solve(root,expectNumber);
+        sort(ans.begin(),ans.end(),cmp);
+        return ans;
+    }
+
+    vector<vector<int> > solve(TreeNode* root,int expectNumber) {
+        vector<vector<int> > ans;
+        if (root==NULL){
+            return ans;
+        }
+        // 因为题目说叶子节点是终点，所以在叶子节点的时候就可以判断了
+        if (root->left==NULL && root->right==NULL){
+            if (root->val==expectNumber){
+                vector<int> vec;
+                vec.push_back(root->val);
+                ans.push_back(vec);
+            }
+            return ans;
+        }
+        // 向左子树递归
+        vector<vector<int> >left = solve(root->left,expectNumber-root->val);
+        for (int i=0;i<left.size();i++){
+            left[i].insert(left[i].begin(),root->val);
+            ans.push_back(left[i]);
+        }
+        // 向右子树递归
+        vector<vector<int> >right = solve(root->right,expectNumber-root->val);
+        for (int i=0;i<right.size();i++){
+            right[i].insert(right[i].begin(),root->val);
+            ans.push_back(right[i]);
+        }
+        return ans;
+    }
+};
+/*
+    总结
+    1. 这题我直接使用回溯法AC了。
+    2. 这题还要求序列长的排前面，于是我得到ans后就再按长度进行排序。
+    3. 由于这题还对序列顺序有要求，所以我每次都向头插入，这样才能AC。
+    4. 其实可以把ans定义为外部变量，当到达终点(叶子节点)的时候，如果满足，就把对应的序列插入ans就可以了。
+*/

@@ -1,0 +1,48 @@
+class Solution {
+public:
+    int minNumberInRotateArray(vector<int> rotateArray) {
+        if(rotateArray.size()==0){
+            return 0;
+        }
+        return solve(rotateArray,0,rotateArray.size()-1);
+    }
+    int min(int a,int b){
+        if (a>b){
+            return b;
+        }
+        return a;
+    }
+    int inf = 1e9;
+    int solve(vector<int> &array,int l,int r){
+        // 序列只有一个元素了
+        if(l==r){
+            return array[l];
+        }
+        // 这里说明该序列已经递增，所以返回最小的(也说明了如果没有满足，那么序列就是旋转的)
+        if(array[l]<array[r]){
+            return array[l];
+        }
+        int mid = (l+r)/2;
+
+        // array[mid]==array[l]时，我们无法判断递增还是递减，所以只能全部扫
+        if (array[mid]==array[l]){
+            return min(solve(array,l,mid),solve(array,mid+1,r));
+        }else{
+            // array[mid] > array[l]时，说明 [l, mid]是递增的，最小值分布在[mid+1,r]
+            // array[mid] < array[l]时，说明 [mid, r]是递增的，最小值分布在[l, mid]
+            if (array[mid]>array[l]){
+                return solve(array,mid+1,r);
+            }else{
+                return solve(array,l,mid);
+            }
+        }
+
+        // 这句其实不会执行
+        return inf;
+    }
+};
+/*
+    总结
+    1. 这题要注意，数组可能包括了相同的元素，上面有注意点。
+    2. 这题和力扣的差不多，只是这次是求最小值，而力扣是求一个元素是否在这个序列中。
+*/

@@ -1,0 +1,27 @@
+class Solution {
+public:
+    void reOrderArray(vector<int> &array) {
+        int writer = 0;
+        int reader = 0;
+        while(reader<array.size()){
+            while(writer < reader && array[writer] & 1 == 1){
+                writer++;
+            }
+            if (writer < reader && array[reader] & 1 == 1){
+                // 如果直接交换 array[reader]和array[writer]的话，这会使相对顺序发生改变。
+                // 所以为了保证相对顺序不变，我这里采用了冒泡排序那种思路，一个一个进行交换。
+                for(int i=reader;i>=writer+1;i--){
+                    swap(array[i],array[i-1]);
+                }
+            }
+            reader++;
+        }
+    }
+};
+
+/*
+    总结
+    1. 这题我采用了双指针法。
+    2. 定义一个读指针reader和写指针writer。writer每次都指向一个偶数，说明该位置可以进行填写奇数。
+        reader每次都进行前移，直到到达一个奇数后停下，将该奇数调整到writer的位置(注意上面的代码写法)
+*/

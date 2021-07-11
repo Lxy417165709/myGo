@@ -1,0 +1,20 @@
+class Solution {
+public:
+    // 适用范围: 链表无环
+    ListNode* FindFirstCommonNode( ListNode* pHead1, ListNode* pHead2) {
+        ListNode *A = pHead1,*B = pHead2;
+        while(pHead1 != pHead2){
+            pHead1 = pHead1!=NULL ? pHead1->next : B;
+            pHead2 = pHead2!=NULL ? pHead2->next : A;
+        }
+        return pHead1;
+    }
+};
+/*
+    总结
+    1. 这题有很多解法(以下假设链表无环)
+        解法1：哈希，记录下p1走过的路，之后p2走，看哪个是走过的。
+        解法2: 用2个栈，把链表1的节点入栈，再把链表2个节点入栈，最后一起弹，直到最后一个不相等，那么它前一个就是第一个相同点了。
+        解法3: 先获取2个链表的长度，之后让长的链表先走长度差步，之后再一起走，直到相等，那么这点就是第一个相同点了。
+        解法4: 就是这次使用的解法，思想和解法3类似，也是为了消除长度差。
+*/

@@ -1,0 +1,35 @@
+
+class Solution {
+public:
+    map<RandomListNode*,RandomListNode*> mp;
+
+    RandomListNode* getMap(RandomListNode* pHead){
+        if (mp[pHead]==NULL){
+            mp[pHead] = new RandomListNode(pHead->label);
+        }
+        return mp[pHead];
+    }
+
+    RandomListNode* Clone(RandomListNode* pHead){
+        RandomListNode* dummyHead = new RandomListNode(-1); // 一定要给它分配内存，不然它指向未知内存区域
+        RandomListNode* cur = dummyHead;
+        while(pHead!=NULL){
+            cur->next = getMap(pHead);
+            if (pHead->random!=NULL){
+                cur->next->random = getMap(pHead->random);
+            }
+            cur = cur->next;
+            pHead = pHead->next;
+        }
+        return dummyHead->next;
+    }
+};
+
+
+
+/*
+    总结
+    1. 思路就是把源链表映射为新链表，为了方便，我还使用了哑头节点。
+    2. 上面哑头节点有个注意点，就是初始化时要给它分配内存，不然它指向的是未知的内存，这导致运行时会报错。
+
+*/

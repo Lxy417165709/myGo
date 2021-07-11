@@ -1,0 +1,42 @@
+class Solution {
+public:
+    priority_queue<int> left;    // 大顶
+    priority_queue<int, vector<int>, greater<int> > right;    // 小顶
+
+    void Insert(int num){
+        // 默认加入右堆，其实加入左堆也可以的
+        // 加入右堆后调整，使得满足左堆的数全小于右堆的数
+        right.push(num);
+        left.push(right.top());
+        right.pop();
+
+        // 为了维持堆平衡，尽量让右堆大
+        if(left.size()>right.size()){
+            right.push(left.top());
+            left.pop();
+        }
+    }
+
+    double GetMedian(){
+        if(left.size()==right.size()){
+            return (left.top()+right.top())/2.0;
+        }else{
+            // 由于上面已经保证了right的长度比left要大，所以直接返回right.top()就可以了
+            // 可以通过修改上面，然后这里返回left.top()
+            return right.top();
+        }
+        return -1;
+    }
+};
+
+
+/*
+    总结
+    1. 这题可以有多种解法，刚刚开始想的时候觉得可以用插入排序，但是这样时空复杂度为O(n) O(n)
+    2. 网上看了答案后，发现可以使用堆(刚刚开始也想到了堆，但是不知道怎么实现)
+        堆的思路是，维持2个堆，一个大顶堆，一个小顶堆，让他们的长度相差不超过1。
+        其中大顶堆中所有数值要小于小顶堆的所有数值。
+        那么插入时，我们直接插入大顶堆(小顶也可以)，之后进行相应调整。
+        在获取中位数时，如果两堆长度相同，那么返回他们的堆顶平均值，否则返回堆比较大的堆顶。
+
+*/

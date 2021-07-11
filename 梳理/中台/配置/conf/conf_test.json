@@ -1,0 +1,23 @@
+{
+  "mysql": {
+    "host": "192.168.2.101:10087",
+    "user": "root",
+    "password": "123456",
+    "dbname": "mysql"
+  },
+  "http": {
+    "port": 8080
+  },
+  "bot": {
+    "request_body_template_path": "../../template/bot_request_body_template",
+    "webhook": "https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=9d1bdcc4-dbd4-4231-9809-de43de9b5061"
+  },
+  "spider": {
+    "trace_block_addr": "https://cp.caijiyouxi.com/api/v1/client/trace_block_rate/days",
+    "start_take_time_addr":  "https://cp.caijiyouxi.com/api/v1/caiji/client/start_take_time/hours",
+    "daily_start_take_time_addr": "https://cp.caijiyouxi.com/api/v1/caiji/client/start_take_time/days"
+  },
+  "grafana": {
+    "url": "xxxxxxxx"
+  }
+}

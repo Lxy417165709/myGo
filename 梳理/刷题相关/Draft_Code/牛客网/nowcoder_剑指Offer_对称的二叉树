@@ -1,0 +1,22 @@
+class Solution {
+public:
+    bool isSymmetrical(TreeNode* pRoot){
+        return solve(pRoot,pRoot);
+    }
+    bool solve(TreeNode* left,TreeNode* right){
+        if (left==NULL && right == NULL){
+            return true;
+        }
+        if (left==NULL || right == NULL){
+            return false;
+        }
+
+        return left->val == right->val && solve(left->left,right->right) && solve(left->right,right->left);
+    }
+
+};
+/*
+    总结
+    1. 这题之前做过了。
+
+*/

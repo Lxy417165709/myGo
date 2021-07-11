@@ -1,0 +1,63 @@
+string toString(int &a){
+    string ans = "";
+    do{
+        ans = char(a%10+'0')+ans;
+        a/=10;
+    }while(a!=0);
+    return ans;
+}
+int toInt(string &a){
+	int ans = 0;
+    for(int i=0;i<a.length();i++){
+		ans = ans * 10 + int(a[i]-'0');
+	}
+	return ans;
+}
+
+class Solution {
+public:
+	// 先序遍历序列化
+	string sHelper(TreeNode *root){
+		if(root==NULL){
+            return "#";
+        }
+        string ans = "";
+        ans += toString(root->val) + "," ;
+        ans += sHelper(root->left) + ",";
+        ans += sHelper(root->right);
+        return ans;
+	}
+
+    char* Serialize(TreeNode *root) {
+        string s = sHelper(root);
+        char *ret = new char[s.length()];
+        strcpy(ret, s.data());
+        return ret;
+        // return (char*)(sHelper(root).data());    // 这个提交会超出内存，但本地运行正常
+    }
+
+    // ss 是一个流，内部有个指针，每次getline后，里面的指针是不一样的，这就实现了不重复读取。
+    // 先序遍历反序列化
+    TreeNode* dHelper(stringstream &ss){
+    	string str;
+    	getline(ss,str,',');
+    	if(str=="#"){
+    		return NULL;
+		}
+		TreeNode* root = new TreeNode(toInt(str));
+		root->left = dHelper(ss);       // 顺序不能调换
+		root->right = dHelper(ss);      // 顺序不能调换
+		return root;
+	}
+
+    TreeNode* Deserialize(char *str) {
+        stringstream ss(str);
+        return dHelper(ss);
+    }
+};
+/*
+    总结
+    1. 这是借鉴别人做法AC的，他是利用先序遍历序列后，再反序列化先序遍历的。
+    2. 由于char*不支持 + 拼接，于是我重新写了个行数 sHelper, 让它返回值为string,这样就可以很方便的实现拼接。
+    3. 不知道为什么，上面出现了诡异错误，在自己电脑运行时没问题，但是提交就说超过内存...
+*/

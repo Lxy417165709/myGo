@@ -1,0 +1,25 @@
+class Solution {
+public:
+    double Power(double base, int exponent) {
+        int flag = (exponent >= 0?1 : 0);
+        exponent = abs(exponent);
+        double sum = 1;
+        while(exponent!=0){
+            if (exponent & 1 == 1){
+                sum *= base;
+            }
+            base = base*base;
+            exponent>>=1;
+        }
+        if (flag==0){
+            sum = 1/sum;
+        }
+        return sum;
+    }
+};
+
+/*
+    总结
+    1. 这题目使用快速幂就可以AC了。
+    2. 注意这个题目次方可能是负数，所以当次方是负数时要进行相应处理。
+*/

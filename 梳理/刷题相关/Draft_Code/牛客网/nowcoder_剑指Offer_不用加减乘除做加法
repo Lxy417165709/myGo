@@ -1,0 +1,25 @@
+class Solution {
+public:
+    int Add(int num1, int num2){
+
+        while(true){
+            int sum = num1 ^ num2;        // 不进位加法加过
+            int carry = (num1 & num2)<<1; // 进位
+            if (carry == 0){
+                // 进位为0则不用再做加法了，直接返回结果。
+                return sum;
+            }else{
+                // 否则继续做加法 (不进位加法 + 进位)
+                num1 = sum;
+                num2 = carry;
+            }
+        }
+        return -1;
+    }
+};
+/*
+    总结
+    1. 之前虽然做过，但是刚刚开始还是不知道怎么写。
+    2. 在分析了几分钟后，理清了思路，然后就AC了。
+    3. 这位运算很经典。
+*/
